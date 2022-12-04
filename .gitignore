@@ -1,0 +1,42 @@
+
+#####
+# Cocoapods
+Podfile.lock
+Pods
+
+#####
+# Bundler
+.bundle
+
+#####
+# OS X temporary files that should never be committed
+.DS_Store
+
+#####
+# Other
+**/xcuserdata
+*/xcuserdata
+UserInterfaceState.xcuserstate
+Breakpoints_v2.xcbkptlist
+*.orig
+Gemfile.lock
+.bundle/
+moneymanagement/Resources/Generated/*
+report.xml
+AutoMockableGenerated.swift
+Swagger/ruby/
+ruby/
+coverage/
+fastlane/test_output/*
+fastlane/allure.txt
+allure/
+
+Carthage/Checkouts
+Carthage/Build/iOS
+Carthage/Build/*.version
+Carthage/Build/GoogleAppMeasurementIdentitySupport.xcframework
+Carthage/Build/RxTest.xcframework
+Cartfile.resolved
+gRPCCertificates-Cpp.bundle
+.idea/
+html/

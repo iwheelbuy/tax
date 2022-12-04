@@ -171,6 +171,8 @@ class ViewController: UIViewController {
                 return 0.9748
             case "28/10/2022":
                 return 0.9951
+            case "29/11/2022":
+                return 1.0366
             default:
                 fatalError()
             }
