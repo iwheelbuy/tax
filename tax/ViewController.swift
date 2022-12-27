@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController {
     
     static let mikhail = "Mikhail"
-    static func extra(name: String) -> [String: Double]  {
+    static func extraEur(name: String) -> [String: Double]  {
         if name == mikhail {
             return [
                 "10": 564,
@@ -22,8 +22,9 @@ class ViewController: UIViewController {
         }
     }
     static let currencyEur = "EUR"
+    static let currencyGbp = "GBP"
     static let currencyUsd = "USD"
-    static let currencies = [currencyEur, currencyUsd]
+    static let currencies = [currencyEur, currencyGbp, currencyUsd]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,7 +46,7 @@ class ViewController: UIViewController {
         for name in ["Iuliia", Self.mikhail] {
             print("\n\n\nTotal for \(name)\n\n")
             for (revenueMonth, revenue) in revenues.sorted(by: { $0.key < $1.key }) {
-                let personRevenue = revenue * 0.5 + (Self.extra(name: name)[revenueMonth] ?? 0)
+                let personRevenue = revenue * 0.5 + (Self.extraEur(name: name)[revenueMonth] ?? 0)
                 let totalTaxableAmount = Double(round(100 * personRevenue) / 100)
                 let tax = Double(round(100 * totalTaxableAmount * 0.0265) / 100)
                 print("\n", revenueMonth, totalTaxableAmount, tax)
@@ -67,7 +68,7 @@ class ViewController: UIViewController {
         var revenues = [String: Double]()
         for (event, values) in eventsSorted {
             let received = values.reduce(0, +)
-            let revenue = received * toEur(event: event)
+            let revenue = received / toEur(event: event)
             revenues[event.revenueMonth] = (revenues[event.revenueMonth] ?? 0) + revenue
         }
         return revenues
@@ -103,11 +104,11 @@ class ViewController: UIViewController {
         return getRevenues(getEvent: getIbEvent, lines: getLines("ib.csv"))
     }
     
-    // https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html
     func toEur(event: Event) -> Double {
         if event.currency == Self.currencyEur {
             return 1
         } else if event.currency == Self.currencyUsd {
+            // https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html
             switch event.dateEcb {
             case "21/03/2022":
                 return 1.1038
@@ -173,6 +174,24 @@ class ViewController: UIViewController {
                 return 0.9951
             case "29/11/2022":
                 return 1.0366
+            case "12/12/2022":
+                return 1.0562
+            case "19/12/2022":
+                return 1.0598
+            case "20/12/2022":
+                return 1.0599
+            case "22/12/2022":
+                return 1.0633
+            case "23/12/2022":
+                return 1.0622
+            default:
+                fatalError()
+            }
+        } else if event.currency == Self.currencyGbp {
+            // https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-gbp.en.html
+            switch event.dateEcb {
+            case "09/12/2022":
+                return 0.85950
             default:
                 fatalError()
             }
@@ -203,7 +222,7 @@ class ViewController: UIViewController {
         let value = abs(Double(components[6])!)
         return (event, value * valueMultiplier)
     }
-    
+        
     func getIbEvent(line: String, currency: String) -> (event: Event, value: Double)? {
         let prefix: String
         let dividendsPrefix = "Dividends,Data,\(currency),"
