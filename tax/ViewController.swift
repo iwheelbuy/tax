@@ -101,7 +101,7 @@ class ViewController: UIViewController {
     }
     
     func ibRevenues() -> [String: Double] {
-        return getRevenues(getEvent: getIbEvent, lines: getLines("ib.csv"))
+        return getRevenues(getEvent: getIbEvent, lines: getLines("ib_2022.csv"))
     }
     
     func toEur(event: Event) -> Double {
@@ -184,6 +184,12 @@ class ViewController: UIViewController {
                 return 1.0633
             case "23/12/2022":
                 return 1.0622
+            case "28/12/2022":
+                return 1.0640
+            case "29/12/2022":
+                return 1.0649
+            case "30/12/2022":
+                return 1.0666
             default:
                 fatalError()
             }

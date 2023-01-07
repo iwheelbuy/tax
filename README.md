@@ -32,6 +32,8 @@ IBKR
 
  11 7.379895813235579
 
+ 12 525.4986037964861
+
 
 
 Total for Iuliia
@@ -56,6 +58,8 @@ Total for Iuliia
 
  11 3.69 0.1
 
+ 12 262.75 6.96
+
 
 
 Total for Mikhail
@@ -79,3 +83,5 @@ Total for Mikhail
  10 565.28 14.98
 
  11 3.69 0.1
+
+ 12 262.75 6.96
