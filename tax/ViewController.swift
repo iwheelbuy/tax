@@ -7,33 +7,26 @@
 
 import UIKit
 
-struct Period: Hashable, Comparable, CustomStringConvertible {
+struct Period: Hashable, CustomStringConvertible {
     
     let month: String
     let year: String
     
-    static func < (lhs: Self, rhs: Self) -> Bool {
-        if lhs.year > rhs.year {
-            return false
-        } else if lhs.year < rhs.year {
-            return true
-        } else {
-            return lhs.month < rhs.month
-        }
-    }
-    
-    static func > (lhs: Self, rhs: Self) -> Bool {
-        if lhs.year > rhs.year {
-            return true
-        } else if lhs.year < rhs.year {
-            return false
-        } else {
-            return lhs.month > rhs.month
-        }
-    }
-    
     var description: String {
         return year + "-" + month
+    }
+    
+    static var all: [Period] {
+        let months2022 = (1 ... 12).map({ Period(month: $0.month, year: "2022") })
+        let months2023 = (1 ... 1).map({ Period(month: $0.month, year: "2023") })
+        return months2022 + months2023
+    }
+}
+
+extension Int {
+    
+    var month: String {
+        "\("0\(self)".suffix(2))"
     }
 }
 
@@ -45,7 +38,8 @@ class ViewController: UIViewController {
             return [
                 .init(month: "10", year: "2022"): 564,
                 .init(month: "07", year: "2022"): 333,
-                .init(month: "04", year: "2022"): 257
+                .init(month: "04", year: "2022"): 257,
+                .init(month: "01", year: "2023"): 60.54
             ]
         } else {
             return [:]
@@ -66,20 +60,27 @@ class ViewController: UIViewController {
             revenues[period] = (revenues[period] ?? 0) + revenue
         }
         print("Exante\n\n")
-        for (period, revenue) in exRevenues().sorted(by: { $0.key < $1.key }) {
-            print("\n", period, revenue)
+        for period in Period.all {
+            if let revenue = exRevenues()[period], revenue != 0 {
+                print("\n", period, revenue)
+            }
         }
         print("\n\n\nIBKR\n\n")
-        for (revenueMonth, revenue) in ibRevenues().sorted(by: { $0.key < $1.key }) {
-            print("\n", revenueMonth, revenue)
+        for period in Period.all {
+            if let revenue = ibRevenues()[period], revenue != 0 {
+                print("\n", period, revenue)
+            }
         }
         for name in ["Iuliia", Self.mikhail] {
             print("\n\n\nTotal for \(name)\n\n")
-            for (period, revenue) in revenues.sorted(by: { $0.key < $1.key }) {
+            for period in Period.all {
+                let revenue = revenues[period] ?? 0
                 let personRevenue = revenue * 0.5 + (Self.extraEur(name: name)[period] ?? 0)
-                let totalTaxableAmount = Double(round(100 * personRevenue) / 100)
-                let tax = Double(round(100 * totalTaxableAmount * 0.0265) / 100)
-                print("\n", period, totalTaxableAmount, tax)
+                if personRevenue > 0 {
+                    let totalTaxableAmount = Double(round(100 * personRevenue) / 100)
+                    let tax = Double(round(100 * totalTaxableAmount * 0.0265) / 100)
+                    print("\n", period, totalTaxableAmount, tax)
+                }
             }
         }
     }
@@ -131,7 +132,7 @@ class ViewController: UIViewController {
     }
     
     func ibRevenues() -> [Period: Double] {
-        return getRevenues(getEvent: getIbEvent, lines: getLines("ib_2022.csv"))
+        return getRevenues(getEvent: getIbEvent, lines: getLines("ib.csv"))
     }
     
     func toEur(event: Event) -> Double {
@@ -269,12 +270,9 @@ class ViewController: UIViewController {
         let prefix: String
         let dividendsPrefix = "Dividends,Data,\(currency),"
         let withholdingTaxPrefix = "Withholding Tax,Data,\(currency),"
-        let valueMultiplier: Double
         if line.hasPrefix(dividendsPrefix) {
-            valueMultiplier = 1
             prefix = dividendsPrefix
         } else if line.hasPrefix(withholdingTaxPrefix) {
-            valueMultiplier = -1
             prefix = withholdingTaxPrefix
         } else {
             return nil
@@ -286,8 +284,8 @@ class ViewController: UIViewController {
         let date = components[0]
         let name = components[1].components(separatedBy: " ")[0]
         let event = Event(currency: currency, date: date, name: name)
-        let value = abs(Double(components[2])!)
-        return (event, value * valueMultiplier)
+        let value = Double(components[2])!
+        return (event, value)
     }
 }
 
