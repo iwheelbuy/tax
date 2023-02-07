@@ -1,0 +1,1010 @@
+﻿Statement,Header,Field Name,Field Value
+Statement,Data,BrokerName,
+Statement,Data,BrokerAddress,
+Statement,Data,Title,Activity Statement
+Statement,Data,Period,"February 28, 2022 - February 6, 2023"
+Statement,Data,WhenGenerated,"2023-02-07, 13:05:10 EST"
+Account Information,Header,Field Name,Field Value
+Account Information,Data,Name,Mikhail V Vasilev and Iuliia V Vasileva
+Account Information,Data,Account,U8508545
+Account Information,Data,Account Type,Individual
+Account Information,Data,Customer Type,Joint
+Account Information,Data,Account Capabilities,Margin
+Account Information,Data,Base Currency,EUR
+Net Asset Value,Header,Asset Class,Prior Total,Current Long,Current Short,Current Total,Change
+Net Asset Value,Data,Cash ,0,0,-13911.496471414,-13911.496471414,-13911.496471414
+Net Asset Value,Data,Cash Collateral,0,13825.036218427,0,13825.036218427,13825.036218427
+Net Asset Value,Data,Stock,0,118814.414596,0,118814.414596,118814.414596
+Net Asset Value,Data,Securities Right To Use,0,0,-13825.036218427,-13825.036218427,-13825.036218427
+Net Asset Value,Data,Interest Accruals,0,0,-9.4863542,-9.4863542,-9.4863542
+Net Asset Value,Data,Total,0,132639.450814427,-27746.019044041,104893.431770386,104893.431770386
+Net Asset Value,Header,Time Weighted Rate of Return
+Net Asset Value,Data,0.178287812%
+Change in NAV,Header,Field Name,Field Value
+Change in NAV,Data,Starting Value,0
+Change in NAV,Data,Mark-to-Market,4266.02762917
+Change in NAV,Data,Deposits & Withdrawals,25351.2264469
+Change in NAV,Data,Position Transfers,73842.9835245
+Change in NAV,Data,Dividends,1947.6456218
+Change in NAV,Data,Withholding Tax,-121.6918263
+Change in NAV,Data,Change in Dividend Accruals,-9.2917322
+Change in NAV,Data,Interest,-262.5412429
+Change in NAV,Data,Change in Interest Accruals,-9.5012026
+Change in NAV,Data,Commissions,-120.623727077
+Change in NAV,Data,Sales Tax,-0.1083
+Change in NAV,Data,Other FX Translations,9.3065806
+Change in NAV,Data,Ending Value,104893.431770386
+Mark-to-Market Performance Summary,Header,Asset Category,Symbol,Prior Quantity,Current Quantity,Prior Price,Current Price,Mark-to-Market P/L Position,Mark-to-Market P/L Transaction,Mark-to-Market P/L Commissions,Mark-to-Market P/L Other,Mark-to-Market P/L Total,Code
+Mark-to-Market Performance Summary,Data,Stocks,AVDV,0,100,--,58.8800,-28.4298,0,0,140.8566756,112.4268756,
+Mark-to-Market Performance Summary,Data,Stocks,DFAE,0,19,--,23.3000,-24.514522,0,0,9.0347586,-15.4797634,
+Mark-to-Market Performance Summary,Data,Stocks,DFAI,0,22,--,26.8600,7.2610472,0,0,10.9836461,18.2446933,
+Mark-to-Market Performance Summary,Data,Stocks,DFAS,0,11,--,56.7500,43.7975966,0,0,4.0920531,47.8896497,
+Mark-to-Market Performance Summary,Data,Stocks,DFAT,0,68,--,48.9200,306.0825452,0,0,27.9908663,334.0734115,
+Mark-to-Market Performance Summary,Data,Stocks,DFIV,0,29,--,32.5500,22.6440018,0,0,25.9777238,48.6217256,
+Mark-to-Market Performance Summary,Data,Stocks,DFUS,0,22,--,44.6300,-17.4716476,0,0,9.1475595,-8.3240881,
+Mark-to-Market Performance Summary,Data,Stocks,DON,0,60,--,44.6600,101.607342,0,0,46.2825874,147.8899294,
+Mark-to-Market Performance Summary,Data,Stocks,EMVEUz,0,0,--,--,16,0,-3,0,13,
+Mark-to-Market Performance Summary,Data,Stocks,EQAL,0,12,--,43.6600,-4.6495898,0,0,5.9216537,1.2720639,
+Mark-to-Market Performance Summary,Data,Stocks,EUNI,0,50,--,69.5000,32,-21.46,-4.697605,90.9413723,96.7837673,
+Mark-to-Market Performance Summary,Data,Stocks,FLLA,0,24,--,20.7744,-38.8075982,0,0,36.197809,-2.6097892,
+Mark-to-Market Performance Summary,Data,Stocks,FTAD,0,0,--,--,30.3762722,-16.8049944,-3.5634,0,10.0078778,
+Mark-to-Market Performance Summary,Data,Stocks,HMXJ,0,0,--,--,46.013125,-16.33225,-3.5634,0,26.117475,
+Mark-to-Market Performance Summary,Data,Stocks,IBC3,0,1750,--,4.0995,-36.29,21.56,-7.48008,129.54578,107.3357,
+Mark-to-Market Performance Summary,Data,Stocks,IEMG,0,20,--,49.6800,-42.849788,0,0,20.4006004,-22.4491876,
+Mark-to-Market Performance Summary,Data,Stocks,IJS,0,20,--,104.0100,127.271474,0,0,17.6085147,144.8799887,
+Mark-to-Market Performance Summary,Data,Stocks,IQIN,0,34,--,30.3099,15.1474579,0,0,27.4103198,42.5577777,
+Mark-to-Market Performance Summary,Data,Stocks,ISCV,0,80,--,58.4896,210.6709801,0,0,58.5897478,269.2607279,
+Mark-to-Market Performance Summary,Data,Stocks,IWVL,0,180,--,33.7300,210.15,26.55,-6,0,230.7,
+Mark-to-Market Performance Summary,Data,Stocks,IWVU,0,600,--,4.9163,484.3291722,-11.01816,-4.0808,34.2421212,503.4723334,
+Mark-to-Market Performance Summary,Data,Stocks,LCUK,0,350,--,12.2760,185.6,13,-4.25,77.4326,271.7826,
+Mark-to-Market Performance Summary,Data,Stocks,LGGE,0,0,--,--,9.324,-15.84,-3,0,-9.516,
+Mark-to-Market Performance Summary,Data,Stocks,PRUK,0,0,--,--,9.84475,0,-3.5634,0,6.28135,
+Mark-to-Market Performance Summary,Data,Stocks,R2SC,0,50,--,46.1950,237.9419,8.43175,-3.489,0,242.88465,
+Mark-to-Market Performance Summary,Data,Stocks,R2US,0,50,--,51.7300,32.75,15.5,-6,0,42.25,
+Mark-to-Market Performance Summary,Data,Stocks,RODE,0,36,--,24.9100,-70.6509468,0,0,25.3329313,-45.3180155,
+Mark-to-Market Performance Summary,Data,Stocks,RODM,0,80,--,26.1400,-122.2222828,0,0,61.1100773,-61.1122055,
+Mark-to-Market Performance Summary,Data,Stocks,SCHC,0,30,--,33.9500,-41.46339,0,0,13.569699,-27.893691,
+Mark-to-Market Performance Summary,Data,Stocks,SCHE,0,35,--,25.0400,-36.823766,0,0,19.1973608,-17.6264052,
+Mark-to-Market Performance Summary,Data,Stocks,SCHY,0,0,--,--,-2.1941595,2.2270014,-0.961152077,0,-0.928310177,
+Mark-to-Market Performance Summary,Data,Stocks,SPEM,0,30,--,34.8000,-37.943979,0,0,26.7658908,-11.1780882,
+Mark-to-Market Performance Summary,Data,Stocks,TEET,0,0,--,--,-9.9,9,-3,0,-3.9,
+Mark-to-Market Performance Summary,Data,Stocks,TSWE,0,0,--,--,-12.6,-4.1,-6.5,0,-23.2,
+Mark-to-Market Performance Summary,Data,Stocks,UEFDd,0,70,--,118.2400,831.5,-11.2,-7.3725,140.15,953.0775,
+Mark-to-Market Performance Summary,Data,Stocks,VAPX,0,500,--,24.4800,-71.9,16.32,-8.75,311.8926832,247.5626832,
+Mark-to-Market Performance Summary,Data,Stocks,VBR,0,7,--,174.5500,47.4396244,0,0,15.019756,62.4593804,
+Mark-to-Market Performance Summary,Data,Stocks,VERX,0,150,--,35.5950,389.25,14,-3.75,61.79,461.29,
+Mark-to-Market Performance Summary,Data,Stocks,VGER,0,300,--,25.2250,671.14,-31.6,-3,139.81,776.35,
+Mark-to-Market Performance Summary,Data,Stocks,VHYD,0,100,--,60.3100,275.9036095,21.34884,-11.66716,124.4161971,410.0014866,
+Mark-to-Market Performance Summary,Data,Stocks,VJPN,0,100,--,28.2050,11.5,-0.5,-1.40475,26.1293624,35.7246124,
+Mark-to-Market Performance Summary,Data,Stocks,VLU,0,30,--,148.1100,-3.9491898,0,0,57.7963732,53.8471834,
+Mark-to-Market Performance Summary,Data,Stocks,VMID,0,0,--,--,11.936408,4.555213,-3.5634,0,12.928221,
+Mark-to-Market Performance Summary,Data,Stocks,VWO,0,25,--,41.2600,-47.83936,0,0,30.3170751,-17.5222849,
+Mark-to-Market Performance Summary,Data,Stocks,ZPRV,0,150,--,54.3900,852.795,-1.525,-11.7014,0,839.5686,
+Mark-to-Market Performance Summary,Data,Stocks,ZPRX,0,100,--,45.0400,278.46,3.43,-2.5,0,279.39,
+Mark-to-Market Performance Summary,Data,Total,,,,,,4848.2362866,25.5424,-116.858047077,1825.9537955,6582.874435023,
+Mark-to-Market Performance Summary,Data,Forex,EUR,0,-5192.498315,1.0000,1.0000,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Forex,GBP,0,-2039.440029998,--,1.1207,-128.66540002,87.78762,-1.88284,0,-42.76062002,
+Mark-to-Market Performance Summary,Data,Forex,USD,0,-6900.269981761,--,0.93234,-562.93234841,-3.940929,-1.88284,0,-568.75611741,
+Mark-to-Market Performance Summary,Data,Total,,,,,,-691.59774843,83.846691,-3.76568,0,-611.51673743,
+Mark-to-Market Performance Summary,Data,Total (All Assets),,,,,,4156.63853817,109.389091,-120.623727077,1825.9537955,5971.357697593,
+Mark-to-Market Performance Summary,Data,Broker Interest Paid and Received,,,,,,,,,,-262.5412429,
+Total P/L for Statement Period,,,,,,,,,,,,5708.816454693,
+Realized & Unrealized Performance Summary,Header,Asset Category,Symbol,Cost Adj.,Realized S/T Profit,Realized S/T Loss,Realized L/T Profit,Realized L/T Loss,Realized Total,Unrealized S/T Profit,Unrealized S/T Loss,Unrealized L/T Profit,Unrealized L/T Loss,Unrealized Total,Total,Code
+Realized & Unrealized Performance Summary,Data,Stocks,AVDV,0,0,0,0,0,0,0,-469.22993988,0,0,-469.22993988,-469.22993988,
+Realized & Unrealized Performance Summary,Data,Stocks,DFAE,0,0,0,0,0,0,0,0,0,-60.9843594,-60.9843594,-60.9843594,
+Realized & Unrealized Performance Summary,Data,Stocks,DFAI,0,0,0,0,0,0,0,-54.262188,0,0,-54.262188,-54.262188,
+Realized & Unrealized Performance Summary,Data,Stocks,DFAS,0,0,0,0,0,0,0,-1.957914,0,0,-1.957914,-1.957914,
+Realized & Unrealized Performance Summary,Data,Stocks,DFAT,0,0,0,0,0,0,81.1695204,0,71.0816016,0,152.251122,152.251122,
+Realized & Unrealized Performance Summary,Data,Stocks,DFIV,0,0,0,0,0,0,0,-31.4757984,0,-7.225635,-38.7014334,-38.7014334,
+Realized & Unrealized Performance Summary,Data,Stocks,DFUS,0,0,0,0,0,0,0,-40.6220538,0,-19.0849998,-59.7070536,-59.7070536,
+Realized & Unrealized Performance Summary,Data,Stocks,DON,0,0,0,0,0,0,57.5347014,0,0,0,57.5347014,57.5347014,
+Realized & Unrealized Performance Summary,Data,Stocks,EMVEUz,0,0,-320.82773,0,0,-320.82773,0,0,0,0,0,-320.82773,
+Realized & Unrealized Performance Summary,Data,Stocks,EQAL,0,0,0,0,0,0,0,-28.4550168,0,0,-28.4550168,-28.4550168,
+Realized & Unrealized Performance Summary,Data,Stocks,EUNI,0,0,0,0,0,0,8.592395,-2.75,0,0,5.842395,5.842395,
+Realized & Unrealized Performance Summary,Data,Stocks,FLLA,0,0,0,0,0,0,0,-33.2752146,0,0,-33.2752146,-33.2752146,
+Realized & Unrealized Performance Summary,Data,Stocks,FTAD,0,0,-26.7326268,0,0,-26.7326268,0,0,0,0,0,-26.7326268,
+Realized & Unrealized Performance Summary,Data,Stocks,HMXJ,0,144.3177,0,0,0,144.3177,0,0,0,0,0,144.3177,
+Realized & Unrealized Performance Summary,Data,Stocks,IBC3,0,0,0,0,0,0,134.026,-156.23608,0,0,-22.21008,-22.21008,
+Realized & Unrealized Performance Summary,Data,Stocks,IEMG,0,0,0,0,0,0,0,-201.758376,0,0,-201.758376,-201.758376,
+Realized & Unrealized Performance Summary,Data,Stocks,IJS,0,0,0,0,0,0,40.30226118,0,0,0,40.30226118,40.30226118,
+Realized & Unrealized Performance Summary,Data,Stocks,IQIN,0,0,0,0,0,0,0,-85.2531696,0,0,-85.2531696,-85.2531696,
+Realized & Unrealized Performance Summary,Data,Stocks,ISCV,0,0,0,0,0,0,3.970253347,-9.088799947,0,0,-5.1185466,-5.1185466,
+Realized & Unrealized Performance Summary,Data,Stocks,IWVL,0,0,0,0,0,0,230.7,0,0,0,230.7,230.7,
+Realized & Unrealized Performance Summary,Data,Stocks,IWVU,0,0,0,0,0,0,453.1918272,0,0,0,453.1918272,453.1918272,
+Realized & Unrealized Performance Summary,Data,Stocks,LCUK,0,0,0,0,0,0,194.35,0,0,0,194.35,194.35,
+Realized & Unrealized Performance Summary,Data,Stocks,LGGE,0,0,-105.264,0,0,-105.264,0,0,0,0,0,-105.264,
+Realized & Unrealized Performance Summary,Data,Stocks,PRUK,0,0,-231.0271,0,0,-231.0271,0,0,0,0,0,-231.0271,
+Realized & Unrealized Performance Summary,Data,Stocks,R2SC,0,0,0,0,0,0,242.911725,0,0,0,242.911725,242.911725,
+Realized & Unrealized Performance Summary,Data,Stocks,R2US,0,0,0,0,0,0,42.25,0,0,0,42.25,42.25,
+Realized & Unrealized Performance Summary,Data,Stocks,RODE,0,0,0,0,0,0,0,-115.7220408,0,0,-115.7220408,-115.7220408,
+Realized & Unrealized Performance Summary,Data,Stocks,RODM,0,0,0,0,0,0,0,-260.361352572,0,0,-260.361352572,-260.361352572,
+Realized & Unrealized Performance Summary,Data,Stocks,SCHC,0,0,0,0,0,0,0,-142.1259096,0,0,-142.1259096,-142.1259096,
+Realized & Unrealized Performance Summary,Data,Stocks,SCHE,0,0,0,0,0,0,0,-173.228772,0,0,-173.228772,-173.228772,
+Realized & Unrealized Performance Summary,Data,Stocks,SCHY,0,0,-58.255997497,0,0,-58.255997497,0,0,0,0,0,-58.255997497,
+Realized & Unrealized Performance Summary,Data,Stocks,SPEM,0,0,0,0,0,0,0,-210.149436,0,0,-210.149436,-210.149436,
+Realized & Unrealized Performance Summary,Data,Stocks,TEET,0,0,-192.75,0,0,-192.75,0,0,0,0,0,-192.75,
+Realized & Unrealized Performance Summary,Data,Stocks,TSWE,0,0,-99.7,0,0,-99.7,0,0,0,0,0,-99.7,
+Realized & Unrealized Performance Summary,Data,Stocks,UEFDd,0,0,0,0,0,0,845.6275,-129.53,0,0,716.0975,716.0975,
+Realized & Unrealized Performance Summary,Data,Stocks,VAPX,0,0,0,0,0,0,180.3,-214.16414,0,0,-33.86414,-33.86414,
+Realized & Unrealized Performance Summary,Data,Stocks,VBR,0,0,0,0,0,0,0.5966976,-7.225635,0,0,-6.6289374,-6.6289374,
+Realized & Unrealized Performance Summary,Data,Stocks,VERX,0,0,0,0,0,0,348.75,-74,0,0,274.75,274.75,
+Realized & Unrealized Performance Summary,Data,Stocks,VGER,0,0,0,0,0,0,331.565,-299.28289,0,-177.21,-144.92789,-144.92789,
+Realized & Unrealized Performance Summary,Data,Stocks,VHYD,0,0,0,0,0,0,301.705224,0,0,0,301.705224,301.705224,
+Realized & Unrealized Performance Summary,Data,Stocks,VJPN,0,0,0,0,0,0,9.59525,0,0,0,9.59525,9.59525,
+Realized & Unrealized Performance Summary,Data,Stocks,VLU,0,0,0,0,0,0,0,-152.339880768,0,0,-152.339880768,-152.339880768,
+Realized & Unrealized Performance Summary,Data,Stocks,VMID,0,0,-153.944819,0,0,-153.944819,0,0,0,0,0,-153.944819,
+Realized & Unrealized Performance Summary,Data,Stocks,VWO,0,0,0,0,0,0,0,-214.4382,0,0,-214.4382,-214.4382,
+Realized & Unrealized Performance Summary,Data,Stocks,ZPRV,0,0,0,0,0,0,839.5686,0,0,0,839.5686,839.5686,
+Realized & Unrealized Performance Summary,Data,Stocks,ZPRX,0,0,0,0,0,0,290.1,0,0,0,290.1,290.1,
+Realized & Unrealized Performance Summary,Data,Total,,0,144.3177,-1188.502273297,0,0,-1044.184573297,4636.806955128,-3106.932807767,71.0816016,-264.5049942,1336.45075476,292.266181463,
+Realized & Unrealized Performance Summary,Data,Forex,GBP,0,0,-50.625776,0,0,-50.625776,85.77361489,-0.0336,0,0,85.74001489,35.11423889,
+Realized & Unrealized Performance Summary,Data,Forex,USD,0,15.974257,-38.342829,0,0,-22.368572,462.331158161,-0.207539,0,0,462.123619161,439.755047161,
+Realized & Unrealized Performance Summary,Data,Total,,0,15.974257,-88.968605,0,0,-72.994348,548.104773051,-0.241139,0,0,547.863634051,474.869286051,
+Realized & Unrealized Performance Summary,Data,Total (All Assets),,0,160.291957,-1277.470878297,0,0,-1117.178921297,5184.911728178,-3107.173946767,71.0816016,-264.5049942,1884.314388811,767.135467514,
+Month & Year to Date Performance Summary,Header,Asset Category,Symbol,Description,Mark-to-Market MTD,Mark-to-Market YTD,Realized S/T MTD,Realized S/T YTD,Realized L/T MTD,Realized L/T YTD
+Month & Year to Date Performance Summary,Data,Stocks,AVDV,AVANTIS INTL S/C VALUE ETF,-99.37548,325.89463,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,DFAE,DIMENSIONAL EMERGING CORE EQ,-9.6005005,23.941254,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,DFAI,DIMENSIONAL INTERNATIONAL CO,-8.0487242,37.1445228,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,DFAS,DIMENSIONAL US SMALL CAP ETF,7.2357758,56.7458947,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,DFAT,DIMENSIONAL US TARGET VALUE,40.636086,311.425516,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,DFIV,DIMENSIONAL INTERNATIONAL VA,-16.2182819,57.8897826,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,DFUS,DIMENSIONAL US EQUITY ETF,7.3665108,60.9932158,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,DON,WISDOMTREE US MIDCAP DIVIDEN,10.245714,194.744557,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,EQAL,INVESCO RUSSELL 1000 EQUAL W,0.3373572,38.4431936,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,EUNI,ISHARES MSCI EM SMALL CAP,15.5,154.7026056,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,FLLA,FRANKLIN FTSE LATIN AMERICA,-21.5213679,25.7290617,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,IBC3,ISHARES CORE EM IMI USD DIST,-72.1,357.35,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,IEMG,ISHARES CORE MSCI EMERGING,-22.280656,55.68816,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,IJS,ISHARES S&P SMALL-CAP 600 VA,31.882238,234.102378,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,IQIN,IQ 500 INTERNATIONAL ETF,-13.5994258,73.02536,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,ISCV,ISHARES MORNINGSTAR SMALL-CA,58.9798321,474.0456994,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,IWVL,ISHARES EDGE MSCI WRLD VALUE,42.3,353.7,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,IWVU,ISH EDGE MSCI WLD VAL USD-D,-14.5998204,193.1483766,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,LCUK,LYXOR CORE UK EQ ALL CAP DR,-4.2,196.7,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,R2SC,SPDR RUSSELL 2000 US S/C,127.11115,288.5223,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,R2US,SPDR RUSSELL 2000 US S/C,94.5,274.25,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,RODE,HARTFORD MULTIFACTOR DIVERSI,-16.8051189,30.546077,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,RODM,HARTFORD MULTIFACTOR DEVELOP,-29.243032,100.093104,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,SCHC,SCHWAB INTL SMALL-CAP EQUITY,-12.002415,68.745636,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,SCHE,SCHWAB EMERGING MARKETS EQUI,-20.5754745,44.966502,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,SPEM,SPDR PORTFOLIO EMERGING MARK,-21.301788,51.68325,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,UEFDd,UBS ETF MSCI EMU SMALL CAP U,150.48,815.48,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,VAPX,VANG FTSEAPXJ USDD,-87.5,745,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,VBR,VANGUARD SMALL-CAP VALUE ETF,8.19336,101.5801822,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,VERX,VANG FTSE DEX EURD,62.25,444,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,VGER,VANGUARD GERMANY ALL CAP ETF,136.5,850.5,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,VHYD,VANG FTSE HDY USDD,-73.697475,181.23293,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,VJPN,VANG FTSE JPN USDD,-16,122,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,VLU,SPDR S&P 1500 VALUE TILT ETF,-2.2933195,230.2193098,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,VWO,VANGUARD FTSE EMERGING MARKE,-22.63173,53.37827,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,ZPRV,SPDR USA S/C VALUE,298.5,961.5,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,ZPRX,SPDR EUROPE S/C VALUE,73.5,421.5,0,0,0,0
+Month & Year to Date Performance Summary,Data,Total,,,581.9234143,9010.6117688,0,0,0,0
+Month & Year to Date Performance Summary,Data,Total (All Assets),,,581.9234143,9010.6117688,0,0,0,0
+Cash Report,Header,Currency Summary,Currency,Total,Securities,Futures,Month to Date,Year to Date,
+Cash Report,Data,Starting Cash,Base Currency Summary,0,0,0,,,
+Cash Report,Data,Commissions,Base Currency Summary,-120.623727077,-120.623727077,0,0,0,
+Cash Report,Data,Deposits,Base Currency Summary,46212.3,46212.3,0,0,0,
+Cash Report,Data,Withdrawals,Base Currency Summary,-37993.23,-37993.23,0,0,0,
+Cash Report,Data,Account Transfers,Base Currency Summary,17132.1564469,17132.1564469,0,0,0,
+Cash Report,Data,Dividends,Base Currency Summary,1806.324605,1806.324605,0,38.48,130.9575508,
+Cash Report,Data,Broker Interest Paid and Received,Base Currency Summary,-262.5412429,-262.5412429,0,-56.2990005,-107.9600549,
+Cash Report,Data,Trades (Sales),Base Currency Summary,32464.5896699,32464.5896699,0,0,0,
+Cash Report,Data,Trades (Purchase),Base Currency Summary,-73565.77524652,-73565.77524652,0,0,0,
+Cash Report,Data,Payment In Lieu of Dividends,Base Currency Summary,141.3210168,141.3210168,0,0,0,
+Cash Report,Data,Withholding Tax,Base Currency Summary,-121.6918263,-121.6918263,0,0,-1.6710644,
+Cash Report,Data,Sales Tax,EUR,-0.1083,-0.1083,0,0,0,
+Cash Report,Data,Cash FX Translation Gain/Loss,Base Currency Summary,395.78213277,395.78213277,0,,,
+Cash Report,Data,Ending Cash,Base Currency Summary,-13911.496471414,-13911.496471414,0,,,
+Cash Report,Data,Ending Settled Cash,Base Currency Summary,-13911.496471414,-13911.496471414,0,,,
+Cash Report,Data,Starting Cash,EUR,0,0,0,,,
+Cash Report,Data,Commissions,EUR,-86.172015,-86.172015,0,0,0,
+Cash Report,Data,Deposits,EUR,46212.3,46212.3,0,0,0,
+Cash Report,Data,Withdrawals,EUR,-37993.23,-37993.23,0,0,0,
+Cash Report,Data,Account Transfers,EUR,17131.39,17131.39,0,0,0,
+Cash Report,Data,Dividends,EUR,341.75,341.75,0,38.48,38.48,
+Cash Report,Data,Broker Interest Paid and Received,EUR,-72.67,-72.67,0,-14.82,-28.15,
+Cash Report,Data,Trades (Sales),EUR,20883.562,20883.562,0,0,0,
+Cash Report,Data,Trades (Purchase),EUR,-51609.32,-51609.32,0,0,0,
+Cash Report,Data,Sales Tax,EUR,-0.1083,-0.1083,0,0,0,
+Cash Report,Data,Ending Cash,EUR,-5192.498315,-5192.498315,0,,,
+Cash Report,Data,Ending Settled Cash,EUR,-5192.498315,-5192.498315,0,,,
+Cash Report,Data,Starting Cash,GBP,0,0,0,,,
+Cash Report,Data,Commissions,GBP,-15,-15,0,0,0,
+Cash Report,Data,Dividends,GBP,66.5,66.5,0,0,0,
+Cash Report,Data,Broker Interest Paid and Received,GBP,-12.94,-12.94,0,-8.4,-12.94,
+Cash Report,Data,Trades (Sales),GBP,8987.836,8987.836,0,0,0,
+Cash Report,Data,Trades (Purchase),GBP,-11065.83603,-11065.83603,0,0,0,
+Cash Report,Data,Ending Cash,GBP,-2039.440029998,-2039.440029998,0,,,
+Cash Report,Data,Ending Settled Cash,GBP,-2039.440029998,-2039.440029998,0,,,
+Cash Report,Data,Starting Cash,USD,0,0,0,,,
+Cash Report,Data,Commissions,USD,-17.00992117,-17.00992117,0,0,0,
+Cash Report,Data,Account Transfers,USD,0.83,0.83,0,0,0,
+Cash Report,Data,Dividends,USD,1432.17,1432.17,0,0,99.28,
+Cash Report,Data,Broker Interest Paid and Received,USD,-180.38,-180.38,0,-34.65,-69.57,
+Cash Report,Data,Trades (Sales),USD,951.21,951.21,0,0,0,
+Cash Report,Data,Trades (Purchase),USD,-9106.13006059,-9106.13006059,0,0,0,
+Cash Report,Data,Payment In Lieu of Dividends,USD,146.1,146.1,0,0,0,
+Cash Report,Data,Withholding Tax,USD,-127.06,-127.06,0,0,-1.78,
+Cash Report,Data,Ending Cash,USD,-6900.269981761,-6900.269981761,0,,,
+Cash Report,Data,Ending Settled Cash,USD,-6900.269981761,-6900.269981761,0,,,
+Open Positions,Header,DataDiscriminator,Asset Category,Currency,Symbol,Quantity,Mult,Cost Price,Cost Basis,Close Price,Value,Unrealized P/L,Code
+Open Positions,Data,Summary,Stocks,EUR,EUNI,50,1,69.3831521,3469.157605,69.5,3475,5.842395,
+Open Positions,Data,Summary,Stocks,EUR,IBC3,1750,1,4.112194331,7196.34008,4.0995,7174.13,-22.21008,
+Open Positions,Data,Summary,Stocks,EUR,IWVL,180,1,32.448333333,5840.7,33.73,6071.4,230.7,
+Open Positions,Data,Summary,Stocks,EUR,LCUK,350,1,11.720714286,4102.25,12.276,4296.6,194.35,
+Open Positions,Data,Summary,Stocks,EUR,R2US,50,1,50.885,2544.25,51.73,2586.5,42.25,
+Open Positions,Data,Summary,Stocks,EUR,UEFDd,70,1,108.010035714,7560.7025,118.24,8276.8,716.0975,
+Open Positions,Data,Summary,Stocks,EUR,VAPX,500,1,24.54772828,12273.86414,24.48,12240,-33.86414,
+Open Positions,Data,Summary,Stocks,EUR,VERX,150,1,33.763333333,5064.5,35.595,5339.25,274.75,
+Open Positions,Data,Summary,Stocks,EUR,VGER,300,1,25.708092967,7712.42789,25.225,7567.5,-144.92789,
+Open Positions,Data,Summary,Stocks,EUR,VJPN,100,1,28.1090475,2810.90475,28.205,2820.5,9.59525,
+Open Positions,Data,Summary,Stocks,EUR,ZPRV,150,1,48.792876,7318.9314,54.39,8158.5,839.5686,
+Open Positions,Data,Summary,Stocks,EUR,ZPRX,100,1,42.139,4213.9,45.04,4504,290.1,
+Open Positions,Total,,Stocks,EUR,,,,,70107.928365,,72510.18,2402.251635,
+Open Positions,Data,Summary,Stocks,GBP,R2SC,50,1,41.86,2093,46.195,2309.75,216.75,
+Open Positions,Total,,Stocks,GBP,,,,,2093,,2309.75,216.75,
+Open Positions,Total,,Stocks,EUR,,,,,2345.6251,,2588.536825,242.911725,
+Open Positions,Data,Summary,Stocks,USD,AVDV,100,1,63.91282,6391.282,58.88,5888,-503.282,
+Open Positions,Data,Summary,Stocks,USD,DFAE,19,1,26.742631579,508.11,23.3,442.7,-65.41,
+Open Positions,Data,Summary,Stocks,USD,DFAI,22,1,29.505454545,649.12,26.86,590.92,-58.2,
+Open Positions,Data,Summary,Stocks,USD,DFAS,11,1,56.940909091,626.35,56.75,624.25,-2.1,
+Open Positions,Data,Summary,Stocks,USD,DFAT,68,1,46.518529412,3163.26,48.92,3326.56,163.3,
+Open Positions,Data,Summary,Stocks,USD,DFIV,29,1,33.98137931,985.46,32.55,943.95,-41.51,
+Open Positions,Data,Summary,Stocks,USD,DFUS,22,1,47.540909091,1045.9,44.63,981.86,-64.04,
+Open Positions,Data,Summary,Stocks,USD,DON,60,1,43.6315,2617.89,44.66,2679.6,61.71,
+Open Positions,Data,Summary,Stocks,USD,EQAL,12,1,46.203333333,554.44,43.66,523.92,-30.52,
+Open Positions,Data,Summary,Stocks,USD,FLLA,24,1,22.261666667,534.28,20.7744,498.59,-35.69,
+Open Positions,Data,Summary,Stocks,USD,IEMG,20,1,60.5,1210,49.68,993.6,-216.4,
+Open Positions,Data,Summary,Stocks,USD,IJS,20,1,101.84865,2036.973,104.01,2080.2,43.227,
+Open Positions,Data,Summary,Stocks,USD,IQIN,34,1,32.999411765,1121.98,30.3099,1030.54,-91.44,
+Open Positions,Data,Summary,Stocks,USD,ISCV,80,1,58.55825,4684.66,58.4896,4679.17,-5.49,
+Open Positions,Data,Summary,Stocks,USD,IWVU,600,1,4.106166667,2463.7,4.9163,2949.78,486.08,
+Open Positions,Data,Summary,Stocks,USD,RODE,36,1,28.357777778,1020.88,24.91,896.76,-124.12,
+Open Positions,Data,Summary,Stocks,USD,RODM,80,1,29.6306975,2370.4558,26.14,2091.2,-279.2558,
+Open Positions,Data,Summary,Stocks,USD,SCHC,30,1,39.031333333,1170.94,33.95,1018.5,-152.44,
+Open Positions,Data,Summary,Stocks,USD,SCHE,35,1,30.348571429,1062.2,25.04,876.4,-185.8,
+Open Positions,Data,Summary,Stocks,USD,SPEM,30,1,42.313333333,1269.4,34.8,1044,-225.4,
+Open Positions,Data,Summary,Stocks,USD,VBR,7,1,175.565714286,1228.96,174.55,1221.85,-7.11,
+Open Positions,Data,Summary,Stocks,USD,VHYD,100,1,57.074,5707.4,60.31,6031,323.6,
+Open Positions,Data,Summary,Stocks,USD,VLU,30,1,153.556506667,4606.6952,148.11,4443.3,-163.3952,
+Open Positions,Data,Summary,Stocks,USD,VWO,25,1,50.46,1261.5,41.26,1031.5,-230,
+Open Positions,Total,,Stocks,USD,,,,,48291.836,,46888.15,-1403.686,
+Open Positions,Total,,Stocks,EUR,,,,,45024.41037624,,43715.697771,-1308.71260524,
+Open Positions,Total,,Stocks,EUR,,,,,117477.96384124,,118814.414596,1336.45075476,
+Collateral for Customer Borrowing,Header,Asset Category,Currency,Symbol,Settled Quantity,Collateral Price,Value,Securities Segregated Quantity,Securities Segregated Value,Securities Not Segregated Quantity,Securities Not Segregated Value,Securities Not Segregated: Third Party "Right to Use"  Quantity,Securities Not Segregated: Third Party "Right to Use"  Value,Securities Not Segregated: Subject to Stock Yield Enhancement Program Quantity,Securities Not Segregated: Subject to Stock Yield Enhancement Program Value
+Collateral for Customer Borrowing,Data,Securities,USD,DFAT,68,48.9200,"3,326.56",31,"1,516.52",37,"1,810.04",37,"1,810.04",0,0.00
+Collateral for Customer Borrowing,Data,Securities,USD,DFIV,29,32.5500,943.95,0,0.00,29,943.95,29,943.95,0,0.00
+Collateral for Customer Borrowing,Data,Securities,USD,IJS,20,104.0100,"2,080.20",0,0.00,20,"2,080.20",20,"2,080.20",0,0.00
+Collateral for Customer Borrowing,Data,Securities,USD,R2SC,50,55.5310095,"2,776.55",0,0.00,50,"2,776.55",50,"2,776.55",0,0.00
+Collateral for Customer Borrowing,Data,Securities,USD,R2US,50,55.485598,"2,774.28",0,0.00,50,"2,774.28",50,"2,774.28",0,0.00
+Collateral for Customer Borrowing,Data,Securities,USD,VLU,30,148.1100,"4,443.30",0,0.00,30,"4,443.30",30,"4,443.30",0,0.00
+Collateral for Customer Borrowing,Data,Total,,,,,"16,344.84",,"1,516.52",,"14,828.32",,"14,828.32",,0.00
+Collateral for Customer Borrowing,Data,Total in EUR,,,,,"15,238.95",,"1,413.91",,"13,825.04",,"13,825.04",,0.00
+Forex Balances,Header,Asset Category,Currency,Description,Quantity,Cost Price,Cost Basis in EUR,Close Price,Value in EUR,Unrealized P/L in EUR,Code
+Forex Balances,Data,Forex,EUR,EUR,-5192.498315,1,5192.498315,1,-5192.498315,0,
+Forex Balances,Data,Forex,EUR,GBP,-2039.44003,1.162740959,2371.34045689,1.1207,-2285.600442,85.74001489,
+Forex Balances,Data,Forex,EUR,USD,-6900.269981,0.999311817,6895.521334161,0.93234,-6433.397715,462.123619161,
+Forex Balances,Data,Total,,,,,14459.360106051,,-13911.496472,547.863634051,
+Trades,Header,DataDiscriminator,Asset Category,Currency,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Stocks,EUR,EMVEUz,"2022-05-02, 06:10:27",-100,37.5,37.5,3750,-3,-4067.82773,-320.82773,0,C
+Trades,SubTotal,,Stocks,EUR,EMVEUz,,-100,,,3750,-3,-4067.82773,-320.82773,0,
+Trades,Data,Order,Stocks,EUR,EUNI,"2022-07-13, 04:46:18",1,69.25,68.86,-69.25,-3,72.25,0,-0.39,O
+Trades,Data,Order,Stocks,EUR,EUNI,"2022-07-13, 05:30:42",49,69.29,68.86,-3395.21,-1.697605,3396.907605,0,-21.07,O
+Trades,SubTotal,,Stocks,EUR,EUNI,,50,,,-3464.46,-4.697605,3469.157605,0,-21.46,
+Trades,Data,Order,Stocks,EUR,IBC3,"2022-07-12, 04:15:33",700,4.187,4.2048,-2930.9,-3,2933.9,0,12.46,O
+Trades,Data,Order,Stocks,EUR,IBC3,"2022-07-26, 03:38:49",700,4.2288,4.2247,-2960.16,-1.48008,2961.64008,0,-2.87,O
+Trades,Data,Order,Stocks,EUR,IBC3,"2022-10-27, 08:51:10",350,3.708,3.7422,-1297.8,-3,1300.8,0,11.97,O
+Trades,SubTotal,,Stocks,EUR,IBC3,,1750,,,-7188.86,-7.48008,7196.34008,0,21.56,
+Trades,Data,Order,Stocks,EUR,IWVL,"2022-07-12, 04:54:23",90,32.26,32.455,-2903.4,-3,2906.4,0,17.55,O
+Trades,Data,Order,Stocks,EUR,IWVL,"2022-07-26, 03:53:49",90,32.57,32.67,-2931.3,-3,2934.3,0,9,O
+Trades,SubTotal,,Stocks,EUR,IWVL,,180,,,-5834.7,-6,5840.7,0,26.55,
+Trades,Data,Order,Stocks,EUR,LCUK,"2022-07-12, 03:43:43",250,11.916,11.996,-2979,-3,2982,0,20,O
+Trades,Data,Order,Stocks,EUR,LCUK,"2022-09-23, 10:07:49",100,11.19,11.12,-1119,-1.25,1120.25,0,-7,O
+Trades,SubTotal,,Stocks,EUR,LCUK,,350,,,-4098,-4.25,4102.25,0,13,
+Trades,Data,Order,Stocks,EUR,LGGE,"2022-05-03, 06:51:47",-176,10.094,10.184,1776.544,-3,-1878.808,-105.264,-15.84,C
+Trades,SubTotal,,Stocks,EUR,LGGE,,-176,,,1776.544,-3,-1878.808,-105.264,-15.84,
+Trades,Data,Order,Stocks,EUR,R2US,"2022-10-27, 08:48:27",25,50.89,51.43,-1272.25,-3,1275.25,0,13.5,O
+Trades,Data,Order,Stocks,EUR,R2US,"2022-11-25, 07:20:25",25,50.64,50.72,-1266,-3,1269,0,2,O
+Trades,SubTotal,,Stocks,EUR,R2US,,50,,,-2538.25,-6,2544.25,0,15.5,
+Trades,Data,Order,Stocks,EUR,TEET,"2022-05-02, 05:34:34",-30,64,63.7,1920,-3,-2109.75,-192.75,9,C
+Trades,SubTotal,,Stocks,EUR,TEET,,-30,,,1920,-3,-2109.75,-192.75,9,
+Trades,Data,Order,Stocks,EUR,TSWE,"2022-05-04, 11:12:35",-10,27.55,27.57,275.5,-5.25,-288.428571,-18.178571,-0.2,C;P
+Trades,Data,Order,Stocks,EUR,TSWE,"2022-05-04, 11:16:17",-60,27.505,27.57,1650.3,-1.25,-1730.571429,-81.521429,-3.9,C
+Trades,SubTotal,,Stocks,EUR,TSWE,,-70,,,1925.8,-6.5,-2019,-99.7,-4.1,
+Trades,Data,Order,Stocks,EUR,UEFDd,"2022-07-26, 03:38:21",25,109.8,108.92,-2745,-1.3725,2746.3725,0,-22,O
+Trades,Data,Order,Stocks,EUR,UEFDd,"2022-10-11, 07:55:25",20,94.36,94.62,-1887.2,-3,1890.2,0,5.2,O
+Trades,Data,Order,Stocks,EUR,UEFDd,"2022-10-27, 08:47:18",10,101.8,102.36,-1018,-3,1021,0,5.6,O
+Trades,SubTotal,,Stocks,EUR,UEFDd,,55,,,-5650.2,-7.3725,5657.5725,0,-11.2,
+Trades,Data,Order,Stocks,EUR,VAPX,"2022-07-12, 05:24:17",2,23.56,23.65,-47.12,-3.75,50.87,0,0.18,O
+Trades,Data,Order,Stocks,EUR,VAPX,"2022-07-12, 05:37:37",102,23.58,23.65,-2405.16,-3.75,2408.91,0,7.14,O
+Trades,Data,Order,Stocks,EUR,VAPX,"2022-07-13, 08:44:26",100,23.545,23.635,-2354.5,-1.25,2355.75,0,9,O
+Trades,SubTotal,,Stocks,EUR,VAPX,,204,,,-4806.78,-8.75,4815.53,0,16.32,
+Trades,Data,Order,Stocks,EUR,VERX,"2022-08-29, 07:30:13",100,32.07,32.21,-3207,-3.75,3210.75,0,14,O
+Trades,SubTotal,,Stocks,EUR,VERX,,100,,,-3207,-3.75,3210.75,0,14,
+Trades,Data,Order,Stocks,EUR,VGER,"2022-07-14, 03:38:45",79,20.99,20.59,-1658.21,-3,1661.21,0,-31.6,O
+Trades,SubTotal,,Stocks,EUR,VGER,,79,,,-1658.21,-3,1661.21,0,-31.6,
+Trades,Data,Order,Stocks,EUR,VJPN,"2022-07-12, 11:02:26",100,28.095,28.09,-2809.5,-1.40475,2810.90475,0,-0.5,O
+Trades,SubTotal,,Stocks,EUR,VJPN,,100,,,-2809.5,-1.40475,2810.90475,0,-0.5,
+Trades,Data,Order,Stocks,EUR,ZPRV,"2022-05-12, 13:56:12",20,47.88,48.41,-957.6,-1.25,958.85,0,10.6,O
+Trades,Data,Order,Stocks,EUR,ZPRV,"2022-06-14, 03:04:16",20,47.725,47.265,-954.5,-3,957.5,0,-9.2,O
+Trades,Data,Order,Stocks,EUR,ZPRV,"2022-07-12, 05:34:41",7,48.29,48.85,-338.03,-3,341.03,0,3.92,O
+Trades,Data,Order,Stocks,EUR,ZPRV,"2022-07-12, 05:39:22",60,48.38,48.85,-2902.8,-1.4514,2904.2514,0,28.2,O
+Trades,Data,Order,Stocks,EUR,ZPRV,"2022-10-07, 08:58:22",43,50.1,49.285,-2154.3,-3,2157.3,0,-35.045,O
+Trades,SubTotal,,Stocks,EUR,ZPRV,,150,,,-7307.23,-11.7014,7318.9314,0,-1.525,
+Trades,Data,Order,Stocks,EUR,ZPRX,"2022-06-13, 10:26:45",24,41.245,41.19,-989.88,-1.25,991.13,0,-1.32,O
+Trades,Data,Order,Stocks,EUR,ZPRX,"2022-07-27, 03:51:01",50,41.125,41.22,-2056.25,-1.25,2057.5,0,4.75,O
+Trades,SubTotal,,Stocks,EUR,ZPRX,,74,,,-3046.13,-2.5,3048.63,0,3.43,
+Trades,Total,,Stocks,EUR,,,,,,-42236.976,-82.406335,41600.840605,-718.54173,33.135, 
+Trades,Data,Order,Stocks,GBP,FTAD,"2022-05-03, 06:46:35",-393,5.037,5.073,1979.541,-3,-1999.047,-22.506,-14.148,C
+Trades,SubTotal,,Stocks,GBP,FTAD,,-393,,,1979.541,-3,-1999.047,-22.506,-14.148,
+Trades,Data,Order,Stocks,GBP,HMXJ,"2022-05-03, 06:04:00",-250,11.2,11.255,2800,-3,-2675.5,121.5,-13.75,C
+Trades,SubTotal,,Stocks,GBP,HMXJ,,-250,,,2800,-3,-2675.5,121.5,-13.75,
+Trades,Data,Order,Stocks,GBP,PRUK,"2022-05-03, 06:49:03",-100,23.2,23.2,2320,-3,-2511.5,-194.5,0,C
+Trades,SubTotal,,Stocks,GBP,PRUK,,-100,,,2320,-3,-2511.5,-194.5,0,
+Trades,Data,Order,Stocks,GBP,R2SC,"2022-12-13, 04:21:54",50,41.8,41.945,-2090,-3,2093,0,7.25,O
+Trades,SubTotal,,Stocks,GBP,R2SC,,50,,,-2090,-3,2093,0,7.25,
+Trades,Data,Order,Stocks,GBP,VMID,"2022-05-03, 06:32:11",-59,32.005,31.94,1888.295,-3,-2014.9,-129.605,3.835,C;P
+Trades,SubTotal,,Stocks,GBP,VMID,,-59,,,1888.295,-3,-2014.9,-129.605,3.835,
+Trades,Total,,Stocks,GBP,,,,,,6897.836,-15,-7107.947,-225.111,-16.813, 
+Trades,Total,,Stocks,EUR,,,,,,8245.0816008,-17.7426,-8494.7258466,-267.3868458,-20.1502814, 
+Trades,Data,Order,Stocks,USD,IWVU,"2022-09-30, 04:01:55",600,4.0995,4.0815,-2459.7,-4,2463.7,0,-10.8,O
+Trades,SubTotal,,Stocks,USD,IWVU,,600,,,-2459.7,-4,2463.7,0,-10.8,
+Trades,Data,Order,Stocks,USD,SCHY,"2022-05-02, 09:24:23",-39,24.39,24.33,951.21,-1.009921171,-1011.412,-61.211921,2.34,C;P
+Trades,SubTotal,,Stocks,USD,SCHY,,-39,,,951.21,-1.009921171,-1011.412,-61.211921,2.34,
+Trades,Data,Order,Stocks,USD,VHYD,"2022-05-13, 06:43:16",20,59.86,60.32,-1197.2,-4,1201.2,0,9.2,O
+Trades,Data,Order,Stocks,USD,VHYD,"2022-06-14, 03:11:08",20,58.5,57.735,-1170,-4,1174,0,-15.3,O
+Trades,Data,Order,Stocks,USD,VHYD,"2022-07-12, 04:54:45",60,55.47,55.925,-3328.2,-4,3332.2,0,27.3,O
+Trades,SubTotal,,Stocks,USD,VHYD,,100,,,-5695.4,-12,5707.4,0,21.2,
+Trades,Total,,Stocks,USD,,,,,,-7203.89,-17.009921171,7159.688,-61.211921,12.74, 
+Trades,Total,,Stocks,EUR,,,,,,-7193.1378669,-16.709112078,7151.59098148,-58.255997335,12.5576814, 
+Trades,Header,DataDiscriminator,Asset Category,Currency,Symbol,Date/Time,Quantity,T. Price,,Proceeds,Comm in EUR,,,MTM in EUR,Code
+Trades,Data,Order,Forex,GBP,EUR.GBP,"2022-05-05, 03:29:16","10,611",0.84575,,-8974.25325,-1.88284,,,87.790639,
+Trades,Data,Order,Forex,GBP,EUR.GBP,"2022-05-09, 19:45:20",1.8482,0.85639,,-1.582779998,0,,,-0.003019,
+Trades,SubTotal,,Forex,GBP,EUR.GBP,,10612.8482,,,-8975.836029998,-1.88284,,,87.78762,
+Trades,Total,,Forex,GBP,,,,,,-8975.836029998,-1.88284,,,87.78762, 
+Trades,Total,,Forex,EUR,,,,,,-10525.060580436,-1.88284,,,87.78762, 
+Trades,Data,Order,Forex,USD,EUR.USD,"2022-04-15, 18:01:07",0.7676,1.08125,,-0.8299675,0,,,-0.002211,
+Trades,Data,Order,Forex,USD,EUR.USD,"2022-05-05, 03:29:46",897,1.0586,,-949.5642,-1.88284,,,-3.937017,
+Trades,Data,Order,Forex,USD,EUR.USD,"2022-05-09, 19:45:20",0.6022,1.05595,,-0.63589309,0,,,-0.001701,
+Trades,SubTotal,,Forex,USD,EUR.USD,,898.3698,,,-951.03006059,-1.88284,,,-3.940929,
+Trades,Total,,Forex,USD,,,,,,-951.03006059,-1.88284,,,-3.940929, 
+Trades,Total,,Forex,EUR,,,,,,-902.310730082,-1.88284,,,-3.940929, 
+Transfers,Header,Asset Category,Currency,Symbol,Date,Type,Direction,Xfer Company,Xfer Account,Qty,Xfer Price,Market Value,Realized P/L,Cash Amount,Code
+Transfers,Data,Stocks,EUR,EMVEUz,2022-04-28,Internal,In,--,U6673212,100,--,"3,734.00",0.00,0.00,
+Transfers,Data,Stocks,EUR,LGGE,2022-04-28,Internal,In,--,U6673212,176,--,"1,783.06",0.00,0.00,
+Transfers,Data,Stocks,EUR,TEET,2022-04-28,Internal,In,--,U6673212,30,--,"1,920.90",0.00,0.00,
+Transfers,Data,Stocks,EUR,TSWE,2022-04-28,Internal,In,--,U6673212,70,--,"1,942.50",0.00,0.00,
+Transfers,Data,Stocks,EUR,UEFDd,2022-04-28,Internal,In,--,U6673212,15,--,"1,806.30",0.00,0.00,
+Transfers,Data,Stocks,EUR,VAPX,2022-04-28,Internal,In,--,U6673212,296,--,"7,488.80",0.00,0.00,
+Transfers,Data,Stocks,EUR,VERX,2022-04-28,Internal,In,--,U6673212,50,--,"1,729.00",0.00,0.00,
+Transfers,Data,Stocks,EUR,VGER,2022-04-28,Internal,In,--,U6673212,221,--,"5,269.75",0.00,0.00,
+Transfers,Data,Stocks,EUR,ZPRX,2022-04-14,Internal,In,--,U9128241,26,--,"1,175.98",0.00,0.00,
+Transfers,Data,Total,,,,,,,,,,26850.29,0,0,
+Transfers,Data,Stocks,GBP,FTAD,2022-04-28,Internal,In,--,U6673212,393,--,"1,968.14",0.00,0.00,
+Transfers,Data,Stocks,GBP,HMXJ,2022-04-28,Internal,In,--,U6673212,250,--,"2,775.00",0.00,0.00,
+Transfers,Data,Stocks,GBP,PRUK,2022-04-28,Internal,In,--,U6673212,100,--,"2,311.75",0.00,0.00,
+Transfers,Data,Stocks,GBP,VMID,2022-04-28,Internal,In,--,U6673212,59,--,"1,874.43",0.00,0.00,
+Transfers,Data,Total,,,,,,,,,,8929.32,0,0,
+Transfers,Data,Total in EUR,,,,,,,,,,10595.531112,0,0,
+Transfers,Data,Stocks,USD,AVDV,2022-04-28,Internal,In,--,U6673212,100,--,"5,876.00",0.00,0.00,
+Transfers,Data,Stocks,USD,DFAE,2022-04-28,Internal,In,--,U6673212,19,--,463.98,0.00,0.00,
+Transfers,Data,Stocks,USD,DFAI,2022-04-28,Internal,In,--,U6673212,22,--,579.26,0.00,0.00,
+Transfers,Data,Stocks,USD,DFAS,2022-04-28,Internal,In,--,U6673212,11,--,574.53,0.00,0.00,
+Transfers,Data,Stocks,USD,DFAT,2022-04-28,Internal,In,--,U6673212,68,--,"2,989.28",0.00,0.00,
+Transfers,Data,Stocks,USD,DFIV,2022-04-28,Internal,In,--,U6673212,29,--,914.37,0.00,0.00,
+Transfers,Data,Stocks,USD,DFUS,2022-04-28,Internal,In,--,U6673212,22,--,992.20,0.00,0.00,
+Transfers,Data,Stocks,USD,DON,2022-04-28,Internal,In,--,U6673212,60,--,"2,557.80",0.00,0.00,
+Transfers,Data,Stocks,USD,EQAL,2022-04-28,Internal,In,--,U6673212,12,--,524.40,0.00,0.00,
+Transfers,Data,Stocks,USD,FLLA,2022-04-28,Internal,In,--,U6673212,24,--,539.36,0.00,0.00,
+Transfers,Data,Stocks,USD,IEMG,2022-04-28,Internal,In,--,U6673212,20,--,"1,029.20",0.00,0.00,
+Transfers,Data,Stocks,USD,IJS,2022-04-28,Internal,In,--,U6673212,20,--,"1,930.80",0.00,0.00,
+Transfers,Data,Stocks,USD,IQIN,2022-04-28,Internal,In,--,U6673212,34,--,"1,008.54",0.00,0.00,
+Transfers,Data,Stocks,USD,ISCV,2022-04-28,Internal,In,--,U6673212,80,--,"4,421.69",0.00,0.00,
+Transfers,Data,Stocks,USD,RODE,2022-04-28,Internal,In,--,U6673212,36,--,964.89,0.00,0.00,
+Transfers,Data,Stocks,USD,RODM,2022-04-28,Internal,In,--,U6673212,80,--,"2,204.00",0.00,0.00,
+Transfers,Data,Stocks,USD,SCHC,2022-04-28,Internal,In,--,U6673212,30,--,"1,052.40",0.00,0.00,
+Transfers,Data,Stocks,USD,SCHE,2022-04-28,Internal,In,--,U6673212,35,--,906.15,0.00,0.00,
+Transfers,Data,Stocks,USD,SCHY,2022-04-28,Internal,In,--,U6673212,39,--,951.21,0.00,0.00,
+Transfers,Data,Stocks,USD,SPEM,2022-04-28,Internal,In,--,U6673212,30,--,"1,074.30",0.00,0.00,
+Transfers,Data,Stocks,USD,VBR,2022-04-28,Internal,In,--,U6673212,7,--,"1,164.24",0.00,0.00,
+Transfers,Data,Stocks,USD,VLU,2022-04-28,Internal,In,--,U6673212,30,--,"4,424.40",0.00,0.00,
+Transfers,Data,Stocks,USD,VWO,2022-04-28,Internal,In,--,U6673212,25,--,"1,071.25",0.00,0.00,
+Transfers,Data,Total,,,,,,,,,,38214.25,0,0,
+Transfers,Data,Total in EUR,,,,,,,,,,36397.1624125,0,0,
+Deposits & Withdrawals,Header,Currency,Settle Date,Description,Amount
+Deposits & Withdrawals,Data,EUR,2022-04-14,ACATS Transfer In From Account U9128241,14.05
+Deposits & Withdrawals,Data,EUR,2022-04-28,ACATS Transfer In From Account U6673212,17117.34
+Deposits & Withdrawals,Data,EUR,2022-04-29,Disbursement Initiated by Mikhail V Vasilev,-17000
+Deposits & Withdrawals,Data,EUR,2022-05-09,Disbursement Initiated by Mikhail V Vasilev,-20993.23
+Deposits & Withdrawals,Data,EUR,2022-07-11,Electronic Fund Transfer,33851.3
+Deposits & Withdrawals,Data,EUR,2022-09-30,Electronic Fund Transfer,6061
+Deposits & Withdrawals,Data,EUR,2022-10-27,Electronic Fund Transfer,3700
+Deposits & Withdrawals,Data,EUR,2022-11-25,Electronic Fund Transfer,2600
+Deposits & Withdrawals,Data,Total,,,25350.46
+Deposits & Withdrawals,Data,USD,2022-04-14,ACATS Transfer In From Account U9128241,0.83
+Deposits & Withdrawals,Data,Total,,,0.83
+Deposits & Withdrawals,Data,Total in EUR,,,0.7664469
+Deposits & Withdrawals,Data,Total Deposits & Withdrawals in EUR,,,25351.2264469
+Fees,Header,Subtitle,Currency,Date,Description,Amount
+Fees,Data,Other Fees,EUR,2022-06-03,I******47:GLOBAL SNAPSHOT PNP FOR MAY 2022,-0.14
+Fees,Data,Other Fees,EUR,2022-06-03,I******47:GLOBAL SNAPSHOT PNP FOR MAY 2022,0.14
+Fees,Data,Other Fees,EUR,2022-07-05,I******47:GLOBAL SNAPSHOT PNP FOR JUN 2022,-0.11
+Fees,Data,Other Fees,EUR,2022-07-05,I******47:GLOBAL SNAPSHOT PNP FOR JUN 2022,0.11
+Fees,Data,Other Fees,EUR,2022-08-03,I******47:GLOBAL SNAPSHOT PNP FOR JUL 2022,-0.29
+Fees,Data,Other Fees,EUR,2022-08-03,I******47:GLOBAL SNAPSHOT PNP FOR JUL 2022,0.29
+Fees,Data,Other Fees,EUR,2022-10-04,I******47:GLOBAL SNAPSHOT PNP FOR SEP 2022,-0.03
+Fees,Data,Other Fees,EUR,2022-10-04,I******47:GLOBAL SNAPSHOT PNP FOR SEP 2022,0.03
+Fees,Data,Total,,,,0
+Fees,Notes,"Market data is provided by Global Financial Information Services (GmbH). Your local broker collects amounts owed for fees and tax for such data on behalf of Global Financial Information Services (GmbH). Note, you are responsible for any applicable taxes relating to the provision of these services."
+Dividends,Header,Currency,Date,Description,Amount
+Dividends,Data,EUR,2022-06-29,VERX(IE00BKX55S42) Cash Dividend EUR 0.720226 per Share (Mixed Income),36.01
+Dividends,Data,EUR,2022-06-29,VGER(IE00BG143G97) Cash Dividend EUR 0.61861 per Share (Mixed Income),136.71
+Dividends,Data,EUR,2022-08-04,UEFD(LU0671493277) Cash Dividend EUR 2.5417 per Share (Mixed Income),101.67
+Dividends,Data,EUR,2022-09-28,VERX(IE00BKX55S42) Cash Dividend EUR 0.071622 per Share (Mixed Income),10.74
+Dividends,Data,EUR,2022-09-28,VGER(IE00BG143G97) Cash Dividend EUR 0.010335 per Share (Mixed Income),3.1
+Dividends,Data,EUR,2022-12-28,VERX(IE00BKX55S42) Cash Dividend EUR 0.100297 per Share (Mixed Income),15.04
+Dividends,Data,EUR,2023-02-06,UEFD(LU0671493277) Cash Dividend EUR 0.5497 per Share (Mixed Income),38.48
+Dividends,Data,Total,,,341.75
+Dividends,Data,GBP,2022-12-09,LCUK(LU1781541096) Cash Dividend GBP 0.19 per Share (Mixed Income),66.5
+Dividends,Data,Total,,,66.5
+Dividends,Data,Total in EUR,,,77.4326
+Dividends,Data,USD,2022-05-27,DON(US97717W5058) Cash Dividend USD 0.085 per Share (Ordinary Dividend),5.1
+Dividends,Data,USD,2022-06-15,IEMG(US46434G1031) Cash Dividend USD 0.604409 per Share (Ordinary Dividend),12.09
+Dividends,Data,USD,2022-06-15,IJS(US4642878791) Cash Dividend USD 0.283479 per Share (Ordinary Dividend),5.67
+Dividends,Data,USD,2022-06-15,ISCV(US4642887032) Cash Dividend USD 0.208317 per Share (Ordinary Dividend),16.67
+Dividends,Data,USD,2022-06-24,AVDV(US0250728021) Cash Dividend USD 0.9936 per Share (Ordinary Dividend),99.36
+Dividends,Data,USD,2022-06-24,VLU(US78464A1280) Payment in Lieu of Dividend (Ordinary Dividend),23.56
+Dividends,Data,USD,2022-06-24,VWO(US9220428588) Cash Dividend USD 0.3057 per Share (Ordinary Dividend),7.64
+Dividends,Data,USD,2022-06-27,DFAE(US25434V3024) Payment in Lieu of Dividend (Ordinary Dividend),2.49
+Dividends,Data,USD,2022-06-27,DFAI(US25434V2034) Cash Dividend USD 0.328826 per Share (Ordinary Dividend),7.23
+Dividends,Data,USD,2022-06-27,DFAS(US25434V5003) Cash Dividend USD 0.138307 per Share (Ordinary Dividend),1.52
+Dividends,Data,USD,2022-06-27,DFAT(US25434V6092) Cash Dividend USD 0.170814 per Share (Ordinary Dividend),10.76
+Dividends,Data,USD,2022-06-27,DFAT(US25434V6092) Payment in Lieu of Dividend (Ordinary Dividend),0.85
+Dividends,Data,USD,2022-06-27,DFIV(US25434V8072) Cash Dividend USD 0.670392 per Share (Ordinary Dividend),19.44
+Dividends,Data,USD,2022-06-27,DFUS(US25434V4014) Cash Dividend USD 0.153626 per Share (Ordinary Dividend),3.38
+Dividends,Data,USD,2022-06-27,SCHE(US8085247067) Cash Dividend USD 0.0754 per Share (Ordinary Dividend),2.64
+Dividends,Data,USD,2022-06-28,FLLA(US35473P5614) Payment in Lieu of Dividend (Ordinary Dividend),19.18
+Dividends,Data,USD,2022-06-28,IQIN(US45409B3621) Cash Dividend USD 0.66507 per Share (Ordinary Dividend),22.61
+Dividends,Data,USD,2022-06-28,SPEM(US78463X5095) Cash Dividend USD 0.458517 per Share (Ordinary Dividend),13.76
+Dividends,Data,USD,2022-06-28,VBR(US9229086114) Cash Dividend USD 0.7123 per Share (Ordinary Dividend),4.99
+Dividends,Data,USD,2022-06-29,DON(US97717W5058) Cash Dividend USD 0.15 per Share (Ordinary Dividend),9
+Dividends,Data,USD,2022-06-29,VAPX(IE00B9F5YL18) Cash Dividend USD 0.375291 per Share (Mixed Income),111.09
+Dividends,Data,USD,2022-06-29,VHYD(IE00B8GKDB10) Cash Dividend USD 0.912499 per Share (Mixed Income),36.5
+Dividends,Data,USD,2022-06-30,EQAL(US46138E4200) Cash Dividend USD 0.20499 per Share (Ordinary Dividend),2.46
+Dividends,Data,USD,2022-06-30,RODE(US5184166073) Cash Dividend USD 0.225909 per Share (Ordinary Dividend),8.13
+Dividends,Data,USD,2022-06-30,RODM(US5184161025) Cash Dividend USD 0.708696 per Share (Ordinary Dividend),56.7
+Dividends,Data,USD,2022-07-27,EUNI(IE00B3F81G20) Cash Dividend USD 0.8923 per Share (Mixed Income),44.61
+Dividends,Data,USD,2022-07-28,DON(US97717W5058) Cash Dividend USD 0.06 per Share (Ordinary Dividend),3.6
+Dividends,Data,USD,2022-08-30,DON(US97717W5058) Cash Dividend USD 0.12 per Share (Ordinary Dividend),7.2
+Dividends,Data,USD,2022-09-22,VLU(US78464A1280) Cash Dividend USD 0.768772 per Share (Ordinary Dividend),0.77
+Dividends,Data,USD,2022-09-22,VLU(US78464A1280) Payment in Lieu of Dividend (Ordinary Dividend),22.29
+Dividends,Data,USD,2022-09-22,VWO(US9220428588) Cash Dividend USD 0.5294 per Share (Ordinary Dividend),13.24
+Dividends,Data,USD,2022-09-23,DFAE(US25434V3024) Payment in Lieu of Dividend (Ordinary Dividend),5.25
+Dividends,Data,USD,2022-09-23,DFAI(US25434V2034) Payment in Lieu of Dividend (Ordinary Dividend),3.22
+Dividends,Data,USD,2022-09-23,DFAS(US25434V5003) Cash Dividend USD 0.13452 per Share (Ordinary Dividend),1.48
+Dividends,Data,USD,2022-09-23,DFAT(US25434V6092) Payment in Lieu of Dividend (Ordinary Dividend),10.42
+Dividends,Data,USD,2022-09-23,DFIV(US25434V8072) Cash Dividend USD 0.138517 per Share (Ordinary Dividend),4.02
+Dividends,Data,USD,2022-09-23,DFUS(US25434V4014) Cash Dividend USD 0.15832 per Share (Ordinary Dividend),3.48
+Dividends,Data,USD,2022-09-23,EQAL(US46138E4200) Cash Dividend USD 0.2267 per Share (Ordinary Dividend),2.72
+Dividends,Data,USD,2022-09-28,IBC3(IE00BD45KH83) Cash Dividend USD 0.0901 per Share (Mixed Income),126.14
+Dividends,Data,USD,2022-09-28,VAPX(IE00B9F5YL18) Cash Dividend USD 0.274002 per Share (Mixed Income),137
+Dividends,Data,USD,2022-09-28,VBR(US9229086114) Cash Dividend USD 0.7714 per Share (Ordinary Dividend),5.4
+Dividends,Data,USD,2022-09-28,VHYD(IE00B8GKDB10) Cash Dividend USD 0.493778 per Share (Mixed Income),49.38
+Dividends,Data,USD,2022-09-28,VJPN(IE00B95PGT31) Cash Dividend USD 0.041201 per Share (Mixed Income),4.12
+Dividends,Data,USD,2022-09-29,DON(US97717W5058) Cash Dividend USD 0.12 per Share (Ordinary Dividend),7.2
+Dividends,Data,USD,2022-09-30,IJS(US4642878791) Cash Dividend USD 0.510586 per Share (Ordinary Dividend),10.21
+Dividends,Data,USD,2022-09-30,ISCV(US4642887032) Cash Dividend USD 0.341535 per Share (Ordinary Dividend),27.32
+Dividends,Data,USD,2022-10-28,DON(US97717W5058) Cash Dividend USD 0.05 per Share (Ordinary Dividend),3
+Dividends,Data,USD,2022-11-29,DON(US97717W5058) Cash Dividend USD 0.15 per Share (Ordinary Dividend),9
+Dividends,Data,USD,2022-12-12,SCHC(US8085248883) Cash Dividend USD 0.5605 per Share (Ordinary Dividend),16.82
+Dividends,Data,USD,2022-12-12,SCHE(US8085247067) Cash Dividend USD 0.6052 per Share (Ordinary Dividend),21.18
+Dividends,Data,USD,2022-12-19,IEMG(US46434G1031) Cash Dividend USD 0.658887 per Share (Ordinary Dividend),13.18
+Dividends,Data,USD,2022-12-19,IJS(US4642878791) Cash Dividend USD 0.257752 per Share (Ordinary Dividend),5.16
+Dividends,Data,USD,2022-12-19,ISCV(US4642887032) Payment in Lieu of Dividend (Ordinary Dividend),3.33
+Dividends,Data,USD,2022-12-19,ISCV(US4642887032) Cash Dividend USD 0.33273 per Share (Ordinary Dividend),23.29
+Dividends,Data,USD,2022-12-20,AVDV(US0250728021) Payment in Lieu of Dividend (Ordinary Dividend),11.41
+Dividends,Data,USD,2022-12-20,AVDV(US0250728021) Cash Dividend USD 0.7604 per Share (Ordinary Dividend),64.63
+Dividends,Data,USD,2022-12-22,FLLA(US35473P5614) Cash Dividend USD 1.075421 per Share (Ordinary Dividend),25.81
+Dividends,Data,USD,2022-12-22,VLU(US78464A1280) Cash Dividend USD 0.785013 per Share (Ordinary Dividend),0.79
+Dividends,Data,USD,2022-12-22,VLU(US78464A1280) Payment in Lieu of Dividend (Ordinary Dividend),22.77
+Dividends,Data,USD,2022-12-22,VWO(US9220428588) Cash Dividend USD 0.6347 per Share (Ordinary Dividend),15.87
+Dividends,Data,USD,2022-12-23,DFAE(US25434V3024) Payment in Lieu of Dividend (Ordinary Dividend),0.64
+Dividends,Data,USD,2022-12-23,DFAE(US25434V3024) Cash Dividend USD 0.160327 per Share (Ordinary Dividend),2.4
+Dividends,Data,USD,2022-12-23,DFAI(US25434V2034) Cash Dividend USD 0.1332 per Share (Ordinary Dividend),2.93
+Dividends,Data,USD,2022-12-23,DFAS(US25434V5003) Cash Dividend USD 0.177755 per Share (Ordinary Dividend),1.96
+Dividends,Data,USD,2022-12-23,DFAT(US25434V6092) Payment in Lieu of Dividend (Ordinary Dividend),11.9
+Dividends,Data,USD,2022-12-23,DFIV(US25434V8072) Cash Dividend USD 0.294642 per Share (Ordinary Dividend),8.54
+Dividends,Data,USD,2022-12-23,DFUS(US25434V4014) Payment in Lieu of Dividend (Ordinary Dividend),0.96
+Dividends,Data,USD,2022-12-23,DFUS(US25434V4014) Cash Dividend USD 0.191819 per Share (Ordinary Dividend),3.26
+Dividends,Data,USD,2022-12-23,EQAL(US46138E4200) Cash Dividend USD 0.16045 per Share (Ordinary Dividend),1.93
+Dividends,Data,USD,2022-12-28,RODE(US5184166073) Cash Dividend USD 0.65 per Share (Ordinary Dividend),23.4
+Dividends,Data,USD,2022-12-28,RODM(US5184161025) Cash Dividend USD 0.236317 per Share (Ordinary Dividend),18.91
+Dividends,Data,USD,2022-12-28,VAPX(IE00B9F5YL18) Cash Dividend USD 0.140532 per Share (Mixed Income),70.27
+Dividends,Data,USD,2022-12-28,VBR(US9229086114) Payment in Lieu of Dividend (Ordinary Dividend),7.83
+Dividends,Data,USD,2022-12-28,VHYD(IE00B8GKDB10) Cash Dividend USD 0.413146 per Share (Mixed Income),41.31
+Dividends,Data,USD,2022-12-28,VJPN(IE00B95PGT31) Cash Dividend USD 0.232417 per Share (Mixed Income),23.24
+Dividends,Data,USD,2022-12-29,DON(US97717W5058) Cash Dividend USD 0.19594 per Share (Ordinary Dividend),11.76
+Dividends,Data,USD,2022-12-29,SPEM(US78463X5095) Cash Dividend USD 0.653928 per Share (Ordinary Dividend),19.62
+Dividends,Data,USD,2022-12-30,IWVU(IE00BFYTYS33) Cash Dividend USD 0.0602 per Share (Mixed Income),36.12
+Dividends,Data,USD,2023-01-06,IQIN(US45409B3621) Cash Dividend USD 0.33687 per Share (Ordinary Dividend),11.45
+Dividends,Data,USD,2023-01-25,EUNI(IE00B3F81G20) Cash Dividend USD 1.0282 per Share (Mixed Income),51.41
+Dividends,Data,USD,2023-01-30,DON(US97717W5058) Cash Dividend USD 0.005 per Share (Ordinary Dividend),0.3
+Dividends,Data,Total,,,1578.27
+Dividends,Data,Total in EUR,,,1528.4630218
+Dividends,Data,Total Dividends in EUR,,,1947.6456218
+Withholding Tax,Header,Currency,Date,Description,Amount,Code
+Withholding Tax,Data,USD,2022-05-27,DON(US97717W5058) Cash Dividend USD 0.085 per Share - US Tax,-0.76,
+Withholding Tax,Data,USD,2022-05-27,DON(US97717W5058) Cash Dividend USD 0.085 per Share - US Tax,0.76,
+Withholding Tax,Data,USD,2022-05-27,DON(US97717W5058) Cash Dividend USD 0.085 per Share - US Tax,-0.77,
+Withholding Tax,Data,USD,2022-06-15,IEMG(US46434G1031) Cash Dividend USD 0.604409 per Share - US Tax,-1.81,
+Withholding Tax,Data,USD,2022-06-15,IJS(US4642878791) Cash Dividend USD 0.283479 per Share - US Tax,-0.85,
+Withholding Tax,Data,USD,2022-06-15,ISCV(US4642887032) Cash Dividend USD 0.208317 per Share - US Tax,-2.5,
+Withholding Tax,Data,USD,2022-06-24,AVDV(US0250728021) Cash Dividend USD 0.9936 per Share - US Tax,-14.9,
+Withholding Tax,Data,USD,2022-06-24,VLU(US78464A1280) Payment in Lieu of Dividend - US Tax,-3.53,
+Withholding Tax,Data,USD,2022-06-24,VWO(US9220428588) Cash Dividend USD 0.3057 per Share - US Tax,-1.15,
+Withholding Tax,Data,USD,2022-06-27,DFAE(US25434V3024) Payment in Lieu of Dividend - US Tax,-0.37,
+Withholding Tax,Data,USD,2022-06-27,DFAI(US25434V2034) Cash Dividend USD 0.328826 per Share - US Tax,-1.08,
+Withholding Tax,Data,USD,2022-06-27,DFAS(US25434V5003) Cash Dividend USD 0.138307 per Share - US Tax,-0.23,
+Withholding Tax,Data,USD,2022-06-27,DFAT(US25434V6092) Cash Dividend USD 0.170814 per Share - US Tax,-1.61,
+Withholding Tax,Data,USD,2022-06-27,DFAT(US25434V6092) Payment in Lieu of Dividend - US Tax,-0.13,
+Withholding Tax,Data,USD,2022-06-27,DFIV(US25434V8072) Cash Dividend USD 0.670392 per Share - US Tax,-2.92,
+Withholding Tax,Data,USD,2022-06-27,DFUS(US25434V4014) Cash Dividend USD 0.153626 per Share - US Tax,-0.51,
+Withholding Tax,Data,USD,2022-06-27,SCHE(US8085247067) Cash Dividend USD 0.0754 per Share - US Tax,-0.4,
+Withholding Tax,Data,USD,2022-06-28,FLLA(US35473P5614) Payment in Lieu of Dividend - US Tax,-2.88,
+Withholding Tax,Data,USD,2022-06-28,IQIN(US45409B3621) Cash Dividend USD 0.66507 per Share - US Tax,-3.39,
+Withholding Tax,Data,USD,2022-06-28,SPEM(US78463X5095) Cash Dividend USD 0.458517 per Share - US Tax,-2.06,
+Withholding Tax,Data,USD,2022-06-28,VBR(US9229086114) Cash Dividend USD 0.7123 per Share - US Tax,-0.75,
+Withholding Tax,Data,USD,2022-06-29,DON(US97717W5058) Cash Dividend USD 0.15 per Share - US Tax,-1.35,
+Withholding Tax,Data,USD,2022-06-30,EQAL(US46138E4200) Cash Dividend USD 0.20499 per Share - US Tax,-0.37,
+Withholding Tax,Data,USD,2022-06-30,RODE(US5184166073) Cash Dividend USD 0.225909 per Share - US Tax,-1.22,
+Withholding Tax,Data,USD,2022-06-30,RODM(US5184161025) Cash Dividend USD 0.708696 per Share - US Tax,-8.51,
+Withholding Tax,Data,USD,2022-07-28,DON(US97717W5058) Cash Dividend USD 0.06 per Share - US Tax,-0.54,
+Withholding Tax,Data,USD,2022-08-30,DON(US97717W5058) Cash Dividend USD 0.12 per Share - US Tax,-1.08,
+Withholding Tax,Data,USD,2022-09-22,VLU(US78464A1280) Cash Dividend USD 0.768772 per Share - US Tax,-0.12,
+Withholding Tax,Data,USD,2022-09-22,VLU(US78464A1280) Payment in Lieu of Dividend - US Tax,-3.34,
+Withholding Tax,Data,USD,2022-09-22,VWO(US9220428588) Cash Dividend USD 0.5294 per Share - US Tax,-1.99,
+Withholding Tax,Data,USD,2022-09-23,DFAE(US25434V3024) Payment in Lieu of Dividend - US Tax,-0.79,
+Withholding Tax,Data,USD,2022-09-23,DFAI(US25434V2034) Payment in Lieu of Dividend - US Tax,-0.48,
+Withholding Tax,Data,USD,2022-09-23,DFAS(US25434V5003) Cash Dividend USD 0.13452 per Share - US Tax,-0.22,
+Withholding Tax,Data,USD,2022-09-23,DFAT(US25434V6092) Payment in Lieu of Dividend - US Tax,-1.56,
+Withholding Tax,Data,USD,2022-09-23,DFIV(US25434V8072) Cash Dividend USD 0.138517 per Share - US Tax,-0.6,
+Withholding Tax,Data,USD,2022-09-23,DFUS(US25434V4014) Cash Dividend USD 0.15832 per Share - US Tax,-0.52,
+Withholding Tax,Data,USD,2022-09-23,EQAL(US46138E4200) Cash Dividend USD 0.2267 per Share - US Tax,-0.41,
+Withholding Tax,Data,USD,2022-09-28,VBR(US9229086114) Cash Dividend USD 0.7714 per Share - US Tax,-0.81,
+Withholding Tax,Data,USD,2022-09-29,DON(US97717W5058) Cash Dividend USD 0.12 per Share - US Tax,-1.08,
+Withholding Tax,Data,USD,2022-09-30,IJS(US4642878791) Cash Dividend USD 0.510586 per Share - US Tax,-1.53,
+Withholding Tax,Data,USD,2022-09-30,ISCV(US4642887032) Cash Dividend USD 0.341535 per Share - US Tax,-4.1,
+Withholding Tax,Data,USD,2022-10-28,DON(US97717W5058) Cash Dividend USD 0.05 per Share - US Tax,-0.45,
+Withholding Tax,Data,USD,2022-11-29,DON(US97717W5058) Cash Dividend USD 0.15 per Share - US Tax,-1.35,
+Withholding Tax,Data,USD,2022-12-12,SCHC(US8085248883) Cash Dividend USD 0.5605 per Share - US Tax,-2.52,
+Withholding Tax,Data,USD,2022-12-12,SCHE(US8085247067) Cash Dividend USD 0.6052 per Share - US Tax,-3.18,
+Withholding Tax,Data,USD,2022-12-19,IEMG(US46434G1031) Cash Dividend USD 0.658887 per Share - US Tax,-1.98,
+Withholding Tax,Data,USD,2022-12-19,IJS(US4642878791) Cash Dividend USD 0.257752 per Share - US Tax,-0.77,
+Withholding Tax,Data,USD,2022-12-19,ISCV(US4642887032) Payment in Lieu of Dividend - US Tax,-0.5,
+Withholding Tax,Data,USD,2022-12-19,ISCV(US4642887032) Cash Dividend USD 0.33273 per Share - US Tax,-3.49,
+Withholding Tax,Data,USD,2022-12-20,AVDV(US0250728021) Payment in Lieu of Dividend - US Tax,-1.71,
+Withholding Tax,Data,USD,2022-12-20,AVDV(US0250728021) Cash Dividend USD 0.7604 per Share - US Tax,-9.69,
+Withholding Tax,Data,USD,2022-12-22,FLLA(US35473P5614) Cash Dividend USD 1.075421 per Share - US Tax,-3.87,
+Withholding Tax,Data,USD,2022-12-22,VLU(US78464A1280) Cash Dividend USD 0.785013 per Share - US Tax,-0.12,
+Withholding Tax,Data,USD,2022-12-22,VLU(US78464A1280) Payment in Lieu of Dividend - US Tax,-3.42,
+Withholding Tax,Data,USD,2022-12-22,VWO(US9220428588) Cash Dividend USD 0.6347 per Share - US Tax,-2.38,
+Withholding Tax,Data,USD,2022-12-23,DFAE(US25434V3024) Payment in Lieu of Dividend - US Tax,-0.1,
+Withholding Tax,Data,USD,2022-12-23,DFAE(US25434V3024) Cash Dividend USD 0.160327 per Share - US Tax,-0.36,
+Withholding Tax,Data,USD,2022-12-23,DFAI(US25434V2034) Cash Dividend USD 0.1332 per Share - US Tax,-0.44,
+Withholding Tax,Data,USD,2022-12-23,DFAS(US25434V5003) Cash Dividend USD 0.177755 per Share - US Tax,-0.29,
+Withholding Tax,Data,USD,2022-12-23,DFAT(US25434V6092) Payment in Lieu of Dividend - US Tax,-1.79,
+Withholding Tax,Data,USD,2022-12-23,DFIV(US25434V8072) Cash Dividend USD 0.294642 per Share - US Tax,-1.28,
+Withholding Tax,Data,USD,2022-12-23,DFUS(US25434V4014) Payment in Lieu of Dividend - US Tax,-0.14,
+Withholding Tax,Data,USD,2022-12-23,DFUS(US25434V4014) Cash Dividend USD 0.191819 per Share - US Tax,-0.49,
+Withholding Tax,Data,USD,2022-12-23,EQAL(US46138E4200) Cash Dividend USD 0.16045 per Share - US Tax,-0.29,
+Withholding Tax,Data,USD,2022-12-28,RODE(US5184166073) Cash Dividend USD 0.65 per Share - US Tax,-3.51,
+Withholding Tax,Data,USD,2022-12-28,RODM(US5184161025) Cash Dividend USD 0.236317 per Share - US Tax,-2.84,
+Withholding Tax,Data,USD,2022-12-28,VBR(US9229086114) Payment in Lieu of Dividend - US Tax,-1.17,
+Withholding Tax,Data,USD,2022-12-29,DON(US97717W5058) Cash Dividend USD 0.19594 per Share - US Tax,-1.76,
+Withholding Tax,Data,USD,2022-12-29,SPEM(US78463X5095) Cash Dividend USD 0.653928 per Share - US Tax,-2.94,
+Withholding Tax,Data,USD,2023-01-06,IQIN(US45409B3621) Cash Dividend USD 0.33687 per Share - US Tax,-1.72,
+Withholding Tax,Data,USD,2023-01-30,DON(US97717W5058) Cash Dividend USD 0.005 per Share - US Tax,-0.05,
+Withholding Tax,Data,Total,,,-127.06,
+Withholding Tax,Data,Total in EUR,,,-121.6918263,
+Interest,Header,Currency,Date,Description,Amount
+Interest,Data,EUR,2022-06-03,EUR Debit Interest for May-2022,-0.64
+Interest,Data,EUR,2022-07-06,EUR Debit Interest for Jun-2022,-2.42
+Interest,Data,EUR,2022-08-03,EUR Debit Interest for Jul-2022,-1.74
+Interest,Data,EUR,2022-09-06,EUR Debit Interest for Aug-2022,-5.71
+Interest,Data,EUR,2022-10-05,EUR Debit Interest for Sep-2022,-11.28
+Interest,Data,EUR,2022-11-03,EUR Debit Interest for Oct-2022,-8.46
+Interest,Data,EUR,2022-12-05,EUR Debit Interest for Nov-2022,-14.27
+Interest,Data,EUR,2023-01-05,EUR Debit Interest for Dec-2022,-13.33
+Interest,Data,EUR,2023-02-03,EUR Debit Interest for Jan-2023,-14.82
+Interest,Data,Total,,,-72.67
+Interest,Data,GBP,2023-01-05,GBP Debit Interest for Dec-2022,-4.54
+Interest,Data,GBP,2023-02-03,GBP Debit Interest for Jan-2023,-8.4
+Interest,Data,Total,,,-12.94
+Interest,Data,Total in EUR,,,-14.520922
+Interest,Data,USD,2022-06-03,USD Debit Interest for May-2022,-1.2
+Interest,Data,USD,2022-07-06,USD Debit Interest for Jun-2022,-4.07
+Interest,Data,USD,2022-08-03,USD Debit Interest for Jul-2022,-10.66
+Interest,Data,USD,2022-09-06,USD Debit Interest for Aug-2022,-17.34
+Interest,Data,USD,2022-10-05,USD Debit Interest for Sep-2022,-17.57
+Interest,Data,USD,2022-11-03,USD Debit Interest for Oct-2022,-27.87
+Interest,Data,USD,2022-12-05,USD Debit Interest for Nov-2022,-32.1
+Interest,Data,USD,2023-01-05,USD Debit Interest for Dec-2022,-34.92
+Interest,Data,USD,2023-02-03,USD Debit Interest for Jan-2023,-34.65
+Interest,Data,Total,,,-180.38
+Interest,Data,Total in EUR,,,-175.3503209
+Interest,Data,Total Interest in EUR,,,-262.5412429
+Interest Accruals,Header,Currency,Field Name,Field Value
+Interest Accruals,Data,Base Currency Summary,Starting Accrual Balance,0
+Interest Accruals,Data,Base Currency Summary,Interest Accrued,-272.0424455
+Interest Accruals,Data,Base Currency Summary,Accrual Reversal,262.5412429
+Interest Accruals,Data,Base Currency Summary,FX Translation,0.0148484
+Interest Accruals,Data,Base Currency Summary,Ending Accrual Balance,-9.4863542
+Interest Accruals,Data,EUR,Starting Accrual Balance,0
+Interest Accruals,Data,EUR,Interest Accrued,-75.12
+Interest Accruals,Data,EUR,Accrual Reversal,72.67
+Interest Accruals,Data,EUR,Ending Accrual Balance,-2.45
+Interest Accruals,Data,GBP,Starting Accrual Balance,0
+Interest Accruals,Data,GBP,Interest Accrued,-14.41
+Interest Accruals,Data,GBP,Accrual Reversal,12.94
+Interest Accruals,Data,GBP,Ending Accrual Balance,-1.47
+Interest Accruals,Data,GBP,Ending Accrual Balance in EUR,-1.647429
+Interest Accruals,Data,USD,Starting Accrual Balance,0
+Interest Accruals,Data,USD,Interest Accrued,-186.16
+Interest Accruals,Data,USD,Accrual Reversal,180.38
+Interest Accruals,Data,USD,Ending Accrual Balance,-5.78
+Interest Accruals,Data,USD,Ending Accrual Balance in EUR,-5.3889252
+Change in Dividend Accruals,Header,Asset Category,Currency,Symbol,Date,Ex Date,Pay Date,Quantity,Tax,Fee,Gross Rate,Gross Amount,Net Amount,Code
+Change in Dividend Accruals,Data,Starting Dividend Accruals in EUR,,,,,,,,,,,0,
+Change in Dividend Accruals,Data,Stocks,EUR,UEFDd,2022-07-29,2022-08-01,2022-08-04,40,0,0,2.5417,101.67,101.67,Po
+Change in Dividend Accruals,Data,Stocks,EUR,UEFDd,2022-08-04,2022-08-01,2022-08-04,40,0,0,2.5417,-101.67,-101.67,Re
+Change in Dividend Accruals,Data,Stocks,EUR,UEFDd,2023-01-31,2023-02-01,2023-02-06,70,0,0,0.5497,38.48,38.48,Po
+Change in Dividend Accruals,Data,Stocks,EUR,UEFDd,2023-02-06,2023-02-01,2023-02-06,70,0,0,0.5497,-38.48,-38.48,Re
+Change in Dividend Accruals,Data,Stocks,EUR,VERX,2022-06-15,2022-06-16,2022-06-29,50,0,0,0.720226,36.01,36.01,Po
+Change in Dividend Accruals,Data,Stocks,EUR,VERX,2022-06-29,2022-06-16,2022-06-29,50,0,0,0.720226,-36.01,-36.01,Re
+Change in Dividend Accruals,Data,Stocks,EUR,VERX,2022-09-14,2022-09-15,2022-09-28,150,0,0,0.071622,10.74,10.74,Po
+Change in Dividend Accruals,Data,Stocks,EUR,VERX,2022-09-28,2022-09-15,2022-09-28,150,0,0,0.071622,-10.74,-10.74,Re
+Change in Dividend Accruals,Data,Stocks,EUR,VERX,2022-12-14,2022-12-15,2022-12-28,150,0,0,0.100297,15.04,15.04,Po
+Change in Dividend Accruals,Data,Stocks,EUR,VERX,2022-12-28,2022-12-15,2022-12-28,150,0,0,0.100297,-15.04,-15.04,Re
+Change in Dividend Accruals,Data,Stocks,EUR,VGER,2022-06-15,2022-06-16,2022-06-29,221,0,0,0.61861,136.71,136.71,Po
+Change in Dividend Accruals,Data,Stocks,EUR,VGER,2022-06-29,2022-06-16,2022-06-29,221,0,0,0.61861,-136.71,-136.71,Re
+Change in Dividend Accruals,Data,Stocks,EUR,VGER,2022-09-14,2022-09-15,2022-09-28,300,0,0,0.010335,3.1,3.1,Po
+Change in Dividend Accruals,Data,Stocks,EUR,VGER,2022-09-28,2022-09-15,2022-09-28,300,0,0,0.010335,-3.1,-3.1,Re
+Change in Dividend Accruals,Data,Total,,,,,,,0,0,,0,0,
+Change in Dividend Accruals,Data,Stocks,GBP,LCUK,2022-12-06,2022-12-07,2022-12-09,350,0,0,0.19,66.5,66.5,Po
+Change in Dividend Accruals,Data,Stocks,GBP,LCUK,2022-12-09,2022-12-07,2022-12-09,350,0,0,0.19,-66.5,-66.5,Re
+Change in Dividend Accruals,Data,Total,,,,,,,0,0,,0,0,
+Change in Dividend Accruals,Data,Total in EUR,,,,,,,0,0,,-0.15295,-0.15295,
+Change in Dividend Accruals,Data,Stocks,USD,AVDV,2022-06-20,2022-06-21,2022-06-24,100,14.91,0,0.9936,99.36,84.45,Po
+Change in Dividend Accruals,Data,Stocks,USD,AVDV,2022-06-20,2022-06-21,2022-06-24,100,14.9,0,0.9936,99.36,84.46,Po
+Change in Dividend Accruals,Data,Stocks,USD,AVDV,2022-06-20,2022-06-21,2022-06-24,100,-14.91,0,0.9936,-99.36,-84.45,Re
+Change in Dividend Accruals,Data,Stocks,USD,AVDV,2022-06-24,2022-06-21,2022-06-24,100,-14.9,0,0.9936,-99.36,-84.46,Re
+Change in Dividend Accruals,Data,Stocks,USD,AVDV,2022-12-14,2022-12-15,2022-12-20,100,11.41,0,0.7604,76.04,64.63,Po
+Change in Dividend Accruals,Data,Stocks,USD,AVDV,2022-12-14,2022-12-15,2022-12-20,100,11.4,0,0.7604,76.04,64.64,Po
+Change in Dividend Accruals,Data,Stocks,USD,AVDV,2022-12-14,2022-12-15,2022-12-20,100,-11.41,0,0.7604,-76.04,-64.63,Re
+Change in Dividend Accruals,Data,Stocks,USD,AVDV,2022-12-20,2022-12-15,2022-12-20,100,-11.4,0,0.7604,-76.04,-64.64,Re
+Change in Dividend Accruals,Data,Stocks,USD,DFAE,2022-06-21,2022-06-22,2022-06-27,19,0.38,0,0.131068,2.49,2.11,Po
+Change in Dividend Accruals,Data,Stocks,USD,DFAE,2022-06-21,2022-06-22,2022-06-27,19,0.37,0,0.131068,2.49,2.12,Po
+Change in Dividend Accruals,Data,Stocks,USD,DFAE,2022-06-21,2022-06-22,2022-06-27,19,-0.38,0,0.131068,-2.49,-2.11,Re
+Change in Dividend Accruals,Data,Stocks,USD,DFAE,2022-06-27,2022-06-22,2022-06-27,19,-0.37,0,0.131068,-2.49,-2.12,Re
+Change in Dividend Accruals,Data,Stocks,USD,DFAE,2022-09-19,2022-09-20,2022-09-23,19,0.79,0,0.276498,5.25,4.46,Po
+Change in Dividend Accruals,Data,Stocks,USD,DFAE,2022-09-19,2022-09-20,2022-09-23,19,0.78,0,0.276498,5.25,4.47,Po
+Change in Dividend Accruals,Data,Stocks,USD,DFAE,2022-09-19,2022-09-20,2022-09-23,19,0.79,0,0.276498,5.25,4.46,Po
+Change in Dividend Accruals,Data,Stocks,USD,DFAE,2022-09-19,2022-09-20,2022-09-23,19,-0.79,0,0.276498,-5.25,-4.46,Re
+Change in Dividend Accruals,Data,Stocks,USD,DFAE,2022-09-19,2022-09-20,2022-09-23,19,-0.78,0,0.276498,-5.25,-4.47,Re
+Change in Dividend Accruals,Data,Stocks,USD,DFAE,2022-09-23,2022-09-20,2022-09-23,19,-0.79,0,0.276498,-5.25,-4.46,Re
+Change in Dividend Accruals,Data,Stocks,USD,DFAE,2022-12-19,2022-12-20,2022-12-23,19,0.45,0,0.160327,3.05,2.6,Po
+Change in Dividend Accruals,Data,Stocks,USD,DFAE,2022-12-19,2022-12-20,2022-12-23,19,0.46,0,0.160327,3.04,2.58,Po
+Change in Dividend Accruals,Data,Stocks,USD,DFAE,2022-12-19,2022-12-20,2022-12-23,19,-0.45,0,0.160327,-3.05,-2.6,Re
+Change in Dividend Accruals,Data,Stocks,USD,DFAE,2022-12-23,2022-12-20,2022-12-23,19,-0.46,0,0.160327,-3.04,-2.58,Re
+Change in Dividend Accruals,Data,Stocks,USD,DFAI,2022-06-21,2022-06-22,2022-06-27,22,1.09,0,0.328826,7.23,6.14,Po
+Change in Dividend Accruals,Data,Stocks,USD,DFAI,2022-06-21,2022-06-22,2022-06-27,22,1.08,0,0.328826,7.23,6.15,Po
+Change in Dividend Accruals,Data,Stocks,USD,DFAI,2022-06-21,2022-06-22,2022-06-27,22,-1.09,0,0.328826,-7.23,-6.14,Re
+Change in Dividend Accruals,Data,Stocks,USD,DFAI,2022-06-27,2022-06-22,2022-06-27,22,-1.08,0,0.328826,-7.23,-6.15,Re
+Change in Dividend Accruals,Data,Stocks,USD,DFAI,2022-09-19,2022-09-20,2022-09-23,22,0.48,0,0.146327,3.22,2.74,Po
+Change in Dividend Accruals,Data,Stocks,USD,DFAI,2022-09-23,2022-09-20,2022-09-23,22,-0.48,0,0.146327,-3.22,-2.74,Re
+Change in Dividend Accruals,Data,Stocks,USD,DFAI,2022-12-19,2022-12-20,2022-12-23,22,0.44,0,0.1332,2.93,2.49,Po
+Change in Dividend Accruals,Data,Stocks,USD,DFAI,2022-12-23,2022-12-20,2022-12-23,22,-0.44,0,0.1332,-2.93,-2.49,Re
+Change in Dividend Accruals,Data,Stocks,USD,DFAS,2022-06-21,2022-06-22,2022-06-27,11,0.22,0,0.138307,1.52,1.3,Po
+Change in Dividend Accruals,Data,Stocks,USD,DFAS,2022-06-21,2022-06-22,2022-06-27,11,0.23,0,0.138307,1.52,1.29,Po
+Change in Dividend Accruals,Data,Stocks,USD,DFAS,2022-06-21,2022-06-22,2022-06-27,11,-0.22,0,0.138307,-1.52,-1.3,Re
+Change in Dividend Accruals,Data,Stocks,USD,DFAS,2022-06-27,2022-06-22,2022-06-27,11,-0.23,0,0.138307,-1.52,-1.29,Re
+Change in Dividend Accruals,Data,Stocks,USD,DFAS,2022-09-19,2022-09-20,2022-09-23,11,0.22,0,0.13452,1.48,1.26,Po
+Change in Dividend Accruals,Data,Stocks,USD,DFAS,2022-09-23,2022-09-20,2022-09-23,11,-0.22,0,0.13452,-1.48,-1.26,Re
+Change in Dividend Accruals,Data,Stocks,USD,DFAS,2022-12-19,2022-12-20,2022-12-23,11,0.29,0,0.177755,1.96,1.67,Po
+Change in Dividend Accruals,Data,Stocks,USD,DFAS,2022-12-23,2022-12-20,2022-12-23,11,-0.29,0,0.177755,-1.96,-1.67,Re
+Change in Dividend Accruals,Data,Stocks,USD,DFAT,2022-06-21,2022-06-22,2022-06-27,68,1.74,0,0.170814,11.62,9.88,Po
+Change in Dividend Accruals,Data,Stocks,USD,DFAT,2022-06-21,2022-06-22,2022-06-27,68,1.75,0,0.170814,11.62,9.87,Po
+Change in Dividend Accruals,Data,Stocks,USD,DFAT,2022-06-21,2022-06-22,2022-06-27,68,-1.74,0,0.170814,-11.62,-9.88,Re
+Change in Dividend Accruals,Data,Stocks,USD,DFAT,2022-06-27,2022-06-22,2022-06-27,68,-1.74,0,0.170814,-11.61,-9.87,Re
+Change in Dividend Accruals,Data,Stocks,USD,DFAT,2022-09-19,2022-09-20,2022-09-23,68,1.56,0,0.153224,10.42,8.86,Po
+Change in Dividend Accruals,Data,Stocks,USD,DFAT,2022-09-23,2022-09-20,2022-09-23,68,-1.56,0,0.153224,-10.42,-8.86,Re
+Change in Dividend Accruals,Data,Stocks,USD,DFAT,2022-12-19,2022-12-20,2022-12-23,68,1.79,0,0.174998,11.9,10.11,Po
+Change in Dividend Accruals,Data,Stocks,USD,DFAT,2022-12-23,2022-12-20,2022-12-23,68,-1.79,0,0.174998,-11.9,-10.11,Re
+Change in Dividend Accruals,Data,Stocks,USD,DFIV,2022-06-21,2022-06-22,2022-06-27,29,2.91,0,0.670392,19.44,16.53,Po
+Change in Dividend Accruals,Data,Stocks,USD,DFIV,2022-06-21,2022-06-22,2022-06-27,29,2.92,0,0.670392,19.44,16.52,Po
+Change in Dividend Accruals,Data,Stocks,USD,DFIV,2022-06-21,2022-06-22,2022-06-27,29,-2.91,0,0.670392,-19.44,-16.53,Re
+Change in Dividend Accruals,Data,Stocks,USD,DFIV,2022-06-27,2022-06-22,2022-06-27,29,-2.92,0,0.670392,-19.44,-16.52,Re
+Change in Dividend Accruals,Data,Stocks,USD,DFIV,2022-09-19,2022-09-20,2022-09-23,29,0.6,0,0.138517,4.02,3.42,Po
+Change in Dividend Accruals,Data,Stocks,USD,DFIV,2022-09-23,2022-09-20,2022-09-23,29,-0.6,0,0.138517,-4.02,-3.42,Re
+Change in Dividend Accruals,Data,Stocks,USD,DFIV,2022-12-19,2022-12-20,2022-12-23,29,1.28,0,0.294642,8.54,7.26,Po
+Change in Dividend Accruals,Data,Stocks,USD,DFIV,2022-12-23,2022-12-20,2022-12-23,29,-1.28,0,0.294642,-8.54,-7.26,Re
+Change in Dividend Accruals,Data,Stocks,USD,DFUS,2022-06-21,2022-06-22,2022-06-27,22,0.51,0,0.153626,3.38,2.87,Po
+Change in Dividend Accruals,Data,Stocks,USD,DFUS,2022-06-27,2022-06-22,2022-06-27,22,-0.51,0,0.153626,-3.38,-2.87,Re
+Change in Dividend Accruals,Data,Stocks,USD,DFUS,2022-09-19,2022-09-20,2022-09-23,22,0.52,0,0.15832,3.48,2.96,Po
+Change in Dividend Accruals,Data,Stocks,USD,DFUS,2022-09-23,2022-09-20,2022-09-23,22,-0.52,0,0.15832,-3.48,-2.96,Re
+Change in Dividend Accruals,Data,Stocks,USD,DFUS,2022-12-19,2022-12-20,2022-12-23,22,0.63,0,0.191819,4.22,3.59,Po
+Change in Dividend Accruals,Data,Stocks,USD,DFUS,2022-12-23,2022-12-20,2022-12-23,22,-0.63,0,0.191819,-4.22,-3.59,Re
+Change in Dividend Accruals,Data,Stocks,USD,DON,2022-05-23,2022-05-24,2022-05-27,60,0.77,0,0.085,5.11,4.34,Po
+Change in Dividend Accruals,Data,Stocks,USD,DON,2022-05-27,2022-05-24,2022-05-27,60,-0.76,0,0.085,-5.1,-4.34,Re
+Change in Dividend Accruals,Data,Stocks,USD,DON,2022-06-23,2022-06-24,2022-06-29,60,1.35,0,0.15,9,7.65,Po
+Change in Dividend Accruals,Data,Stocks,USD,DON,2022-06-29,2022-06-24,2022-06-29,60,-1.35,0,0.15,-9,-7.65,Re
+Change in Dividend Accruals,Data,Stocks,USD,DON,2022-07-22,2022-07-25,2022-07-28,60,0.54,0,0.06,3.6,3.06,Po
+Change in Dividend Accruals,Data,Stocks,USD,DON,2022-07-28,2022-07-25,2022-07-28,60,-0.54,0,0.06,-3.6,-3.06,Re
+Change in Dividend Accruals,Data,Stocks,USD,DON,2022-08-24,2022-08-25,2022-08-30,60,1.08,0,0.12,7.2,6.12,Po
+Change in Dividend Accruals,Data,Stocks,USD,DON,2022-08-30,2022-08-25,2022-08-30,60,-1.08,0,0.12,-7.2,-6.12,Re
+Change in Dividend Accruals,Data,Stocks,USD,DON,2022-09-23,2022-09-26,2022-09-29,60,1.08,0,0.12,7.2,6.12,Po
+Change in Dividend Accruals,Data,Stocks,USD,DON,2022-09-29,2022-09-26,2022-09-29,60,-1.08,0,0.12,-7.2,-6.12,Re
+Change in Dividend Accruals,Data,Stocks,USD,DON,2022-10-24,2022-10-25,2022-10-28,60,0.45,0,0.05,3,2.55,Po
+Change in Dividend Accruals,Data,Stocks,USD,DON,2022-10-28,2022-10-25,2022-10-28,60,-0.45,0,0.05,-3,-2.55,Re
+Change in Dividend Accruals,Data,Stocks,USD,DON,2022-11-22,2022-11-23,2022-11-29,60,1.35,0,0.15,9,7.65,Po
+Change in Dividend Accruals,Data,Stocks,USD,DON,2022-11-29,2022-11-23,2022-11-29,60,-1.35,0,0.15,-9,-7.65,Re
+Change in Dividend Accruals,Data,Stocks,USD,DON,2022-12-22,2022-12-23,2022-12-29,60,1.76,0,0.19594,11.76,10,Po
+Change in Dividend Accruals,Data,Stocks,USD,DON,2022-12-22,2022-12-23,2022-12-29,60,1.77,0,0.19594,11.76,9.99,Po
+Change in Dividend Accruals,Data,Stocks,USD,DON,2022-12-22,2022-12-23,2022-12-29,60,1.76,0,0.19594,11.76,10,Po
+Change in Dividend Accruals,Data,Stocks,USD,DON,2022-12-22,2022-12-23,2022-12-29,60,-1.76,0,0.19594,-11.76,-10,Re
+Change in Dividend Accruals,Data,Stocks,USD,DON,2022-12-22,2022-12-23,2022-12-29,60,-1.77,0,0.19594,-11.76,-9.99,Re
+Change in Dividend Accruals,Data,Stocks,USD,DON,2022-12-29,2022-12-23,2022-12-29,60,-1.76,0,0.19594,-11.76,-10,Re
+Change in Dividend Accruals,Data,Stocks,USD,DON,2023-01-24,2023-01-25,2023-01-30,60,0.05,0,0.005,0.3,0.25,Po
+Change in Dividend Accruals,Data,Stocks,USD,DON,2023-01-30,2023-01-25,2023-01-30,60,-0.05,0,0.005,-0.3,-0.25,Re
+Change in Dividend Accruals,Data,Stocks,USD,EQAL,2022-06-20,2022-06-21,2022-06-30,12,0.37,0,0.20499,2.45,2.08,Po
+Change in Dividend Accruals,Data,Stocks,USD,EQAL,2022-06-20,2022-06-21,2022-06-30,12,0.37,0,0.20499,2.46,2.09,Po
+Change in Dividend Accruals,Data,Stocks,USD,EQAL,2022-06-20,2022-06-21,2022-06-30,12,-0.37,0,0.20499,-2.45,-2.08,Re
+Change in Dividend Accruals,Data,Stocks,USD,EQAL,2022-06-30,2022-06-21,2022-06-30,12,-0.37,0,0.20499,-2.46,-2.09,Re
+Change in Dividend Accruals,Data,Stocks,USD,EQAL,2022-09-16,2022-09-19,2022-09-23,12,0.41,0,0.2267,2.72,2.31,Po
+Change in Dividend Accruals,Data,Stocks,USD,EQAL,2022-09-23,2022-09-19,2022-09-23,12,-0.41,0,0.2267,-2.72,-2.31,Re
+Change in Dividend Accruals,Data,Stocks,USD,EQAL,2022-12-16,2022-12-19,2022-12-23,12,0.29,0,0.16045,1.92,1.63,Po
+Change in Dividend Accruals,Data,Stocks,USD,EQAL,2022-12-16,2022-12-19,2022-12-23,12,0.29,0,0.16045,1.93,1.64,Po
+Change in Dividend Accruals,Data,Stocks,USD,EQAL,2022-12-16,2022-12-19,2022-12-23,12,-0.29,0,0.16045,-1.92,-1.63,Re
+Change in Dividend Accruals,Data,Stocks,USD,EQAL,2022-12-23,2022-12-19,2022-12-23,12,-0.29,0,0.16045,-1.93,-1.64,Re
+Change in Dividend Accruals,Data,Stocks,USD,EUNI,2022-07-13,2022-07-14,2022-07-27,50,0,0,0.8923,44.61,44.61,Po
+Change in Dividend Accruals,Data,Stocks,USD,EUNI,2022-07-27,2022-07-14,2022-07-27,50,0,0,0.8923,-44.61,-44.61,Re
+Change in Dividend Accruals,Data,Stocks,USD,EUNI,2023-01-11,2023-01-12,2023-01-25,50,0,0,1.0282,51.41,51.41,Po
+Change in Dividend Accruals,Data,Stocks,USD,EUNI,2023-01-25,2023-01-12,2023-01-25,50,0,0,1.0282,-51.41,-51.41,Re
+Change in Dividend Accruals,Data,Stocks,USD,FLLA,2022-06-16,2022-06-17,2022-06-28,24,2.88,0,0.799003,19.18,16.3,Po
+Change in Dividend Accruals,Data,Stocks,USD,FLLA,2022-06-16,2022-06-17,2022-06-28,24,2.88,0,0.799003,19.17,16.29,Po
+Change in Dividend Accruals,Data,Stocks,USD,FLLA,2022-06-16,2022-06-17,2022-06-28,24,2.88,0,0.799003,19.18,16.3,Po
+Change in Dividend Accruals,Data,Stocks,USD,FLLA,2022-06-16,2022-06-17,2022-06-28,24,-2.88,0,0.799003,-19.18,-16.3,Re
+Change in Dividend Accruals,Data,Stocks,USD,FLLA,2022-06-16,2022-06-17,2022-06-28,24,-2.88,0,0.799003,-19.17,-16.29,Re
+Change in Dividend Accruals,Data,Stocks,USD,FLLA,2022-06-28,2022-06-17,2022-06-28,24,-2.88,0,0.799003,-19.18,-16.3,Re
+Change in Dividend Accruals,Data,Stocks,USD,FLLA,2022-12-15,2022-12-16,2022-12-22,24,3.87,0,1.075421,25.81,21.94,Po
+Change in Dividend Accruals,Data,Stocks,USD,FLLA,2022-12-22,2022-12-16,2022-12-22,24,-3.87,0,1.075421,-25.81,-21.94,Re
+Change in Dividend Accruals,Data,Stocks,USD,IBC3,2022-09-14,2022-09-15,2022-09-28,1400,0,0,0.0901,126.14,126.14,Po
+Change in Dividend Accruals,Data,Stocks,USD,IBC3,2022-09-28,2022-09-15,2022-09-28,1400,0,0,0.0901,-126.14,-126.14,Re
+Change in Dividend Accruals,Data,Stocks,USD,IEMG,2022-06-08,2022-06-09,2022-06-15,20,1.81,0,0.604409,12.09,10.28,Po
+Change in Dividend Accruals,Data,Stocks,USD,IEMG,2022-06-15,2022-06-09,2022-06-15,20,-1.81,0,0.604409,-12.09,-10.28,Re
+Change in Dividend Accruals,Data,Stocks,USD,IEMG,2022-12-12,2022-12-13,2022-12-19,20,1.98,0,0.658887,13.18,11.2,Po
+Change in Dividend Accruals,Data,Stocks,USD,IEMG,2022-12-19,2022-12-13,2022-12-19,20,-1.98,0,0.658887,-13.18,-11.2,Re
+Change in Dividend Accruals,Data,Stocks,USD,IJS,2022-06-08,2022-06-09,2022-06-15,20,0.85,0,0.283479,5.67,4.82,Po
+Change in Dividend Accruals,Data,Stocks,USD,IJS,2022-06-15,2022-06-09,2022-06-15,20,-0.85,0,0.283479,-5.67,-4.82,Re
+Change in Dividend Accruals,Data,Stocks,USD,IJS,2022-09-23,2022-09-26,2022-09-30,20,1.53,0,0.510586,10.21,8.68,Po
+Change in Dividend Accruals,Data,Stocks,USD,IJS,2022-09-30,2022-09-26,2022-09-30,20,-1.53,0,0.510586,-10.21,-8.68,Re
+Change in Dividend Accruals,Data,Stocks,USD,IJS,2022-12-12,2022-12-13,2022-12-19,20,0.77,0,0.257752,5.15,4.38,Po
+Change in Dividend Accruals,Data,Stocks,USD,IJS,2022-12-12,2022-12-13,2022-12-19,20,0.77,0,0.257752,5.16,4.39,Po
+Change in Dividend Accruals,Data,Stocks,USD,IJS,2022-12-12,2022-12-13,2022-12-19,20,-0.77,0,0.257752,-5.15,-4.38,Re
+Change in Dividend Accruals,Data,Stocks,USD,IJS,2022-12-19,2022-12-13,2022-12-19,20,-0.77,0,0.257752,-5.16,-4.39,Re
+Change in Dividend Accruals,Data,Stocks,USD,IQIN,2022-06-21,2022-06-22,2022-06-28,34,3.39,0,0.66507,22.62,19.23,Po
+Change in Dividend Accruals,Data,Stocks,USD,IQIN,2022-06-21,2022-06-22,2022-06-28,34,3.39,0,0.66507,22.61,19.22,Po
+Change in Dividend Accruals,Data,Stocks,USD,IQIN,2022-06-21,2022-06-22,2022-06-28,34,-3.39,0,0.66507,-22.62,-19.23,Re
+Change in Dividend Accruals,Data,Stocks,USD,IQIN,2022-06-28,2022-06-22,2022-06-28,34,-3.39,0,0.66507,-22.61,-19.22,Re
+Change in Dividend Accruals,Data,Stocks,USD,IQIN,2022-12-28,2022-12-29,2023-01-06,34,1.72,0,0.33687,11.46,9.74,Po
+Change in Dividend Accruals,Data,Stocks,USD,IQIN,2022-12-28,2022-12-29,2023-01-06,34,1.72,0,0.33687,11.45,9.73,Po
+Change in Dividend Accruals,Data,Stocks,USD,IQIN,2022-12-28,2022-12-29,2023-01-06,34,-1.72,0,0.33687,-11.46,-9.74,Re
+Change in Dividend Accruals,Data,Stocks,USD,IQIN,2023-01-06,2022-12-29,2023-01-06,34,-1.72,0,0.33687,-11.45,-9.73,Re
+Change in Dividend Accruals,Data,Stocks,USD,ISCV,2022-06-08,2022-06-09,2022-06-15,80,2.5,0,0.208317,16.67,14.17,Po
+Change in Dividend Accruals,Data,Stocks,USD,ISCV,2022-06-15,2022-06-09,2022-06-15,80,-2.5,0,0.208317,-16.67,-14.17,Re
+Change in Dividend Accruals,Data,Stocks,USD,ISCV,2022-09-23,2022-09-26,2022-09-30,80,4.1,0,0.341535,27.32,23.22,Po
+Change in Dividend Accruals,Data,Stocks,USD,ISCV,2022-09-30,2022-09-26,2022-09-30,80,-4.1,0,0.341535,-27.32,-23.22,Re
+Change in Dividend Accruals,Data,Stocks,USD,ISCV,2022-12-12,2022-12-13,2022-12-19,80,3.99,0,0.33273,26.62,22.63,Po
+Change in Dividend Accruals,Data,Stocks,USD,ISCV,2022-12-19,2022-12-13,2022-12-19,80,-3.99,0,0.33273,-26.62,-22.63,Re
+Change in Dividend Accruals,Data,Stocks,USD,IWVU,2022-12-14,2022-12-15,2022-12-30,600,0,0,0.0602,36.12,36.12,Po
+Change in Dividend Accruals,Data,Stocks,USD,IWVU,2022-12-30,2022-12-15,2022-12-30,600,0,0,0.0602,-36.12,-36.12,Re
+Change in Dividend Accruals,Data,Stocks,USD,RODE,2022-06-24,2022-06-27,2022-06-30,36,1.22,0,0.225909,8.13,6.91,Po
+Change in Dividend Accruals,Data,Stocks,USD,RODE,2022-06-30,2022-06-27,2022-06-30,36,-1.22,0,0.225909,-8.13,-6.91,Re
+Change in Dividend Accruals,Data,Stocks,USD,RODE,2022-12-21,2022-12-22,2022-12-28,36,3.51,0,0.65,23.4,19.89,Po
+Change in Dividend Accruals,Data,Stocks,USD,RODE,2022-12-28,2022-12-22,2022-12-28,36,-3.51,0,0.65,-23.4,-19.89,Re
+Change in Dividend Accruals,Data,Stocks,USD,RODM,2022-06-24,2022-06-27,2022-06-30,80,8.5,0,0.708696,56.69,48.19,Po
+Change in Dividend Accruals,Data,Stocks,USD,RODM,2022-06-30,2022-06-27,2022-06-30,80,-8.51,0,0.708696,-56.7,-48.19,Re
+Change in Dividend Accruals,Data,Stocks,USD,RODM,2022-12-21,2022-12-22,2022-12-28,80,2.83,0,0.236317,18.9,16.07,Po
+Change in Dividend Accruals,Data,Stocks,USD,RODM,2022-12-28,2022-12-22,2022-12-28,80,-2.84,0,0.236317,-18.91,-16.07,Re
+Change in Dividend Accruals,Data,Stocks,USD,SCHC,2022-12-06,2022-12-07,2022-12-12,30,2.52,0,0.5605,16.82,14.3,Po
+Change in Dividend Accruals,Data,Stocks,USD,SCHC,2022-12-12,2022-12-07,2022-12-12,30,-2.52,0,0.5605,-16.82,-14.3,Re
+Change in Dividend Accruals,Data,Stocks,USD,SCHE,2022-06-21,2022-06-22,2022-06-27,35,0.4,0,0.0754,2.64,2.24,Po
+Change in Dividend Accruals,Data,Stocks,USD,SCHE,2022-06-27,2022-06-22,2022-06-27,35,-0.4,0,0.0754,-2.64,-2.24,Re
+Change in Dividend Accruals,Data,Stocks,USD,SCHE,2022-12-06,2022-12-07,2022-12-12,35,3.18,0,0.6052,21.19,18.01,Po
+Change in Dividend Accruals,Data,Stocks,USD,SCHE,2022-12-06,2022-12-07,2022-12-12,35,3.18,0,0.6052,21.18,18,Po
+Change in Dividend Accruals,Data,Stocks,USD,SCHE,2022-12-06,2022-12-07,2022-12-12,35,-3.18,0,0.6052,-21.19,-18.01,Re
+Change in Dividend Accruals,Data,Stocks,USD,SCHE,2022-12-12,2022-12-07,2022-12-12,35,-3.18,0,0.6052,-21.18,-18,Re
+Change in Dividend Accruals,Data,Stocks,USD,SPEM,2022-06-20,2022-06-21,2022-06-28,30,2.07,0,0.458517,13.75,11.68,Po
+Change in Dividend Accruals,Data,Stocks,USD,SPEM,2022-06-20,2022-06-21,2022-06-28,30,2.06,0,0.458517,13.76,11.7,Po
+Change in Dividend Accruals,Data,Stocks,USD,SPEM,2022-06-20,2022-06-21,2022-06-28,30,-2.07,0,0.458517,-13.75,-11.68,Re
+Change in Dividend Accruals,Data,Stocks,USD,SPEM,2022-06-28,2022-06-21,2022-06-28,30,-2.06,0,0.458517,-13.76,-11.7,Re
+Change in Dividend Accruals,Data,Stocks,USD,SPEM,2022-12-19,2022-12-20,2022-12-29,30,2.94,0,0.653928,19.62,16.68,Po
+Change in Dividend Accruals,Data,Stocks,USD,SPEM,2022-12-29,2022-12-20,2022-12-29,30,-2.94,0,0.653928,-19.62,-16.68,Re
+Change in Dividend Accruals,Data,Stocks,USD,VAPX,2022-06-15,2022-06-16,2022-06-29,296,0,0,0.375291,111.09,111.09,Po
+Change in Dividend Accruals,Data,Stocks,USD,VAPX,2022-06-29,2022-06-16,2022-06-29,296,0,0,0.375291,-111.09,-111.09,Re
+Change in Dividend Accruals,Data,Stocks,USD,VAPX,2022-09-14,2022-09-15,2022-09-28,500,0,0,0.274002,137,137,Po
+Change in Dividend Accruals,Data,Stocks,USD,VAPX,2022-09-28,2022-09-15,2022-09-28,500,0,0,0.274002,-137,-137,Re
+Change in Dividend Accruals,Data,Stocks,USD,VAPX,2022-12-14,2022-12-15,2022-12-28,500,0,0,0.140532,70.27,70.27,Po
+Change in Dividend Accruals,Data,Stocks,USD,VAPX,2022-12-28,2022-12-15,2022-12-28,500,0,0,0.140532,-70.27,-70.27,Re
+Change in Dividend Accruals,Data,Stocks,USD,VBR,2022-06-22,2022-06-23,2022-06-28,7,0.75,0,0.7123,4.98,4.23,Po
+Change in Dividend Accruals,Data,Stocks,USD,VBR,2022-06-22,2022-06-23,2022-06-28,7,0.75,0,0.7123,4.99,4.24,Po
+Change in Dividend Accruals,Data,Stocks,USD,VBR,2022-06-22,2022-06-23,2022-06-28,7,-0.75,0,0.7123,-4.98,-4.23,Re
+Change in Dividend Accruals,Data,Stocks,USD,VBR,2022-06-28,2022-06-23,2022-06-28,7,-0.75,0,0.7123,-4.99,-4.24,Re
+Change in Dividend Accruals,Data,Stocks,USD,VBR,2022-09-22,2022-09-23,2022-09-28,7,0.81,0,0.7714,5.4,4.59,Po
+Change in Dividend Accruals,Data,Stocks,USD,VBR,2022-09-28,2022-09-23,2022-09-28,7,-0.81,0,0.7714,-5.4,-4.59,Re
+Change in Dividend Accruals,Data,Stocks,USD,VBR,2022-12-21,2022-12-22,2022-12-28,7,1.18,0,1.119,7.84,6.66,Po
+Change in Dividend Accruals,Data,Stocks,USD,VBR,2022-12-28,2022-12-22,2022-12-28,7,-1.17,0,1.119,-7.83,-6.66,Re
+Change in Dividend Accruals,Data,Stocks,USD,VHYD,2022-06-15,2022-06-16,2022-06-29,40,0,0,0.912499,36.5,36.5,Po
+Change in Dividend Accruals,Data,Stocks,USD,VHYD,2022-06-29,2022-06-16,2022-06-29,40,0,0,0.912499,-36.5,-36.5,Re
+Change in Dividend Accruals,Data,Stocks,USD,VHYD,2022-09-14,2022-09-15,2022-09-28,100,0,0,0.493778,49.38,49.38,Po
+Change in Dividend Accruals,Data,Stocks,USD,VHYD,2022-09-28,2022-09-15,2022-09-28,100,0,0,0.493778,-49.38,-49.38,Re
+Change in Dividend Accruals,Data,Stocks,USD,VHYD,2022-12-14,2022-12-15,2022-12-28,100,0,0,0.413146,41.31,41.31,Po
+Change in Dividend Accruals,Data,Stocks,USD,VHYD,2022-12-28,2022-12-15,2022-12-28,100,0,0,0.413146,-41.31,-41.31,Re
+Change in Dividend Accruals,Data,Stocks,USD,VJPN,2022-09-14,2022-09-15,2022-09-28,100,0,0,0.041201,4.12,4.12,Po
+Change in Dividend Accruals,Data,Stocks,USD,VJPN,2022-09-28,2022-09-15,2022-09-28,100,0,0,0.041201,-4.12,-4.12,Re
+Change in Dividend Accruals,Data,Stocks,USD,VJPN,2022-12-14,2022-12-15,2022-12-28,100,0,0,0.232417,23.24,23.24,Po
+Change in Dividend Accruals,Data,Stocks,USD,VJPN,2022-12-28,2022-12-15,2022-12-28,100,0,0,0.232417,-23.24,-23.24,Re
+Change in Dividend Accruals,Data,Stocks,USD,VLU,2022-06-20,2022-06-21,2022-06-24,30,3.53,0,0.785402,23.56,20.03,Po
+Change in Dividend Accruals,Data,Stocks,USD,VLU,2022-06-24,2022-06-21,2022-06-24,30,-3.53,0,0.785402,-23.56,-20.03,Re
+Change in Dividend Accruals,Data,Stocks,USD,VLU,2022-09-16,2022-09-19,2022-09-22,30,3.46,0,0.768772,23.06,19.6,Po
+Change in Dividend Accruals,Data,Stocks,USD,VLU,2022-09-22,2022-09-19,2022-09-22,30,-3.46,0,0.768772,-23.06,-19.6,Re
+Change in Dividend Accruals,Data,Stocks,USD,VLU,2022-12-16,2022-12-19,2022-12-22,30,3.53,0,0.785013,23.55,20.02,Po
+Change in Dividend Accruals,Data,Stocks,USD,VLU,2022-12-22,2022-12-19,2022-12-22,30,-3.54,0,0.785013,-23.56,-20.02,Re
+Change in Dividend Accruals,Data,Stocks,USD,VWO,2022-06-20,2022-06-21,2022-06-24,25,1.15,0,0.3057,7.65,6.5,Po
+Change in Dividend Accruals,Data,Stocks,USD,VWO,2022-06-20,2022-06-21,2022-06-24,25,1.15,0,0.3057,7.64,6.49,Po
+Change in Dividend Accruals,Data,Stocks,USD,VWO,2022-06-20,2022-06-21,2022-06-24,25,-1.15,0,0.3057,-7.65,-6.5,Re
+Change in Dividend Accruals,Data,Stocks,USD,VWO,2022-06-24,2022-06-21,2022-06-24,25,-1.15,0,0.3057,-7.64,-6.49,Re
+Change in Dividend Accruals,Data,Stocks,USD,VWO,2022-09-16,2022-09-19,2022-09-22,25,1.98,0,0.5294,13.23,11.25,Po
+Change in Dividend Accruals,Data,Stocks,USD,VWO,2022-09-22,2022-09-19,2022-09-22,25,-1.99,0,0.5294,-13.24,-11.25,Re
+Change in Dividend Accruals,Data,Stocks,USD,VWO,2022-12-16,2022-12-19,2022-12-22,25,2.37,0,0.6347,15.86,13.49,Po
+Change in Dividend Accruals,Data,Stocks,USD,VWO,2022-12-22,2022-12-19,2022-12-22,25,-2.38,0,0.6347,-15.87,-13.49,Re
+Change in Dividend Accruals,Data,Total,,,,,,,-0.02,0,,-0.02,0,
+Change in Dividend Accruals,Data,Total in EUR,,,,,,,-0.2458021,0,,-9.3845843,-9.1387822,
+Change in Dividend Accruals,Data,Total Stocks in EUR,,,,,,,-0.2458021,0,,-9.5375343,-9.2917322,
+Change in Dividend Accruals,Data,Ending Dividend Accruals in EUR,,,,,,,,,,,0,
+Financial Instrument Information,Header,Asset Category,Symbol,Description,Conid,Security ID,Listing Exch,Multiplier,Type,Code
+Financial Instrument Information,Data,Stocks,AVDV,AVANTIS INTL S/C VALUE ETF,385087093,US0250728021,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,DFAE,DIMENSIONAL EMERGING CORE EQ,458378551,US25434V3024,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,DFAI,DIMENSIONAL INTERNATIONAL CO,455801512,US25434V2034,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,DFAS,DIMENSIONAL US SMALL CAP ETF,496646875,US25434V5003,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,DFAT,DIMENSIONAL US TARGET VALUE,496646878,US25434V6092,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,DFIV,DIMENSIONAL INTERNATIONAL VA,513880551,US25434V8072,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,DFUS,DIMENSIONAL US EQUITY ETF,496646868,US25434V4014,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,DON,WISDOMTREE US MIDCAP DIVIDEN,39579977,US97717W5058,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,EMVEUz,UBS ETF MSCI EMU VALUE,69323931,LU0446734369,EBS,1,ETF,
+Financial Instrument Information,Data,Stocks,EQAL,INVESCO RUSSELL 1000 EQUAL W,319357074,US46138E4200,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,EUNI,ISHARES MSCI EM SMALL CAP,236786667,IE00B3F81G20,IBIS2,1,ETF,
+Financial Instrument Information,Data,Stocks,FLLA,FRANKLIN FTSE LATIN AMERICA,336757799,US35473P5614,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,FTAD,SPDR FTSE UK ALL SHARE DIST,316282013,IE00BD5FCF91,LSEETF,1,ETF,
+Financial Instrument Information,Data,Stocks,HMXJ,HSBC MSCI PACIFIC EX JAPAN U,78728358,IE00B5SG8Z57,LSEETF,1,ETF,
+Financial Instrument Information,Data,Stocks,IBC3,ISHARES CORE EM IMI USD DIST,537572540,IE00BD45KH83,IBIS2,1,ETF,
+Financial Instrument Information,Data,Stocks,IEMG,ISHARES CORE MSCI EMERGING,115826951,US46434G1031,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,IJS,ISHARES S&P SMALL-CAP 600 VA,10435409,US4642878791,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,IQIN,IQ 500 INTERNATIONAL ETF,345552921,US45409B3621,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,ISCV,ISHARES MORNINGSTAR SMALL-CA,29318735,US4642887032,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,IWVL,ISHARES EDGE MSCI WRLD VALUE,183908203,IE00BP3QZB59,BVME.ETF,1,ETF,
+Financial Instrument Information,Data,Stocks,IWVU,ISH EDGE MSCI WLD VAL USD-D,308725402,IE00BFYTYS33,LSEETF,1,ETF,
+Financial Instrument Information,Data,Stocks,LCUK,LYXOR CORE UK EQ ALL CAP DR,311572509,LU1781541096,IBIS,1,ETF,
+Financial Instrument Information,Data,Stocks,LGGE,L&G QUALITY DVD ESG EUR XUK,481995155,IE00BMYDM919,LSEETF,1,ETF,
+Financial Instrument Information,Data,Stocks,PRUK,AM PRIM UK MID AND SMALL CAP,435751468,LU2182388152,LSE,1,ETF,
+Financial Instrument Information,Data,Stocks,R2SC,SPDR RUSSELL 2000 US S/C,159310437,IE00BJ38QD84,LSEETF,1,ETF,
+Financial Instrument Information,Data,Stocks,R2US,SPDR RUSSELL 2000 US S/C,159054547,IE00BJ38QD84,IBIS2,1,ETF,
+Financial Instrument Information,Data,Stocks,RODE,HARTFORD MULTIFACTOR DIVERSI,275669813,US5184166073,BATS,1,ETF,
+Financial Instrument Information,Data,Stocks,RODM,HARTFORD MULTIFACTOR DEVELOP,185345355,US5184161025,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,SCHC,SCHWAB INTL SMALL-CAP EQUITY,71714776,US8085248883,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,SCHE,SCHWAB EMERGING MARKETS EQUI,71715076,US8085247067,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,SCHY,SCHWAB INTERNATIONAL DVD ETF,484596181,US8085246721,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,SPEM,SPDR PORTFOLIO EMERGING MARK,45540759,US78463X5095,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,TEET,VANECK SUSTAINABLE EUROPEAN,168731665,NL0010731816,AEB,1,ETF,
+Financial Instrument Information,Data,Stocks,TSWE,VANECK SUST WLD EQ WT ETF,127376819,NL0010408704,AEB,1,ETF,
+Financial Instrument Information,Data,Stocks,UEFDd,UBS ETF MSCI EMU SMALL CAP U,97070595,LU0671493277,IBIS,1,ETF,
+Financial Instrument Information,Data,Stocks,VAPX,VANG FTSEAPXJ USDD,128831212,IE00B9F5YL18,AEB,1,ETF,
+Financial Instrument Information,Data,Stocks,VBR,VANGUARD SMALL-CAP VALUE ETF,27638062,US9229086114,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,VERX,VANG FTSE DEX EURD,170547602,IE00BKX55S42,AEB,1,ETF,
+Financial Instrument Information,Data,Stocks,VGER,VANGUARD GERMANY ALL CAP ETF,326177836,IE00BG143G97,IBIS2,1,ETF,
+Financial Instrument Information,Data,Stocks,VHYD,VANG FTSE HDY USDD,128357260,IE00B8GKDB10,LSEETF,1,ETF,
+Financial Instrument Information,Data,Stocks,VJPN,VANG FTSE JPN USDD,128831224,IE00B95PGT31,AEB,1,ETF,
+Financial Instrument Information,Data,Stocks,VLU,SPDR S&P 1500 VALUE TILT ETF,116379893,US78464A1280,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,VMID,VANG FTSE250 GBPD,168731687,IE00BKX55Q28,LSEETF,1,ETF,
+Financial Instrument Information,Data,Stocks,VWO,VANGUARD FTSE EMERGING MARKE,27684033,US9220428588,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,ZPRV,SPDR USA S/C VALUE,184168302,IE00BSPLC413,IBIS2,1,ETF,
+Financial Instrument Information,Data,Stocks,ZPRX,SPDR EUROPE S/C VALUE,184168292,IE00BSPLC298,IBIS2,1,ETF,
+Codes,Header,Code,Meaning,Code (Cont.),Meaning (Cont.)
+Codes,Data,A,Assignment
+Codes,Data,ADR,ADR Fee Accrual
+Codes,Data,AEx,Automatic exercise for dividend-related recommendation.
+Codes,Data,AFx,AutoFX conversion resulting from trading
+Codes,Data,Adj,Adjustment
+Codes,Data,Al,Allocation
+Codes,Data,Aw,Away Trade
+Codes,Data,B,Automatic Buy-in
+Codes,Data,Bo,Direct Borrow
+Codes,Data,C,Closing Trade
+Codes,Data,CD,Cash Delivery
+Codes,Data,CP,Complex Position
+Codes,Data,Ca,Cancelled
+Codes,Data,Co,Corrected Trade
+Codes,Data,Cx,Part or all of this transaction was a Crossing executed as dual agent by IB for two IB customers
+Codes,Data,ETF,ETF Creation/Redemption
+Codes,Data,Ep,Resulted from an Expired Position
+Codes,Data,Ex,Exercise
+Codes,Data,FP,"IB acted as agent for the fractional share portion of this trade, which was executed by an IB affiliate as principal."
+Codes,Data,FPA,IB acted as agent for both the fractional share portion and the whole share portion of this trade; the fractional share portion was executed by an IB Affiliate as principal.
+Codes,Data,G,Trade in Guaranteed Account Segment
+Codes,Data,GEA,Exercise or Assignment resulting from offsetting positions
+Codes,Data,HC,Highest Cost tax basis election
+Codes,Data,HFI,Investment Transferred to Hedge Fund
+Codes,Data,HFR,Redemption from Hedge Fund
+Codes,Data,I,Internal Transfer
+Codes,Data,IA,This transaction was executed against an IB affiliate
+Codes,Data,INV,Investment Transfer from Investor
+Codes,Data,IPO,This transaction was executed as part of an IPO in which IB was a member of the selling group and is classified as a Principal trade.
+Codes,Data,L,Ordered by IB (Margin Violation)
+Codes,Data,LD,Adjusted by Loss Disallowed from Wash Sale
+Codes,Data,LI,"Last In, First Out (LIFO) tax basis election"
+Codes,Data,LT,Long Term P/L
+Codes,Data,Lo,Direct Loan
+Codes,Data,M,Entered manually by IB
+Codes,Data,MEx,Manual exercise for dividend-related recommendation.
+Codes,Data,ML,Maximize Losses tax basis election
+Codes,Data,MLG,Maximize Long Term Gain tax basis election
+Codes,Data,MLL,Maximize Long Term Loss tax basis election
+Codes,Data,MSG,Maximize Short Term Gain tax basis election
+Codes,Data,MSL,Maximize Short Term Loss tax basis election
+Codes,Data,O,Opening Trade
+Codes,Data,P,Partial Execution
+Codes,Data,PI,Price Improvement
+Codes,Data,Po,Interest or Dividend Accrual Posting
+Codes,Data,Pr,Part or all of this transaction was executed by the Exchange as a Crossing by IB against an IB affiliate and is therefore classified as a Principal and not an agency trade
+Codes,Data,R,Dividend Reinvestment
+Codes,Data,RED,Redemption to Investor
+Codes,Data,RI,Recurring Investment
+Codes,Data,RP,"IB acted as agent for the fractional share portion of this trade, which was executed by an IB affiliate as riskless principal."
+Codes,Data,RPA,IB acted as agent for both the fractional share portion and the whole share portion of this trade; the fractional share portion was executed by an IB Affiliate as riskless principal.
+Codes,Data,Re,Interest or Dividend Accrual Reversal
+Codes,Data,Ri,Reimbursement
+Codes,Data,SI,This order was solicited by Interactive Brokers
+Codes,Data,SL,Specific Lot tax basis election
+Codes,Data,SO,This order was marked as solicited by your Introducing Broker
+Codes,Data,SS,Customer designated this trade for shortened settlement and so is subject to execution at prices above the prevailing market
+Codes,Data,ST,Short Term P/L
+Codes,Data,T,Transfer
+Codes,Data,Un,Unvested shares from stock grant
+Notes/Legal Notes,Header,Type,Note
+Notes/Legal Notes,Data,Notes,"Most stock exchange transactions settle on the trade date plus two business days. Options, futures and US open-end mutual fund transactions settle on trade date plus one business day. (Some exchanges and other transaction types may have longer or shorter settlement periods.) Ending settled cash reflects the cash that has actually settled.  "
+Notes/Legal Notes,Data,Notes,Initial and maintenance margin requirements are available within the Account Window of the Trader Workstation.
+Notes/Legal Notes,Data,Notes,Quantities preceded by a "-" sign indicate sell transactions. Other transactions are purchases. 
+Notes/Legal Notes,Data,Notes,"For shares traded on US markets, Interactive Brokers Ireland Limited (IBIE) acts as agent in executing the fractional portion of your order. In certain circumstances, IBIE routes that portion to an affiliate, which may execute it either as principal or riskless principal. If an IB affiliate executes as i) principal, the order will be executed at the price displayed for the opposite side of the NBBO from your order (the offer if you are buying and the bid if you are selling) at the time of execution, ii) riskless principal, the affiliate will execute that portion of your order at the price it receives for the execution of the whole share. The way in which the fractional portion of the order is executed is indicated by the codes associated with the trade. For shares traded on European Markets, IBIE will generally act as counterparty for any fractional portion of your order for shares, which it will execute as principal, for a total consideration which is equal to (or better than), the total consideration for the execution of a full share available at the European trading venues and SIs to which IBIE has access. In certain circumstances, IBIE may route a full share order to the available European trading venues acting in an Agency capacity and the fractional portion of the order will be allocated to your account at the price traded in the trading venue and the remaining fractional portion will be allocated to an affiliate. "
+Notes/Legal Notes,Data,Notes,"In case of partial executions, commissions are charged on the total quantity executed on the original order. The commission is displayed on the first partial execution only."
+Notes/Legal Notes,Data,Notes,Each closed lot indicated above with a reference to note (6) was chosen by the end of the trading day to be sold versus the specific opening purchase identified in that row.
+Notes/Legal Notes,Data,Notes,Trade execution times are displayed in Eastern Time.
+Notes/Legal Notes,Data,Notes,Applicable commodity Regulatory Fees for your transactions are available on the IB website at www.interactivebrokers.com/en/accounts/fees/exchangeAndRegulatoryFees.php.
+Notes/Legal Notes,Data,Notes,"Borrow Fee Rate represents the cost to borrow stock expressed in percent per annum. It is applied to the cash collateral amount on the stock borrow contract and is separate from any interest earned on credit cash balances. Similarly, Loan Fee Rate represents the benefit to lend stock. A positive rate indicates a cost to the borrower/benefit to the lender and a negative rate indicates a benefit to the borrower/cost to the lender. In general, the fee rates for hard-to-borrow stocks are higher than for normal availability stocks."
+Notes/Legal Notes,Data,Notes,Interest Rate on Customer Collateral represents the interest paid on the collateral posted to the customer's account and received from lending stock.  A positive rate indicates a benefit to the lender.
+Notes/Legal Notes,Data,Notes,"The closing prices on this Activity Statement are indicative and may come from third-party sources. Interactive Brokers does not warrant the accuracy of the prices provided by third-party sources. Due to time zone differences, certain non-US mutual funds may deliver closing prices after the Activity Statement has been produced and the closing prices for such funds will reflect the previous day's price."
+Notes/Legal Notes,Data,Notes,All Market Data and Research services are provided through Global Financial Information Services (GmbH).
+Notes/Legal Notes,Data,Notes,"Market data is provided by Global Financial Information Services (GmbH). Your local broker collects amounts owed for fees and tax for such data on behalf of Global Financial Information Services (GmbH). Note, you are responsible for any applicable taxes relating to the provision of these services."
+Notes/Legal Notes,Data,Notes,"Directive 2014/65/EU and its implementing measures (MiFID II) applies to all client funds and client financial instruments (Client Assets) on this statement except those Client Assets that are not classified as segregated assets, namely securities lent under the Stock Yield Enhancement Programme as identified in the IBKR Managed Securities Lent section of this statement and Client Assets noted as Not Segregated in the Collateral for Customer Borrowing section of this statement.  IBIE applies the MiFID II Client Asset protection requirements to funds and instruments that are not subject to MiFID II in the same way as it applies those requirements to Client Assets. IBIE is also subject to the client asset requirements set out in the Central Bank (Supervision and Enforcement) Act 2013 (Section 48(1))(Investment Firms) Regulations 2017."
+Notes/Legal Notes,Data,Fixed Income Notes,"Call features for bonds or preferred stocks may affect the yield. For zero coupon, compound interest and multiplier securities, there are no periodic payments and securities may be callable below maturity value without notice to holder unless registered. For asset-backed securities, the actual yield may vary depending on the speed at which the underlying note is pre-paid. For additional information regarding bond yield, please contact the IB Help Desk at: help@interactivebrokers.com. If this debt security is unrated by a nationally recognized statistical rating organization, it may pose a high risk of default. You should consult a financial advisor to determine whether unrated bonds are appropriate for your portfolio in light of your goals and your financial circumstances. Fees charged by bond trading centers are included in the cost of bond transactions."
+Notes/Legal Notes,Data,Legal Notes,"Please promptly report any inaccuracy or discrepancy in this statement, or in your account, to Interactive Brokers Ireland Limited (""IBIE""). You can contact us by telephone or electronically through the IBIE website at, www.interactivebrokers.ie. If you report an error by telephone, you should re-confirm such oral communication in writing in order to protect your rights, including your rights under the Investor Compensation Scheme."
+Notes/Legal Notes,Data,Legal Notes,"Unless otherwise noted, IBIE acted as agent in the execution of the above transactions. IBIE may execute your trades through affiliates or third-party brokers who are members of the relevant exchange or market center. IBIE uses its affiliates Interactive Brokers LLC (""IBLLC"") and Interactive Brokers (U.K.) Limited to custody financial instruments."
+Notes/Legal Notes,Data,Legal Notes,"IBIE acts as agent or riskless principal in foreign currency exchange transactions and CFDs. Such transactions are executed against an IBIE affiliate, which acts as principal in such transactions and may have a long or short position and may have profited or lost in connection with the transaction."
+Notes/Legal Notes,Data,Legal Notes,"IBIE routes orders in US products through its US affiliate, IBLLC. IBLLC accepts liquidity rebates or other order flow payments from Alternative Trading Systems, market makers and exchanges for certain orders in US stocks. IBLLC receives payment for some US option orders pursuant to exchange-mandated marketing fee programs or other arrangements."
+Notes/Legal Notes,Data,Legal Notes,Please promptly notify IB-IE of any material change in your investment objectives or financial situation or circumstances.
+Notes/Legal Notes,Data,Legal Notes,"An up-to-date financial statement of IBIE is available for your personal inspection at www.interactivebrokers.ie or at its offices, or a copy of the financial statement will be mailed to you upon your written request."
+Notes/Legal Notes,Data,Legal Notes,"IBIE is a member of the Investor Compensation Scheme, which provides protection for customers in the event of the failure of IBIE. Further information on the Investor Compensation Scheme can be found at  www.investorcompensation.ie  ."
+Notes/Legal Notes,Data,Legal Notes,IBIE is incorporated under the laws of Ireland and registered with the Irish Companies Registration Office with company registration number 657406.
+Notes/Legal Notes,Data,Legal Notes,IBIE is regulated by the Central Bank of Ireland.
+Notes/Legal Notes,Data,Legal Notes,"IBIE's Registered Office address is 10 Earlsfort Terrace, Dublin, D02 T380, Ireland."
+Notes/Legal Notes,Data,Legal Notes,"IBIE is included in the Central Bank of Ireland's register of authorised firms under number C423427. The CBI's address is New Wapping Street, North Wall Quay, Dublin 1, D01 F7X3. The CBI's website is www.centralbank.ie."

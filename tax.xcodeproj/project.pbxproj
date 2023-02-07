@@ -15,6 +15,7 @@
 		E468CEDA291796880015BCAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E468CED8291796880015BCAE /* LaunchScreen.storyboard */; };
 		E468CEE42917BB1E0015BCAE /* ex.txt in Resources */ = {isa = PBXBuildFile; fileRef = E468CEE32917BB1E0015BCAE /* ex.txt */; };
 		E46B9E94296958B90060D81A /* ib_2022.csv in Resources */ = {isa = PBXBuildFile; fileRef = E46B9E93296958B90060D81A /* ib_2022.csv */; };
+		E4AA32E52992CA6700DAE759 /* ib.csv in Resources */ = {isa = PBXBuildFile; fileRef = E4AA32E42992CA6700DAE759 /* ib.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		E468CEDB291796880015BCAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E468CEE32917BB1E0015BCAE /* ex.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ex.txt; sourceTree = "<group>"; };
 		E46B9E93296958B90060D81A /* ib_2022.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ib_2022.csv; sourceTree = "<group>"; };
+		E4AA32E42992CA6700DAE759 /* ib.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ib.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		E468CECC291796870015BCAE /* tax */ = {
 			isa = PBXGroup;
 			children = (
+				E4AA32E42992CA6700DAE759 /* ib.csv */,
 				E46B9E93296958B90060D81A /* ib_2022.csv */,
 				E468CEDB291796880015BCAE /* Info.plist */,
 				E468CECD291796870015BCAE /* AppDelegate.swift */,
@@ -136,6 +139,7 @@
 				E468CED7291796880015BCAE /* Assets.xcassets in Resources */,
 				E46B9E94296958B90060D81A /* ib_2022.csv in Resources */,
 				E468CED5291796870015BCAE /* Main.storyboard in Resources */,
+				E4AA32E52992CA6700DAE759 /* ib.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

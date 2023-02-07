@@ -7,15 +7,45 @@
 
 import UIKit
 
+struct Period: Hashable, Comparable, CustomStringConvertible {
+    
+    let month: String
+    let year: String
+    
+    static func < (lhs: Self, rhs: Self) -> Bool {
+        if lhs.year > rhs.year {
+            return false
+        } else if lhs.year < rhs.year {
+            return true
+        } else {
+            return lhs.month < rhs.month
+        }
+    }
+    
+    static func > (lhs: Self, rhs: Self) -> Bool {
+        if lhs.year > rhs.year {
+            return true
+        } else if lhs.year < rhs.year {
+            return false
+        } else {
+            return lhs.month > rhs.month
+        }
+    }
+    
+    var description: String {
+        return year + "-" + month
+    }
+}
+
 class ViewController: UIViewController {
     
     static let mikhail = "Mikhail"
-    static func extraEur(name: String) -> [String: Double]  {
+    static func extraEur(name: String) -> [Period: Double]  {
         if name == mikhail {
             return [
-                "10": 564,
-                "07": 333,
-                "04": 257
+                .init(month: "10", year: "2022"): 564,
+                .init(month: "07", year: "2022"): 333,
+                .init(month: "04", year: "2022"): 257
             ]
         } else {
             return [:]
@@ -28,16 +58,16 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        var revenues = [String: Double]()
-        for (revenueMonth, revenue) in exRevenues() {
-            revenues[revenueMonth] = (revenues[revenueMonth] ?? 0) + revenue
+        var revenues = [Period: Double]()
+        for (period, revenue) in exRevenues() {
+            revenues[period] = (revenues[period] ?? 0) + revenue
         }
-        for (revenueMonth, revenue) in ibRevenues() {
-            revenues[revenueMonth] = (revenues[revenueMonth] ?? 0) + revenue
+        for (period, revenue) in ibRevenues() {
+            revenues[period] = (revenues[period] ?? 0) + revenue
         }
         print("Exante\n\n")
-        for (revenueMonth, revenue) in exRevenues().sorted(by: { $0.key < $1.key }) {
-            print("\n", revenueMonth, revenue)
+        for (period, revenue) in exRevenues().sorted(by: { $0.key < $1.key }) {
+            print("\n", period, revenue)
         }
         print("\n\n\nIBKR\n\n")
         for (revenueMonth, revenue) in ibRevenues().sorted(by: { $0.key < $1.key }) {
@@ -45,16 +75,16 @@ class ViewController: UIViewController {
         }
         for name in ["Iuliia", Self.mikhail] {
             print("\n\n\nTotal for \(name)\n\n")
-            for (revenueMonth, revenue) in revenues.sorted(by: { $0.key < $1.key }) {
-                let personRevenue = revenue * 0.5 + (Self.extraEur(name: name)[revenueMonth] ?? 0)
+            for (period, revenue) in revenues.sorted(by: { $0.key < $1.key }) {
+                let personRevenue = revenue * 0.5 + (Self.extraEur(name: name)[period] ?? 0)
                 let totalTaxableAmount = Double(round(100 * personRevenue) / 100)
                 let tax = Double(round(100 * totalTaxableAmount * 0.0265) / 100)
-                print("\n", revenueMonth, totalTaxableAmount, tax)
+                print("\n", period, totalTaxableAmount, tax)
             }
         }
     }
     
-    func getRevenues(getEvent: (String, String) -> (event: Event, value: Double)?, lines: [String]) -> [String: Double] {
+    func getRevenues(getEvent: (String, String) -> (event: Event, value: Double)?, lines: [String]) -> [Period: Double] {
         let events = getEvents(getEvent: getEvent, lines: lines)
         let eventsSorted = events.sorted(by: {
             if $0.key.date < $1.key.date {
@@ -65,11 +95,11 @@ class ViewController: UIViewController {
                 return $0.key.name < $1.key.name
             }
         })
-        var revenues = [String: Double]()
+        var revenues = [Period: Double]()
         for (event, values) in eventsSorted {
             let received = values.reduce(0, +)
             let revenue = received / toEur(event: event)
-            revenues[event.revenueMonth] = (revenues[event.revenueMonth] ?? 0) + revenue
+            revenues[event.period] = (revenues[event.period] ?? 0) + revenue
         }
         return revenues
     }
@@ -96,11 +126,11 @@ class ViewController: UIViewController {
         return string.components(separatedBy: "\n")
     }
     
-    func exRevenues() -> [String: Double] {
+    func exRevenues() -> [Period: Double] {
         return getRevenues(getEvent: getExEvent, lines: getLines("ex.txt"))
     }
     
-    func ibRevenues() -> [String: Double] {
+    func ibRevenues() -> [Period: Double] {
         return getRevenues(getEvent: getIbEvent, lines: getLines("ib_2022.csv"))
     }
     
@@ -190,6 +220,12 @@ class ViewController: UIViewController {
                 return 1.0649
             case "30/12/2022":
                 return 1.0666
+            case "06/01/2023":
+                return 1.0500
+            case "25/01/2023":
+                return 1.0878
+            case "30/01/2023":
+                return 1.0903
             default:
                 fatalError()
             }
@@ -265,7 +301,9 @@ struct Event: Hashable {
         return date.components(separatedBy: "-").reversed().joined(separator: "/")
     }
     
-    var revenueMonth: String {
-        return date.components(separatedBy: "-")[1]
+    var period: Period {
+        let year = date.components(separatedBy: "-")[0]
+        let month = date.components(separatedBy: "-")[1]
+        return .init(month: month, year: year)
     }
 }
