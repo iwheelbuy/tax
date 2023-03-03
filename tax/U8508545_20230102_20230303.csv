@@ -1,0 +1,390 @@
+﻿Statement,Header,Field Name,Field Value
+Statement,Data,BrokerName,
+Statement,Data,BrokerAddress,
+Statement,Data,Title,Activity Statement
+Statement,Data,Period,"January 2, 2023 - March 3, 2023"
+Statement,Data,WhenGenerated,"2023-03-05, 03:42:25 EST"
+Account Information,Header,Field Name,Field Value
+Account Information,Data,Name,Mikhail V Vasilev and Iuliia V Vasileva
+Account Information,Data,Account,U8508545
+Account Information,Data,Account Type,Individual
+Account Information,Data,Customer Type,Joint
+Account Information,Data,Account Capabilities,Margin
+Account Information,Data,Base Currency,EUR
+Net Asset Value,Header,Asset Class,Prior Total,Current Long,Current Short,Current Total,Change
+Net Asset Value,Data,Cash ,-13966.18549987,0,-14044.98619702,-14044.98619702,-78.80069715
+Net Asset Value,Data,Collateral Value,13928.985486148,14171.910228138,0,14171.910228138,242.92474199
+Net Asset Value,Data,Stock,110010.166576,119055.9213278,0,119055.9213278,9045.7547518
+Net Asset Value,Data,Securities Right To Use,-13928.985486148,0,-14171.910228138,-14171.910228138,-242.92474199
+Net Asset Value,Data,Interest Accruals,-47.3029952,0,-4.0228938,-4.0228938,43.2801014
+Net Asset Value,Data,Dividend Accruals,42.834904,0,0,0,-42.834904
+Net Asset Value,Data,Total,96039.51298493,133227.831555938,-28220.919318958,105006.91223698,8967.39925205
+Net Asset Value,Header,Time Weighted Rate of Return
+Net Asset Value,Data,9.337197757%
+Change in NAV,Header,Field Name,Field Value
+Change in NAV,Data,Starting Value,96039.51298493
+Change in NAV,Data,Change in Dividend Accruals,-43.2121322
+Change in NAV,Data,Change in Interest Accruals,43.786191
+Change in NAV,Data,Other FX Translations,-0.1288614
+Change in NAV,Data,Other,8966.95405465
+Change in NAV,Data,Ending Value,105006.91223698
+Mark-to-Market Performance Summary,Header,Asset Category,Symbol,Prior Quantity,Current Quantity,Prior Price,Current Price,Mark-to-Market P/L Position,Mark-to-Market P/L Transaction,Mark-to-Market P/L Commissions,Mark-to-Market P/L Other,Mark-to-Market P/L Total,Code
+Mark-to-Market Performance Summary,Data,Stocks,AVDV,100,100,55.3500,60.0100,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Stocks,DFAE,19,19,21.9500,23.0600,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Stocks,DFAI,22,22,25.0400,27.0100,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Stocks,DFAS,11,11,51.1500,56.5000,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Stocks,DFAT,68,68,43.9500,48.6300,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Stocks,DFIV,29,29,30.4000,33.3800,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Stocks,DFUS,22,22,41.6100,44.1300,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Stocks,DON,60,60,41.1400,43.8000,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Stocks,EQAL,12,12,40.1800,42.8000,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Stocks,EUNI,50,50,67.3500,69.8300,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Stocks,FLLA,24,24,19.6249,20.5541,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Stocks,IBC3,1750,1750,3.8953,4.0763,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Stocks,IEMG,20,20,46.7000,48.9500,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Stocks,IJS,20,20,91.3100,102.3700,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Stocks,IQIN,34,34,28.2812,30.8282,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Stocks,ISCV,80,80,52.0600,57.1400,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Stocks,IWVL,180,180,31.7650,34.3150,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Stocks,IWVU,600,600,4.6297,4.9398,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Stocks,LCUK,350,350,11.7140,12.5760,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Stocks,R2SC,50,50,41.0650,45.0900,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Stocks,R2US,50,50,46.2450,50.9800,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Stocks,RODE,36,36,23.9935,25.2292,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Stocks,RODM,80,80,24.7900,26.3500,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Stocks,SCHC,30,30,31.4700,34.0200,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Stocks,SCHE,35,35,23.6700,24.7200,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Stocks,SPEM,30,30,32.9600,34.3800,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Stocks,UEFDd,70,70,107.1400,120.5800,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Stocks,VAPX,500,500,22.9900,23.9100,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Stocks,VBR,7,7,158.8000,172.2100,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Stocks,VERX,150,150,32.6350,36.0350,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Stocks,VGER,300,300,22.3900,25.2450,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Stocks,VHYD,100,100,58.3550,60.0300,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Stocks,VJPN,100,100,26.9850,28.4500,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Stocks,VLU,30,30,139.8029,145.9245,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Stocks,VWO,25,25,38.9800,40.6900,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Stocks,ZPRV,150,150,47.9800,53.5300,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Stocks,ZPRX,100,100,40.8250,46.0850,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Total,,,,,,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Forex,EUR,-5202.828315,-5207.678315,1.0000,1.0000,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Forex,GBP,-2026.500029998,-2047.890029998,1.1304,1.1324,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Forex,USD,-6928.199981761,-6932.419981761,0.93424,0.94026,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Total,,,,,,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Total (All Assets),,,,,,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Broker Interest Paid and Received,,,,,,,,,,-163.4177265,
+Total P/L for Statement Period,,,,,,,,,,,,-163.4177265,
+Realized & Unrealized Performance Summary,Header,Asset Category,Symbol,Cost Adj.,Realized S/T Profit,Realized S/T Loss,Realized L/T Profit,Realized L/T Loss,Realized Total,Unrealized S/T Profit,Unrealized S/T Loss,Unrealized L/T Profit,Unrealized L/T Loss,Unrealized Total,Total,Code
+Realized & Unrealized Performance Summary,Data,Stocks,AVDV,0,0,0,0,0,0,0,0,0,-366.96655332,-366.96655332,-366.96655332,
+Realized & Unrealized Performance Summary,Data,Stocks,DFAE,0,0,0,0,0,0,0,0,0,-65.7899922,-65.7899922,-65.7899922,
+Realized & Unrealized Performance Summary,Data,Stocks,DFAI,0,0,0,0,0,0,0,0,0,-51.620274,-51.620274,-51.620274,
+Realized & Unrealized Performance Summary,Data,Stocks,DFAS,0,0,0,0,0,0,0,0,0,-4.560261,-4.560261,-4.560261,
+Realized & Unrealized Performance Summary,Data,Stocks,DFAT,0,0,0,0,0,0,0,0,135.0025308,0,135.0025308,135.0025308,
+Realized & Unrealized Performance Summary,Data,Stocks,DFIV,0,0,0,0,0,0,0,0,4.419222,-20.8173564,-16.3981344,-16.3981344,
+Realized & Unrealized Performance Summary,Data,Stocks,DFUS,0,0,0,0,0,0,0,0,0,-70.5571104,-70.5571104,-70.5571104,
+Realized & Unrealized Performance Summary,Data,Stocks,DON,0,0,0,0,0,0,0,0,9.5060286,0,9.5060286,9.5060286,
+Realized & Unrealized Performance Summary,Data,Stocks,EQAL,0,0,0,0,0,0,0,0,0,-38.4002184,-38.4002184,-38.4002184,
+Realized & Unrealized Performance Summary,Data,Stocks,EUNI,0,0,0,0,0,0,24.762395,-2.42,0,0,22.342395,22.342395,
+Realized & Unrealized Performance Summary,Data,Stocks,FLLA,0,0,0,0,0,0,0,0,0,-38.5318548,-38.5318548,-38.5318548,
+Realized & Unrealized Performance Summary,Data,Stocks,IBC3,0,0,0,0,0,0,125.906,-188.71608,0,0,-62.81008,-62.81008,
+Realized & Unrealized Performance Summary,Data,Stocks,IEMG,0,0,0,0,0,0,0,0,0,-217.20006,-217.20006,-217.20006,
+Realized & Unrealized Performance Summary,Data,Stocks,IJS,0,0,0,0,0,0,0,0,10.83837702,-1.034286,9.80409102,9.80409102,
+Realized & Unrealized Performance Summary,Data,Stocks,IQIN,0,0,0,0,0,0,0,0,0,-69.4099932,-69.4099932,-69.4099932,
+Realized & Unrealized Performance Summary,Data,Stocks,ISCV,0,0,0,0,0,0,0,0,0,-106.6818996,-106.6818996,-106.6818996,
+Realized & Unrealized Performance Summary,Data,Stocks,IWVL,0,0,0,0,0,0,336,0,0,0,336,336,
+Realized & Unrealized Performance Summary,Data,Stocks,IWVU,0,0,0,0,0,0,470.2992468,0,0,0,470.2992468,470.2992468,
+Realized & Unrealized Performance Summary,Data,Stocks,LCUK,0,0,0,0,0,0,299.35,0,0,0,299.35,299.35,
+Realized & Unrealized Performance Summary,Data,Stocks,R2SC,0,0,0,0,0,0,182.8826,0,0,0,182.8826,182.8826,
+Realized & Unrealized Performance Summary,Data,Stocks,R2US,0,0,0,0,0,0,5.5,-0.75,0,0,4.75,4.75,
+Realized & Unrealized Performance Summary,Data,Stocks,RODE,0,0,0,0,0,0,0,0,0,-105.9014838,-105.9014838,-105.9014838,
+Realized & Unrealized Performance Summary,Data,Stocks,RODM,0,0,0,0,0,0,0,0,0,-246.776690508,-246.776690508,-246.776690508,
+Realized & Unrealized Performance Summary,Data,Stocks,SCHC,0,0,0,0,0,0,0,0,0,-141.3586884,-141.3586884,-141.3586884,
+Realized & Unrealized Performance Summary,Data,Stocks,SCHE,0,0,0,0,0,0,0,0,0,-185.23122,-185.23122,-185.23122,
+Realized & Unrealized Performance Summary,Data,Stocks,SPEM,0,0,0,0,0,0,0,0,0,-223.78188,-223.78188,-223.78188,
+Realized & Unrealized Performance Summary,Data,Stocks,UEFDd,0,0,0,0,0,0,974.3275,0,0,-94.43,879.8975,879.8975,
+Realized & Unrealized Performance Summary,Data,Stocks,VAPX,0,0,0,0,0,0,65.16,-3.05,0,-380.97414,-318.86414,-318.86414,
+Realized & Unrealized Performance Summary,Data,Stocks,VBR,0,0,0,0,0,0,0,0,0,-22.0867074,-22.0867074,-22.0867074,
+Realized & Unrealized Performance Summary,Data,Stocks,VERX,0,0,0,0,0,0,392.75,0,0,-52,340.75,340.75,
+Realized & Unrealized Performance Summary,Data,Stocks,VGER,0,0,0,0,0,0,333.145,0,0,-472.07289,-138.92789,-138.92789,
+Realized & Unrealized Performance Summary,Data,Stocks,VHYD,0,0,0,0,0,0,278.505012,-0.564156,0,0,277.940856,277.940856,
+Realized & Unrealized Performance Summary,Data,Stocks,VJPN,0,0,0,0,0,0,34.09525,0,0,0,34.09525,34.09525,
+Realized & Unrealized Performance Summary,Data,Stocks,VLU,0,0,0,0,0,0,0,0,0,-215.277416352,-215.277416352,-215.277416352,
+Realized & Unrealized Performance Summary,Data,Stocks,VWO,0,0,0,0,0,0,0,0,0,-229.658505,-229.658505,-229.658505,
+Realized & Unrealized Performance Summary,Data,Stocks,ZPRV,0,0,0,0,0,0,710.5686,0,0,0,710.5686,710.5686,
+Realized & Unrealized Performance Summary,Data,Stocks,ZPRX,0,0,0,0,0,0,394.6,0,0,0,394.6,394.6,
+Realized & Unrealized Performance Summary,Data,Total,,0,0,0,0,0,0,4627.8516038,-195.500236,159.76615842,-3421.11948078,1170.99804544,1170.99804544,
+Realized & Unrealized Performance Summary,Data,Forex,GBP,0,0,0,0,0,0,62.01090089,-0.132334,0,0,61.87856689,61.87856689,
+Realized & Unrealized Performance Summary,Data,Forex,USD,0,3.438932,0,0,0,3.438932,407.956803161,-0.494933,0,0,407.461870161,410.900802161,
+Realized & Unrealized Performance Summary,Data,Total,,0,3.438932,0,0,0,3.438932,469.967704051,-0.627267,0,0,469.340437051,472.779369051,
+Realized & Unrealized Performance Summary,Data,Total (All Assets),,0,3.438932,0,0,0,3.438932,5097.819307851,-196.127503,159.76615842,-3421.11948078,1640.338482491,1643.777414491,
+Cash Report,Header,Currency Summary,Currency,Total,Securities,Futures,
+Cash Report,Data,Starting Cash,Base Currency Summary,-13966.18549987,-13966.18549987,0,
+Cash Report,Data,Other,Base Currency Summary,-78.80069715,-78.80069715,0,
+Cash Report,Data,Ending Cash,Base Currency Summary,-14044.98619702,-14044.98619702,0,
+Cash Report,Data,Ending Settled Cash,Base Currency Summary,-14044.98619702,-14044.98619702,0,
+Cash Report,Data,Starting Cash,EUR,-5202.828315,-5202.828315,0,
+Cash Report,Data,Ending Cash,EUR,-5207.678315,-5207.678315,0,
+Cash Report,Data,Ending Settled Cash,EUR,-5207.678315,-5207.678315,0,
+Cash Report,Data,Starting Cash,GBP,-2026.500029998,-2026.500029998,0,
+Cash Report,Data,Ending Cash,GBP,-2047.890029998,-2047.890029998,0,
+Cash Report,Data,Ending Settled Cash,GBP,-2047.890029998,-2047.890029998,0,
+Cash Report,Data,Starting Cash,USD,-6928.199981761,-6928.199981761,0,
+Cash Report,Data,Ending Cash,USD,-6932.419981761,-6932.419981761,0,
+Cash Report,Data,Ending Settled Cash,USD,-6932.419981761,-6932.419981761,0,
+Open Positions,Header,DataDiscriminator,Asset Category,Currency,Symbol,Quantity,Mult,Cost Price,Cost Basis,Close Price,Value,Unrealized P/L,Code
+Open Positions,Data,Summary,Stocks,EUR,EUNI,50,1,69.3831521,3469.157605,69.83,3491.5,22.342395,
+Open Positions,Data,Summary,Stocks,EUR,IBC3,1750,1,4.112194331,7196.34008,4.0763,7133.53,-62.81008,
+Open Positions,Data,Summary,Stocks,EUR,IWVL,180,1,32.448333333,5840.7,34.315,6176.7,336,
+Open Positions,Data,Summary,Stocks,EUR,LCUK,350,1,11.720714286,4102.25,12.576,4401.6,299.35,
+Open Positions,Data,Summary,Stocks,EUR,R2US,50,1,50.885,2544.25,50.98,2549,4.75,
+Open Positions,Data,Summary,Stocks,EUR,UEFDd,70,1,108.010035714,7560.7025,120.58,8440.6,879.8975,
+Open Positions,Data,Summary,Stocks,EUR,VAPX,500,1,24.54772828,12273.86414,23.91,11955,-318.86414,
+Open Positions,Data,Summary,Stocks,EUR,VERX,150,1,33.763333333,5064.5,36.035,5405.25,340.75,
+Open Positions,Data,Summary,Stocks,EUR,VGER,300,1,25.708092967,7712.42789,25.245,7573.5,-138.92789,
+Open Positions,Data,Summary,Stocks,EUR,VJPN,100,1,28.1090475,2810.90475,28.45,2845,34.09525,
+Open Positions,Data,Summary,Stocks,EUR,ZPRV,150,1,48.792876,7318.9314,53.53,8029.5,710.5686,
+Open Positions,Data,Summary,Stocks,EUR,ZPRX,100,1,42.139,4213.9,46.085,4608.5,394.6,
+Open Positions,Total,,Stocks,EUR,,,,,70107.928365,,72609.68,2501.751635,
+Open Positions,Data,Summary,Stocks,GBP,R2SC,50,1,41.86,2093,45.09,2254.5,161.5,
+Open Positions,Total,,Stocks,GBP,,,,,2093,,2254.5,161.5,
+Open Positions,Total,,Stocks,EUR,,,,,2370.1132,,2552.9958,182.8826,
+Open Positions,Data,Summary,Stocks,USD,AVDV,100,1,63.91282,6391.282,60.01,6001,-390.282,
+Open Positions,Data,Summary,Stocks,USD,DFAE,19,1,26.742631579,508.11,23.06,438.14,-69.97,
+Open Positions,Data,Summary,Stocks,USD,DFAI,22,1,29.505454545,649.12,27.01,594.22,-54.9,
+Open Positions,Data,Summary,Stocks,USD,DFAS,11,1,56.940909091,626.35,56.5,621.5,-4.85,
+Open Positions,Data,Summary,Stocks,USD,DFAT,68,1,46.518529412,3163.26,48.63,3306.84,143.58,
+Open Positions,Data,Summary,Stocks,USD,DFIV,29,1,33.98137931,985.46,33.38,968.02,-17.44,
+Open Positions,Data,Summary,Stocks,USD,DFUS,22,1,47.540909091,1045.9,44.13,970.86,-75.04,
+Open Positions,Data,Summary,Stocks,USD,DON,60,1,43.6315,2617.89,43.8,2628,10.11,
+Open Positions,Data,Summary,Stocks,USD,EQAL,12,1,46.203333333,554.44,42.8,513.6,-40.84,
+Open Positions,Data,Summary,Stocks,USD,FLLA,24,1,22.261666667,534.28,20.5541,493.3,-40.98,
+Open Positions,Data,Summary,Stocks,USD,IEMG,20,1,60.5,1210,48.95,979,-231,
+Open Positions,Data,Summary,Stocks,USD,IJS,20,1,101.84865,2036.973,102.37,2047.4,10.427,
+Open Positions,Data,Summary,Stocks,USD,IQIN,34,1,32.999411765,1121.98,30.8282,1048.16,-73.82,
+Open Positions,Data,Summary,Stocks,USD,ISCV,80,1,58.55825,4684.66,57.14,4571.2,-113.46,
+Open Positions,Data,Summary,Stocks,USD,IWVU,600,1,4.106166667,2463.7,4.9398,2963.88,500.18,
+Open Positions,Data,Summary,Stocks,USD,RODE,36,1,28.357777778,1020.88,25.2292,908.25,-112.63,
+Open Positions,Data,Summary,Stocks,USD,RODM,80,1,29.6306975,2370.4558,26.35,2108,-262.4558,
+Open Positions,Data,Summary,Stocks,USD,SCHC,30,1,39.031333333,1170.94,34.02,1020.6,-150.34,
+Open Positions,Data,Summary,Stocks,USD,SCHE,35,1,30.348571429,1062.2,24.72,865.2,-197,
+Open Positions,Data,Summary,Stocks,USD,SPEM,30,1,42.313333333,1269.4,34.38,1031.4,-238,
+Open Positions,Data,Summary,Stocks,USD,VBR,7,1,175.565714286,1228.96,172.21,1205.47,-23.49,
+Open Positions,Data,Summary,Stocks,USD,VHYD,100,1,57.074,5707.4,60.03,6003,295.6,
+Open Positions,Data,Summary,Stocks,USD,VLU,30,1,153.556506667,4606.6952,145.9245,4377.74,-228.9552,
+Open Positions,Data,Summary,Stocks,USD,VWO,25,1,50.46,1261.5,40.69,1017.25,-244.25,
+Open Positions,Total,,Stocks,USD,,,,,48291.836,,46682.03,-1609.806,
+Open Positions,Total,,Stocks,EUR,,,,,45406.88171736,,43893.2455278,-1513.63618956,
+Open Positions,Total,,Stocks,EUR,,,,,117884.92328236,,119055.9213278,1170.99804544,
+Collateral for Customer Borrowing,Header,Asset Category,Currency,Symbol,Settled Quantity,Collateral Price,Value,Securities Segregated Quantity,Securities Segregated Value,Securities Not Segregated Quantity,Securities Not Segregated Value,Securities Not Segregated: Third Party "Right to Use"  Quantity,Securities Not Segregated: Third Party "Right to Use"  Value,Securities Not Segregated: Subject to Stock Yield Enhancement Program Quantity,Securities Not Segregated: Subject to Stock Yield Enhancement Program Value
+Collateral for Customer Borrowing,Data,Securities,USD,DFAE,19,22.8300,433.77,18,410.94,1,22.83,1,22.83,0,0.00
+Collateral for Customer Borrowing,Data,Securities,USD,DFAT,68,48.6300,"3,306.84",0,0.00,68,"3,306.84",68,"3,306.84",0,0.00
+Collateral for Customer Borrowing,Data,Securities,USD,DFIV,29,33.3800,968.02,0,0.00,29,968.02,29,968.02,0,0.00
+Collateral for Customer Borrowing,Data,Securities,USD,DFUS,22,44.1300,970.86,0,0.00,22,970.86,22,970.86,0,0.00
+Collateral for Customer Borrowing,Data,Securities,USD,R2SC,50,54.306396,"2,715.32",0,0.00,50,"2,715.32",50,"2,715.32",0,0.00
+Collateral for Customer Borrowing,Data,Securities,USD,R2US,50,54.21723,"2,710.86",0,0.00,50,"2,710.86",50,"2,710.86",0,0.00
+Collateral for Customer Borrowing,Data,Securities,USD,VLU,30,145.9200,"4,377.60",0,0.00,30,"4,377.60",30,"4,377.60",0,0.00
+Collateral for Customer Borrowing,Data,Total,,,,,"15,483.27",,410.94,,"15,072.33",,"15,072.33",,0.00
+Collateral for Customer Borrowing,Data,Total in EUR,,,,,"14,558.30",,386.39,,"14,171.91",,"14,171.91",,0.00
+Forex Balances,Header,Asset Category,Currency,Description,Quantity,Cost Price,Cost Basis in EUR,Close Price,Value in EUR,Unrealized P/L in EUR,Code
+Forex Balances,Data,Forex,EUR,EUR,-5207.678315,1,5207.678315,1,-5207.678315,0,
+Forex Balances,Data,Forex,EUR,GBP,-2047.89003,1.162615766,2380.90923689,1.1324,-2319.03067,61.87856689,
+Forex Balances,Data,Forex,EUR,USD,-6932.419981,0.999036282,6925.739081161,0.94026,-6518.277211,407.461870161,
+Forex Balances,Data,Total,,,,,14514.326633051,,-14044.986196,469.340437051,
+Dividends,Header,Currency,Date,Description,Amount
+Dividends,Data,EUR,2023-02-06,UEFD(LU0671493277) Cash Dividend EUR 0.5497 per Share (Mixed Income),38.48
+Dividends,Data,Total,,,38.48
+Dividends,Data,USD,2022-12-30,IWVU(IE00BFYTYS33) Cash Dividend USD 0.0602 per Share (Mixed Income),36.12
+Dividends,Data,USD,2023-01-06,IQIN(US45409B3621) Cash Dividend USD 0.33687 per Share (Ordinary Dividend),11.45
+Dividends,Data,USD,2023-01-25,EUNI(IE00B3F81G20) Cash Dividend USD 1.0282 per Share (Mixed Income),51.41
+Dividends,Data,USD,2023-01-30,DON(US97717W5058) Cash Dividend USD 0.005 per Share (Ordinary Dividend),0.3
+Dividends,Data,USD,2023-02-27,DON(US97717W5058) Cash Dividend USD 0.01 per Share (Ordinary Dividend),0.6
+Dividends,Data,Total,,,99.88
+Dividends,Data,Total in EUR,,,93.0430928
+Dividends,Data,Total Dividends in EUR,,,131.5230928
+Withholding Tax,Header,Currency,Date,Description,Amount,Code
+Withholding Tax,Data,USD,2022-05-27,DON(US97717W5058) Cash Dividend USD 0.085 per Share - US Tax,0.76,
+Withholding Tax,Data,USD,2022-05-27,DON(US97717W5058) Cash Dividend USD 0.085 per Share - US Tax,-0.77,
+Withholding Tax,Data,USD,2023-01-06,IQIN(US45409B3621) Cash Dividend USD 0.33687 per Share - US Tax,-1.72,
+Withholding Tax,Data,USD,2023-01-30,DON(US97717W5058) Cash Dividend USD 0.005 per Share - US Tax,-0.05,
+Withholding Tax,Data,USD,2023-02-27,DON(US97717W5058) Cash Dividend USD 0.01 per Share - US Tax,-0.09,
+Withholding Tax,Data,Total,,,-1.87,
+Withholding Tax,Data,Total in EUR,,,-1.7558957,
+Interest,Header,Currency,Date,Description,Amount
+Interest,Data,EUR,2023-01-05,EUR Debit Interest for Dec-2022,-13.33
+Interest,Data,EUR,2023-02-03,EUR Debit Interest for Jan-2023,-14.82
+Interest,Data,EUR,2023-03-03,EUR Debit Interest for Feb-2023,-15.18
+Interest,Data,Total,,,-43.33
+Interest,Data,GBP,2023-01-05,GBP Debit Interest for Dec-2022,-4.54
+Interest,Data,GBP,2023-02-03,GBP Debit Interest for Jan-2023,-8.4
+Interest,Data,GBP,2023-03-03,GBP Debit Interest for Feb-2023,-8.45
+Interest,Data,Total,,,-21.39
+Interest,Data,Total in EUR,,,-24.089702
+Interest,Data,USD,2023-01-05,USD Debit Interest for Dec-2022,-34.92
+Interest,Data,USD,2023-02-03,USD Debit Interest for Jan-2023,-34.65
+Interest,Data,USD,2023-03-03,USD Debit Interest for Feb-2023,-32.66
+Interest,Data,Total,,,-102.23
+Interest,Data,Total in EUR,,,-95.9980245
+Interest,Data,Total Interest in EUR,,,-163.4177265
+Interest Accruals,Header,Currency,Field Name,Field Value
+Interest Accruals,Data,Base Currency Summary,Starting Accrual Balance,-47.3029952
+Interest Accruals,Data,Base Currency Summary,Interest Accrued,-119.6315355
+Interest Accruals,Data,Base Currency Summary,Accrual Reversal,163.4177265
+Interest Accruals,Data,Base Currency Summary,FX Translation,-0.5060896
+Interest Accruals,Data,Base Currency Summary,Ending Accrual Balance,-4.0228938
+Interest Accruals,Data,EUR,Starting Accrual Balance,-12.16
+Interest Accruals,Data,EUR,Interest Accrued,-32.3
+Interest Accruals,Data,EUR,Accrual Reversal,43.33
+Interest Accruals,Data,EUR,Ending Accrual Balance,-1.13
+Interest Accruals,Data,GBP,Starting Accrual Balance,-4.08
+Interest Accruals,Data,GBP,Interest Accrued,-17.93
+Interest Accruals,Data,GBP,Accrual Reversal,21.39
+Interest Accruals,Data,GBP,Ending Accrual Balance,-0.62
+Interest Accruals,Data,GBP,Ending Accrual Balance in EUR,-0.702088
+Interest Accruals,Data,USD,Starting Accrual Balance,-32.68
+Interest Accruals,Data,USD,Interest Accrued,-71.88
+Interest Accruals,Data,USD,Accrual Reversal,102.23
+Interest Accruals,Data,USD,Ending Accrual Balance,-2.33
+Interest Accruals,Data,USD,Ending Accrual Balance in EUR,-2.1908058
+Change in Dividend Accruals,Header,Asset Category,Currency,Symbol,Date,Ex Date,Pay Date,Quantity,Tax,Fee,Gross Rate,Gross Amount,Net Amount,Code
+Change in Dividend Accruals,Data,Starting Dividend Accruals in EUR,,,,,,,,,,,42.834904,
+Change in Dividend Accruals,Data,Stocks,EUR,UEFDd,2023-01-31,2023-02-01,2023-02-06,70,0,0,0.5497,38.48,38.48,Po
+Change in Dividend Accruals,Data,Stocks,EUR,UEFDd,2023-02-06,2023-02-01,2023-02-06,70,0,0,0.5497,-38.48,-38.48,Re
+Change in Dividend Accruals,Data,Total,,,,,,,0,0,,0,0,
+Change in Dividend Accruals,Data,Stocks,USD,DON,2023-01-24,2023-01-25,2023-01-30,60,0.05,0,0.005,0.3,0.25,Po
+Change in Dividend Accruals,Data,Stocks,USD,DON,2023-01-30,2023-01-25,2023-01-30,60,-0.05,0,0.005,-0.3,-0.25,Re
+Change in Dividend Accruals,Data,Stocks,USD,DON,2023-02-21,2023-02-22,2023-02-27,60,0.09,0,0.01,0.6,0.51,Po
+Change in Dividend Accruals,Data,Stocks,USD,DON,2023-02-27,2023-02-22,2023-02-27,60,-0.09,0,0.01,-0.6,-0.51,Re
+Change in Dividend Accruals,Data,Stocks,USD,EUNI,2023-01-11,2023-01-12,2023-01-25,50,0,0,1.0282,51.41,51.41,Po
+Change in Dividend Accruals,Data,Stocks,USD,EUNI,2023-01-25,2023-01-12,2023-01-25,50,0,0,1.0282,-51.41,-51.41,Re
+Change in Dividend Accruals,Data,Stocks,USD,IQIN,2023-01-06,2022-12-29,2023-01-06,34,-1.72,0,0.33687,-11.45,-9.73,Re
+Change in Dividend Accruals,Data,Stocks,USD,IWVU,2022-12-30,2022-12-15,2022-12-30,600,0,0,0.0602,-36.12,-36.12,Re
+Change in Dividend Accruals,Data,Total,,,,,,,-1.72,0,,-47.57,-45.85,
+Change in Dividend Accruals,Data,Total in EUR,,,,,,,-1.6160396,0,,-44.8281718,-43.2121322,
+Change in Dividend Accruals,Data,Total Stocks in EUR,,,,,,,-1.6160396,0,,-44.8281718,-43.2121322,
+Change in Dividend Accruals,Data,Ending Dividend Accruals in EUR,,,,,,,,,,,0,
+Financial Instrument Information,Header,Asset Category,Symbol,Description,Conid,Security ID,Listing Exch,Multiplier,Type,Code
+Financial Instrument Information,Data,Stocks,AVDV,AVANTIS INTL S/C VALUE ETF,385087093,US0250728021,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,DFAE,DIMENSIONAL EMERGING CORE EQ,458378551,US25434V3024,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,DFAI,DIMENSIONAL INTERNATIONAL CO,455801512,US25434V2034,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,DFAS,DIMENSIONAL US SMALL CAP ETF,496646875,US25434V5003,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,DFAT,DIMENSIONAL US TARGET VALUE,496646878,US25434V6092,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,DFIV,DIMENSIONAL INTERNATIONAL VA,513880551,US25434V8072,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,DFUS,DIMENSIONAL US EQUITY ETF,496646868,US25434V4014,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,DON,WISDOMTREE US MIDCAP DIVIDEN,39579977,US97717W5058,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,EQAL,INVESCO RUSSELL 1000 EQUAL W,319357074,US46138E4200,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,EUNI,ISHARES MSCI EM SMALL CAP,236786667,IE00B3F81G20,IBIS2,1,ETF,
+Financial Instrument Information,Data,Stocks,FLLA,FRANKLIN FTSE LATIN AMERICA,336757799,US35473P5614,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,IBC3,ISHARES CORE EM IMI USD DIST,537572540,IE00BD45KH83,IBIS2,1,ETF,
+Financial Instrument Information,Data,Stocks,IEMG,ISHARES CORE MSCI EMERGING,115826951,US46434G1031,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,IJS,ISHARES S&P SMALL-CAP 600 VA,10435409,US4642878791,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,IQIN,IQ 500 INTERNATIONAL ETF,345552921,US45409B3621,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,ISCV,ISHARES MORNINGSTAR SMALL-CA,29318735,US4642887032,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,IWVL,ISHARES EDGE MSCI WRLD VALUE,183908203,IE00BP3QZB59,BVME.ETF,1,ETF,
+Financial Instrument Information,Data,Stocks,IWVU,ISH EDGE MSCI WLD VAL USD-D,308725402,IE00BFYTYS33,LSEETF,1,ETF,
+Financial Instrument Information,Data,Stocks,LCUK,LYXOR CORE UK EQ ALL CAP DR,311572509,LU1781541096,IBIS,1,ETF,
+Financial Instrument Information,Data,Stocks,R2SC,SPDR RUSSELL 2000 US S/C,159310437,IE00BJ38QD84,LSEETF,1,ETF,
+Financial Instrument Information,Data,Stocks,R2US,SPDR RUSSELL 2000 US S/C,159054547,IE00BJ38QD84,IBIS2,1,ETF,
+Financial Instrument Information,Data,Stocks,RODE,HARTFORD MULTIFACTOR DIVERSI,275669813,US5184166073,BATS,1,ETF,
+Financial Instrument Information,Data,Stocks,RODM,HARTFORD MULTIFACTOR DEVELOP,185345355,US5184161025,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,SCHC,SCHWAB INTL SMALL-CAP EQUITY,71714776,US8085248883,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,SCHE,SCHWAB EMERGING MARKETS EQUI,71715076,US8085247067,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,SPEM,SPDR PORTFOLIO EMERGING MARK,45540759,US78463X5095,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,UEFDd,UBS ETF MSCI EMU SMALL CAP U,97070595,LU0671493277,IBIS,1,ETF,
+Financial Instrument Information,Data,Stocks,VAPX,VANG FTSEAPXJ USDD,128831212,IE00B9F5YL18,AEB,1,ETF,
+Financial Instrument Information,Data,Stocks,VBR,VANGUARD SMALL-CAP VALUE ETF,27638062,US9229086114,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,VERX,VANG FTSE DEX EURD,170547602,IE00BKX55S42,AEB,1,ETF,
+Financial Instrument Information,Data,Stocks,VGER,VANGUARD GERMANY ALL CAP ETF,326177836,IE00BG143G97,IBIS2,1,ETF,
+Financial Instrument Information,Data,Stocks,VHYD,VANG FTSE HDY USDD,128357260,IE00B8GKDB10,LSEETF,1,ETF,
+Financial Instrument Information,Data,Stocks,VJPN,VANG FTSE JPN USDD,128831224,IE00B95PGT31,AEB,1,ETF,
+Financial Instrument Information,Data,Stocks,VLU,SPDR S&P 1500 VALUE TILT ETF,116379893,US78464A1280,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,VWO,VANGUARD FTSE EMERGING MARKE,27684033,US9220428588,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,ZPRV,SPDR USA S/C VALUE,184168302,IE00BSPLC413,IBIS2,1,ETF,
+Financial Instrument Information,Data,Stocks,ZPRX,SPDR EUROPE S/C VALUE,184168292,IE00BSPLC298,IBIS2,1,ETF,
+Codes,Header,Code,Meaning,Code (Cont.),Meaning (Cont.)
+Codes,Data,A,Assignment
+Codes,Data,ADR,ADR Fee Accrual
+Codes,Data,AEx,Automatic exercise for dividend-related recommendation.
+Codes,Data,AFx,AutoFX conversion resulting from trading
+Codes,Data,Adj,Adjustment
+Codes,Data,Al,Allocation
+Codes,Data,Aw,Away Trade
+Codes,Data,B,Automatic Buy-in
+Codes,Data,Bo,Direct Borrow
+Codes,Data,C,Closing Trade
+Codes,Data,CD,Cash Delivery
+Codes,Data,CP,Complex Position
+Codes,Data,Ca,Cancelled
+Codes,Data,Co,Corrected Trade
+Codes,Data,Cx,Part or all of this transaction was a Crossing executed as dual agent by IB for two IB customers
+Codes,Data,ETF,ETF Creation/Redemption
+Codes,Data,Ep,Resulted from an Expired Position
+Codes,Data,Ex,Exercise
+Codes,Data,FP,"IB acted as agent for the fractional share portion of this trade, which was executed by an IB affiliate as principal."
+Codes,Data,FPA,IB acted as agent for both the fractional share portion and the whole share portion of this trade; the fractional share portion was executed by an IB Affiliate as principal.
+Codes,Data,G,Trade in Guaranteed Account Segment
+Codes,Data,GEA,Exercise or Assignment resulting from offsetting positions
+Codes,Data,HC,Highest Cost tax basis election
+Codes,Data,HFI,Investment Transferred to Hedge Fund
+Codes,Data,HFR,Redemption from Hedge Fund
+Codes,Data,I,Internal Transfer
+Codes,Data,IA,This transaction was executed against an IB affiliate
+Codes,Data,INV,Investment Transfer from Investor
+Codes,Data,IPO,This transaction was executed as part of an IPO in which IB was a member of the selling group and is classified as a Principal trade.
+Codes,Data,L,Ordered by IB (Margin Violation)
+Codes,Data,LD,Adjusted by Loss Disallowed from Wash Sale
+Codes,Data,LI,"Last In, First Out (LIFO) tax basis election"
+Codes,Data,LT,Long Term P/L
+Codes,Data,Lo,Direct Loan
+Codes,Data,M,Entered manually by IB
+Codes,Data,MEx,Manual exercise for dividend-related recommendation.
+Codes,Data,ML,Maximize Losses tax basis election
+Codes,Data,MLG,Maximize Long Term Gain tax basis election
+Codes,Data,MLL,Maximize Long Term Loss tax basis election
+Codes,Data,MSG,Maximize Short Term Gain tax basis election
+Codes,Data,MSL,Maximize Short Term Loss tax basis election
+Codes,Data,O,Opening Trade
+Codes,Data,P,Partial Execution
+Codes,Data,PI,Price Improvement
+Codes,Data,Po,Interest or Dividend Accrual Posting
+Codes,Data,Pr,Part or all of this transaction was executed by the Exchange as a Crossing by IB against an IB affiliate and is therefore classified as a Principal and not an agency trade
+Codes,Data,R,Dividend Reinvestment
+Codes,Data,RED,Redemption to Investor
+Codes,Data,RI,Recurring Investment
+Codes,Data,RP,"IB acted as agent for the fractional share portion of this trade, which was executed by an IB affiliate as riskless principal."
+Codes,Data,RPA,IB acted as agent for both the fractional share portion and the whole share portion of this trade; the fractional share portion was executed by an IB Affiliate as riskless principal.
+Codes,Data,Re,Interest or Dividend Accrual Reversal
+Codes,Data,Ri,Reimbursement
+Codes,Data,SI,This order was solicited by Interactive Brokers
+Codes,Data,SL,Specific Lot tax basis election
+Codes,Data,SO,This order was marked as solicited by your Introducing Broker
+Codes,Data,SS,Customer designated this trade for shortened settlement and so is subject to execution at prices above the prevailing market
+Codes,Data,ST,Short Term P/L
+Codes,Data,T,Transfer
+Codes,Data,Un,Unvested shares from stock grant
+Notes/Legal Notes,Header,Type,Note
+Notes/Legal Notes,Data,Notes,"Most stock exchange transactions settle on the trade date plus two business days. Options, futures and US open-end mutual fund transactions settle on trade date plus one business day. (Some exchanges and other transaction types may have longer or shorter settlement periods.) Ending settled cash reflects the cash that has actually settled.  "
+Notes/Legal Notes,Data,Notes,Initial and maintenance margin requirements are available within the Account Window of the Trader Workstation.
+Notes/Legal Notes,Data,Notes,Quantities preceded by a "-" sign indicate sell transactions. Other transactions are purchases. 
+Notes/Legal Notes,Data,Notes,"For shares traded on US markets, Interactive Brokers Ireland Limited (IBIE) acts as agent in executing the fractional portion of your order. In certain circumstances, IBIE routes that portion to an affiliate, which may execute it either as principal or riskless principal. If an IB affiliate executes as i) principal, the order will be executed at the price displayed for the opposite side of the NBBO from your order (the offer if you are buying and the bid if you are selling) at the time of execution, ii) riskless principal, the affiliate will execute that portion of your order at the price it receives for the execution of the whole share. The way in which the fractional portion of the order is executed is indicated by the codes associated with the trade. For shares traded on European Markets, IBIE will generally act as counterparty for any fractional portion of your order for shares, which it will execute as principal, for a total consideration which is equal to (or better than), the total consideration for the execution of a full share available at the European trading venues and SIs to which IBIE has access. In certain circumstances, IBIE may route a full share order to the available European trading venues acting in an Agency capacity and the fractional portion of the order will be allocated to your account at the price traded in the trading venue and the remaining fractional portion will be allocated to an affiliate. "
+Notes/Legal Notes,Data,Notes,"In case of partial executions, commissions are charged on the total quantity executed on the original order. The commission is displayed on the first partial execution only."
+Notes/Legal Notes,Data,Notes,Each closed lot indicated above with a reference to note (6) was chosen by the end of the trading day to be sold versus the specific opening purchase identified in that row.
+Notes/Legal Notes,Data,Notes,Trade execution times are displayed in Eastern Time.
+Notes/Legal Notes,Data,Notes,Applicable commodity Regulatory Fees for your transactions are available on the IB website at www.interactivebrokers.com/en/accounts/fees/exchangeAndRegulatoryFees.php.
+Notes/Legal Notes,Data,Notes,"Borrow Fee Rate represents the cost to borrow stock expressed in percent per annum. It is applied to the collateral value on the stock borrow contract and is separate from any interest earned on credit cash balances. Similarly, Loan Fee Rate represents the benefit to lend stock. A positive rate indicates a cost to the borrower/benefit to the lender and a negative rate indicates a benefit to the borrower/cost to the lender. In general, the fee rates for hard-to-borrow stocks are higher than for normal availability stocks."
+Notes/Legal Notes,Data,Notes,Interest Rate on Customer Collateral represents the interest paid on the collateral posted to the customer's account and received from lending stock.  A positive rate indicates a benefit to the lender.
+Notes/Legal Notes,Data,Notes,"The closing prices on this Activity Statement are indicative and may come from third-party sources. Interactive Brokers does not warrant the accuracy of the prices provided by third-party sources. Due to time zone differences, certain non-US mutual funds may deliver closing prices after the Activity Statement has been produced and the closing prices for such funds will reflect the previous day's price."
+Notes/Legal Notes,Data,Notes,All Market Data and Research services are provided through Global Financial Information Services (GmbH).
+Notes/Legal Notes,Data,Notes,"Market data is provided by Global Financial Information Services (GmbH). Your local broker collects amounts owed for fees and tax for such data on behalf of Global Financial Information Services (GmbH). Note, you are responsible for any applicable taxes relating to the provision of these services."
+Notes/Legal Notes,Data,Notes,"Directive 2014/65/EU and its implementing measures (MiFID II) applies to all client funds and client financial instruments (Client Assets) on this statement except those Client Assets that are not classified as segregated assets, namely securities lent under the Stock Yield Enhancement Programme as identified in the IBKR Managed Securities Lent section of this statement and Client Assets noted as Not Segregated in the Collateral for Customer Borrowing section of this statement.  IBIE applies the MiFID II Client Asset protection requirements to funds and instruments that are not subject to MiFID II in the same way as it applies those requirements to Client Assets. IBIE is also subject to the client asset requirements set out in the Central Bank (Supervision and Enforcement) Act 2013 (Section 48(1))(Investment Firms) Regulations 2017."
+Notes/Legal Notes,Data,Fixed Income Notes,"Call features for bonds or preferred stocks may affect the yield. For zero coupon, compound interest and multiplier securities, there are no periodic payments and securities may be callable below maturity value without notice to holder unless registered. For asset-backed securities, the actual yield may vary depending on the speed at which the underlying note is pre-paid. For additional information regarding bond yield, please contact the IB Help Desk at: help@interactivebrokers.com. If this debt security is unrated by a nationally recognized statistical rating organization, it may pose a high risk of default. You should consult a financial advisor to determine whether unrated bonds are appropriate for your portfolio in light of your goals and your financial circumstances. Fees charged by bond trading centers are included in the cost of bond transactions."
+Notes/Legal Notes,Data,Legal Notes,"Please promptly report any inaccuracy or discrepancy in this statement, or in your account, to Interactive Brokers Ireland Limited (""IBIE""). You can contact us by telephone or electronically through the IBIE website at, www.interactivebrokers.ie. If you report an error by telephone, you should re-confirm such oral communication in writing in order to protect your rights, including your rights under the Investor Compensation Scheme."
+Notes/Legal Notes,Data,Legal Notes,"Unless otherwise noted, IBIE acted as agent in the execution of the above transactions. IBIE may execute your trades through affiliates or third-party brokers who are members of the relevant exchange or market center. IBIE uses its affiliates Interactive Brokers LLC (""IBLLC"") and Interactive Brokers (U.K.) Limited to custody financial instruments."
+Notes/Legal Notes,Data,Legal Notes,"IBIE acts as agent or riskless principal in foreign currency exchange transactions and CFDs. Such transactions are executed against an IBIE affiliate, which acts as principal in such transactions and may have a long or short position and may have profited or lost in connection with the transaction."
+Notes/Legal Notes,Data,Legal Notes,"IBIE routes orders in US products through its US affiliate, IBLLC. IBLLC accepts liquidity rebates or other order flow payments from Alternative Trading Systems, market makers and exchanges for certain orders in US stocks. IBLLC receives payment for some US option orders pursuant to exchange-mandated marketing fee programs or other arrangements."
+Notes/Legal Notes,Data,Legal Notes,Please promptly notify IB-IE of any material change in your investment objectives or financial situation or circumstances.
+Notes/Legal Notes,Data,Legal Notes,"An up-to-date financial statement of IBIE is available for your personal inspection at www.interactivebrokers.ie or at its offices, or a copy of the financial statement will be mailed to you upon your written request."
+Notes/Legal Notes,Data,Legal Notes,"IBIE is a member of the Investor Compensation Scheme, which provides protection for customers in the event of the failure of IBIE. Further information on the Investor Compensation Scheme can be found at  www.investorcompensation.ie  ."
+Notes/Legal Notes,Data,Legal Notes,IBIE is incorporated under the laws of Ireland and registered with the Irish Companies Registration Office with company registration number 657406.
+Notes/Legal Notes,Data,Legal Notes,IBIE is regulated by the Central Bank of Ireland.
+Notes/Legal Notes,Data,Legal Notes,"IBIE's Registered Office address is 10 Earlsfort Terrace, Dublin, D02 T380, Ireland."
+Notes/Legal Notes,Data,Legal Notes,"IBIE is included in the Central Bank of Ireland's register of authorised firms under number C423427. The CBI's address is New Wapping Street, North Wall Quay, Dublin 1, D01 F7X3. The CBI's website is www.centralbank.ie."

@@ -18,7 +18,7 @@ struct Period: Hashable, CustomStringConvertible {
     
     static var all: [Period] {
         let months2022 = (1 ... 12).map({ Period(month: $0.month, year: "2022") })
-        let months2023 = (1 ... 1).map({ Period(month: $0.month, year: "2023") })
+        let months2023 = (1 ... 2).map({ Period(month: $0.month, year: "2023") })
         return months2022 + months2023
     }
 }
@@ -53,21 +53,23 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         var revenues = [Period: Double]()
-        for (period, revenue) in exRevenues() {
+        let ibRevenues = getIbRevenues()
+        let exRevenues = getExRevenues()
+        for (period, revenue) in exRevenues {
             revenues[period] = (revenues[period] ?? 0) + revenue
         }
-        for (period, revenue) in ibRevenues() {
+        for (period, revenue) in ibRevenues {
             revenues[period] = (revenues[period] ?? 0) + revenue
         }
         print("Exante\n\n")
         for period in Period.all {
-            if let revenue = exRevenues()[period], revenue != 0 {
+            if let revenue = exRevenues[period], revenue != 0 {
                 print("\n", period, revenue)
             }
         }
         print("\n\n\nIBKR\n\n")
         for period in Period.all {
-            if let revenue = ibRevenues()[period], revenue != 0 {
+            if let revenue = ibRevenues[period], revenue != 0 {
                 print("\n", period, revenue)
             }
         }
@@ -85,7 +87,7 @@ class ViewController: UIViewController {
         }
     }
     
-    func getRevenues(getEvent: (String, String) -> (event: Event, value: Double)?, lines: [String]) -> [Period: Double] {
+    func getRevenues(getEvent: (String, String) -> (event: Event, value: Double)?, lines: [[String]]) -> [Period: Double] {
         let events = getEvents(getEvent: getEvent, lines: lines)
         let eventsSorted = events.sorted(by: {
             if $0.key.date < $1.key.date {
@@ -105,20 +107,33 @@ class ViewController: UIViewController {
         return revenues
     }
     
-    func getEvents(getEvent: (String, String) -> (event: Event, value: Double)?, lines: [String]) -> [Event: [Double]] {
-        var events = [Event: [Double]]()
-        for line in lines {
-            for currency in Self.currencies {
-                if let (event, value) = getEvent(line, currency) {
-                    if let values = events[event] {
-                        events[event] = (values + [value]).sorted(by: >)
-                    } else {
-                        events[event] = [value]
+    func getEvents(getEvent: (String, String) -> (event: Event, value: Double)?, lines: [[String]]) -> [Event: [Double]] {
+        return lines
+            .reduce(into: [Set<String>](), { array, lines in
+                var result = Set<String>()
+                for line in lines {
+                    for currency in Self.currencies {
+                        if getEvent(line, currency) != nil {
+                            if result.insert(line).inserted == false {
+                                fatalError("Не должно быть идентичных событий в одном массиве: \(line)")
+                            }
+                        }
                     }
                 }
-            }
-        }
-        return events
+                array += [result]
+            })
+            .reduce(Set<String>(), { $0.union($1) })
+            .reduce(into: [Event: [Double]](), { result, line in
+                for currency in Self.currencies {
+                    if let (event, value) = getEvent(line, currency) {
+                        if let values = result[event] {
+                            result[event] = (values + [value]).sorted(by: >)
+                        } else {
+                            result[event] = [value]
+                        }
+                    }
+                }
+            })
     }
     
     func getLines(_ name: String) -> [String] {
@@ -127,12 +142,23 @@ class ViewController: UIViewController {
         return string.components(separatedBy: "\n")
     }
     
-    func exRevenues() -> [Period: Double] {
-        return getRevenues(getEvent: getExEvent, lines: getLines("ex.txt"))
+    func getExRevenues() -> [Period: Double] {
+        return getRevenues(
+            getEvent: getExEvent,
+            lines: [
+                getLines("ex.txt")
+            ]
+        )
     }
     
-    func ibRevenues() -> [Period: Double] {
-        return getRevenues(getEvent: getIbEvent, lines: getLines("ib.csv"))
+    func getIbRevenues() -> [Period: Double] {
+        return getRevenues(
+            getEvent: getIbEvent,
+            lines: [
+                getLines("U8508545_20230102_20230303.csv"),
+                getLines("U8508545_20220228_20230228.csv")
+            ]
+        )
     }
     
     func toEur(event: Event) -> Double {
@@ -227,6 +253,8 @@ class ViewController: UIViewController {
                 return 1.0878
             case "30/01/2023":
                 return 1.0903
+            case "27/02/2023":
+                return 1.0554
             default:
                 fatalError()
             }
