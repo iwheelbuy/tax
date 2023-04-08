@@ -18,8 +18,12 @@ struct Period: Hashable, CustomStringConvertible {
     
     static var all: [Period] {
         let months2022 = (1 ... 12).map({ Period(month: $0.month, year: "2022") })
-        let months2023 = (1 ... 2).map({ Period(month: $0.month, year: "2023") })
+        let months2023 = (1 ... 3).map({ Period(month: $0.month, year: "2023") })
         return months2022 + months2023
+    }
+    
+    static func year(_ year: String) -> [Period] {
+        return (1 ... 12).map({ Period(month: $0.month, year: year) })
     }
 }
 
@@ -72,6 +76,15 @@ class ViewController: UIViewController {
             if let revenue = ibRevenues[period], revenue != 0 {
                 print("\n", period, revenue)
             }
+        }
+        for year in ["2022"] {
+            var revenues: Double = 0
+            for period in Period.year(year) {
+                if let revenue = ibRevenues[period], revenue != 0 {
+                    revenues += revenue
+                }
+            }
+            print("\n\n\nIBKR total for \(year) is \(revenues)\n\n")
         }
         for name in ["Iuliia", Self.mikhail] {
             print("\n\n\nTotal for \(name)\n\n")
@@ -156,7 +169,8 @@ class ViewController: UIViewController {
             getEvent: getIbEvent,
             lines: [
                 getLines("U8508545_20230102_20230303.csv"),
-                getLines("U8508545_20220228_20230228.csv")
+                getLines("U8508545_20220228_20230228.csv"),
+                getLines("U8508545_20221230_20230407.csv")
             ]
         )
     }
@@ -255,6 +269,16 @@ class ViewController: UIViewController {
                 return 1.0903
             case "27/02/2023":
                 return 1.0554
+            case "23/03/2023":
+                return 1.0879
+            case "24/03/2023":
+                return 1.0745
+            case "28/03/2023":
+                return 1.0841
+            case "29/03/2023":
+                return 1.0847
+            case "30/03/2023":
+                return 1.0886
             default:
                 fatalError()
             }
