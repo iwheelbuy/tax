@@ -18,7 +18,7 @@ struct Period: Hashable, CustomStringConvertible {
     
     static var all: [Period] {
         let months2022 = (1 ... 12).map({ Period(month: $0.month, year: "2022") })
-        let months2023 = (1 ... 3).map({ Period(month: $0.month, year: "2023") })
+        let months2023 = (1 ... 4).map({ Period(month: $0.month, year: "2023") })
         return months2022 + months2023
     }
     
@@ -43,7 +43,8 @@ class ViewController: UIViewController {
                 .init(month: "10", year: "2022"): 564,
                 .init(month: "07", year: "2022"): 333,
                 .init(month: "04", year: "2022"): 257,
-                .init(month: "01", year: "2023"): 60.54
+                .init(month: "01", year: "2023"): 60.54,
+                .init(month: "04", year: "2023"): 370.94
             ]
         } else {
             return [:]
@@ -168,6 +169,7 @@ class ViewController: UIViewController {
         return getRevenues(
             getEvent: getIbEvent,
             lines: [
+                getLines("U8508545_20221229_20230501.csv"),
                 getLines("U8508545_20230102_20230303.csv"),
                 getLines("U8508545_20220228_20230228.csv"),
                 getLines("U8508545_20221230_20230407.csv")
@@ -279,6 +281,8 @@ class ViewController: UIViewController {
                 return 1.0847
             case "30/03/2023":
                 return 1.0886
+            case "27/04/2023":
+                return 1.1042
             default:
                 fatalError()
             }
