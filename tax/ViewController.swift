@@ -18,7 +18,7 @@ struct Period: Hashable, CustomStringConvertible {
     
     static var all: [Period] {
         let months2022 = (1 ... 12).map({ Period(month: $0.month, year: "2022") })
-        let months2023 = (1 ... 4).map({ Period(month: $0.month, year: "2023") })
+        let months2023 = (1 ... 5).map({ Period(month: $0.month, year: "2023") })
         return months2022 + months2023
     }
     
@@ -172,7 +172,8 @@ class ViewController: UIViewController {
                 getLines("U8508545_20221229_20230501.csv"),
                 getLines("U8508545_20230102_20230303.csv"),
                 getLines("U8508545_20220228_20230228.csv"),
-                getLines("U8508545_20221230_20230407.csv")
+                getLines("U8508545_20221230_20230407.csv"),
+                getLines("U8508545_20220609_20230609.csv")
             ]
         )
     }
@@ -181,7 +182,6 @@ class ViewController: UIViewController {
         if event.currency == Self.currencyEur {
             return 1
         } else if event.currency == Self.currencyUsd {
-            // https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html
             switch event.dateEcb {
             case "21/03/2022":
                 return 1.1038
@@ -283,15 +283,18 @@ class ViewController: UIViewController {
                 return 1.0886
             case "27/04/2023":
                 return 1.1042
+            case "30/05/2023":
+                return 1.0744
             default:
+                // https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html
                 fatalError()
             }
         } else if event.currency == Self.currencyGbp {
-            // https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-gbp.en.html
             switch event.dateEcb {
             case "09/12/2022":
                 return 0.85950
             default:
+                // https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-gbp.en.html
                 fatalError()
             }
         } else {
