@@ -18,7 +18,7 @@ struct Period: Hashable, CustomStringConvertible {
     
     static var all: [Period] {
         let months2022 = (1 ... 12).map({ Period(month: $0.month, year: "2022") })
-        let months2023 = (1 ... 6).map({ Period(month: $0.month, year: "2023") })
+        let months2023 = (1 ... 7).map({ Period(month: $0.month, year: "2023") })
         return months2022 + months2023
     }
     
@@ -44,7 +44,8 @@ class ViewController: UIViewController {
                 .init(month: "07", year: "2022"): 333,
                 .init(month: "04", year: "2022"): 257,
                 .init(month: "01", year: "2023"): 60.54,
-                .init(month: "04", year: "2023"): 370.94
+                .init(month: "04", year: "2023"): 370.94,
+                .init(month: "07", year: "2023"): 500.95
             ]
         } else {
             return [:]
@@ -174,7 +175,8 @@ class ViewController: UIViewController {
                 getLines("U8508545_20220228_20230228.csv"),
                 getLines("U8508545_20221230_20230407.csv"),
                 getLines("U8508545_20220609_20230609.csv"),
-                getLines("U8508545_20220718_20230717.csv")
+                getLines("U8508545_20220718_20230717.csv"),
+                getLines("U8508545_20220809_20230809.csv")
             ]
         )
     }
@@ -300,6 +302,10 @@ class ViewController: UIViewController {
                 return 1.0938
             case "06/07/2023":
                 return 1.0899
+            case "26/07/2023":
+                return 1.1059
+            case "28/07/2023":
+                return 1.1010
             default:
                 // https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html
                 fatalError()
