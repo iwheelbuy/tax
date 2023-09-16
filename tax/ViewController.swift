@@ -37,6 +37,7 @@ extension Int {
 class ViewController: UIViewController {
     
     static let mikhail = "Mikhail"
+    static let iuliia = "Iuliia"
     static func extraEur(name: String) -> [Period: Double]  {
         if name == mikhail {
             return [
@@ -59,8 +60,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         var revenues = [Period: Double]()
-        let ibRevenues = getIbRevenues()
-        let exRevenues = getExRevenues()
+        var taxisnetTotal = [String: [Kind: Double]]()
+        var gesy = [String: [String: Double]]()
+        let ibRevenues = getIbRevenues(taxisnet: &taxisnetTotal)
+        let exRevenues = getExRevenues(taxisnet: &taxisnetTotal)
         for (period, revenue) in exRevenues {
             revenues[period] = (revenues[period] ?? 0) + revenue
         }
@@ -79,7 +82,7 @@ class ViewController: UIViewController {
                 print("\n", period, revenue)
             }
         }
-        for year in ["2022"] {
+        for year in ["2022", "2023"] {
             var revenues: Double = 0
             for period in Period.year(year) {
                 if let revenue = ibRevenues[period], revenue != 0 {
@@ -88,7 +91,7 @@ class ViewController: UIViewController {
             }
             print("\n\n\nIBKR total for \(year) is \(revenues)\n\n")
         }
-        for name in ["Iuliia", Self.mikhail] {
+        for name in [Self.iuliia, Self.mikhail] {
             print("\n\n\nTotal for \(name)\n\n")
             for period in Period.all {
                 let revenue = revenues[period] ?? 0
@@ -97,12 +100,63 @@ class ViewController: UIViewController {
                     let totalTaxableAmount = Double(round(100 * personRevenue) / 100)
                     let tax = Double(round(100 * totalTaxableAmount * 0.0265) / 100)
                     print("\n", period, totalTaxableAmount, tax)
+                    var gesyName = gesy[name] ?? [:]
+                    gesyName[period.year] = (gesyName[period.year] ?? 0) + tax
+                    gesy[name] = gesyName
+                }
+            }
+        }
+        gesy[Self.iuliia]?["2022"] = 28.53
+        gesy[Self.mikhail]?["2022"] = 59.12
+        gesy[Self.iuliia]?["2023"] = 0
+        gesy[Self.mikhail]?["2023"] = 0
+        for name in [Self.iuliia, Self.mikhail] {
+            print("\n\n\nTaxisnet for \(name)\n\n")
+            var taxisnet = [String: [Kind: Double]]()
+            for year in taxisnetTotal.keys {
+                let total = taxisnetTotal[year] ?? [:]
+                taxisnet[year] = total.reduce(into: [Kind: Double](), { result, value in
+                    result[value.key] = value.value / 2
+                })
+            }
+            for period in Period.all {
+                let extra = Self.extraEur(name: name)[period] ?? 0
+                var total = taxisnet[period.year] ?? [:]
+                total[.dividends] = (total[.dividends] ?? 0) + extra
+                taxisnet[period.year] = total
+            }
+            for (year, values) in taxisnet.sorted(by: { $0.key.description < $1.key.description }) {
+                for validYear in ["2022", "2023"] where validYear == year {
+                    print("\nYEAR: \(year)")
+                    for (kind, value) in values.sorted(by: { $0.key.description < $1.key.description }) {
+                        switch kind {
+                        case .dividends:
+                            print("DIV: ", pretty(value))
+                        case .withholdingTax:
+                            print("TAX: ", pretty(value * -1))
+                        }
+                    }
+                    print("GHS: ", pretty(gesy[name]?[year] ?? 0))
                 }
             }
         }
     }
     
-    func getRevenues(getEvent: (String, String) -> (event: Event, value: Double)?, lines: [[String]]) -> [Period: Double] {
+    func pretty(_ value: Double) -> String {
+        return formatter.string(from: NSNumber.init(floatLiteral: value))!
+    }
+    
+    var formatter: NumberFormatter = {
+        let result = NumberFormatter()
+        result.numberStyle = .decimal
+        result.usesGroupingSeparator = false
+        result.minimumIntegerDigits = 1
+        result.maximumFractionDigits = 2
+        result.minimumFractionDigits = 2
+        return result
+    }()
+    
+    func getRevenues(getEvent: (String, String) -> (event: Event, value: Value)?, lines: [[String]], taxisnet: inout [String: [Kind: Double]]) -> [Period: Double] {
         let events = getEvents(getEvent: getEvent, lines: lines)
         let eventsSorted = events.sorted(by: {
             if $0.key.date < $1.key.date {
@@ -115,15 +169,39 @@ class ViewController: UIViewController {
         })
         var revenues = [Period: Double]()
         for (event, values) in eventsSorted {
-            let received = values.reduce(0, +)
+            let nice = values.sorted(by: { lhs, rhs in
+                if lhs.key == .dividends {
+                    return true
+                }
+                return false
+            }).map({ $0.value })
+            if event.name != "None" {
+                assert(nice[0] > 0)
+                if nice.count > 1 {
+                    assert(nice[1] < 0)
+                }
+            }
+            let received = values.reduce(into: 0, { result, value in
+                switch value.key {
+                case .dividends:
+                    result += value.value
+                case .withholdingTax:
+                    result += 0
+                }
+            })
             let revenue = received / toEur(event: event)
+            var taxisnetYear = taxisnet[event.year] ?? [:]
+            for (kind, value) in values {
+                taxisnetYear[kind] = (taxisnetYear[kind] ?? 0) + value
+            }
+            taxisnet[event.year] = taxisnetYear
             revenues[event.period] = (revenues[event.period] ?? 0) + revenue
         }
         return revenues
     }
     
-    func getEvents(getEvent: (String, String) -> (event: Event, value: Double)?, lines: [[String]]) -> [Event: [Double]] {
-        return lines
+    func getEvents2(getEvent: (String, String) -> (event: Event, value: Value)?, lines: [[String]]) -> [Event: [(Kind, Double)]] {
+        let result0: [Set<String>] = lines
             .reduce(into: [Set<String>](), { array, lines in
                 var result = Set<String>()
                 for line in lines {
@@ -137,18 +215,33 @@ class ViewController: UIViewController {
                 }
                 array += [result]
             })
+        let result1: Set<String> = result0
             .reduce(Set<String>(), { $0.union($1) })
-            .reduce(into: [Event: [Double]](), { result, line in
+        let result2: [Event: [(Kind, Double)]] = result1
+            .reduce(into: [Event: [(Kind, Double)]](), { result, line in
                 for currency in Self.currencies {
                     if let (event, value) = getEvent(line, currency) {
-                        if let values = result[event] {
-                            result[event] = (values + [value]).sorted(by: >)
-                        } else {
-                            result[event] = [value]
-                        }
+                        var array = result[event] ?? []
+                        array.append((value.kind, value.value))
+                        result[event] = array
                     }
                 }
             })
+        return result2
+    }
+    
+    func getEvents(getEvent: (String, String) -> (event: Event, value: Value)?, lines: [[String]]) -> [Event: [Kind: Double]] {
+        return getEvents2(getEvent: getEvent, lines: lines)
+            .reduce(into: [Event: [Kind: Double]]()) { result, object in
+                let event: Event = object.key
+                let array: [(Kind, Double)] = object.value
+                var dict = [Kind: Double]()
+                for (kind, value) in array {
+                    let prev = dict[kind] ?? 0
+                    dict[kind] = prev + value
+                }
+                result[event] = dict
+            }
     }
     
     func getLines(_ name: String) -> [String] {
@@ -157,16 +250,17 @@ class ViewController: UIViewController {
         return string.components(separatedBy: "\n")
     }
     
-    func getExRevenues() -> [Period: Double] {
+    func getExRevenues(taxisnet: inout [String: [Kind: Double]]) -> [Period: Double] {
         return getRevenues(
             getEvent: getExEvent,
             lines: [
                 getLines("ex.txt")
-            ]
+            ],
+            taxisnet: &taxisnet
         )
     }
     
-    func getIbRevenues() -> [Period: Double] {
+    func getIbRevenues(taxisnet: inout [String: [Kind: Double]]) -> [Period: Double] {
         return getRevenues(
             getEvent: getIbEvent,
             lines: [
@@ -177,8 +271,11 @@ class ViewController: UIViewController {
                 getLines("U8508545_20220609_20230609.csv"),
                 getLines("U8508545_20220718_20230717.csv"),
                 getLines("U8508545_20220809_20230809.csv"),
-                getLines("U8508545_20220915_20230915.csv")
-            ]
+                getLines("U8508545_20220915_20230915.csv"),
+                getLines("U8508545_20221019_20231019.csv"),
+                getLines("ib2022.csv")
+            ],
+            taxisnet: &taxisnet
         )
     }
     
@@ -309,6 +406,18 @@ class ViewController: UIViewController {
                 return 1.1010
             case "30/08/2023":
                 return 1.0886
+            case "21/09/2023":
+                return 1.0635
+            case "22/09/2023":
+                return 1.0647
+            case "26/09/2023":
+                return 1.0605
+            case "27/09/2023":
+                return 1.0536
+            case "28/09/2023":
+                return 1.0539
+            case "02/10/2023":
+                return 1.0530
             default:
                 // https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html
                 fatalError()
@@ -326,7 +435,7 @@ class ViewController: UIViewController {
         }
     }
     
-    func getExEvent(line: String, currency: String) -> (event: Event, value: Double)? {
+    func getExEvent(line: String, currency: String) -> (event: Event, value: Value)? {
         let components = line.components(separatedBy: "\t").map({ $0.replacingOccurrences(of: "\"", with: "") })
         guard components.count > 6 else {
             return nil
@@ -334,29 +443,32 @@ class ViewController: UIViewController {
         guard currency == components[7] else {
             return nil
         }
-        let valueMultiplier: Double
+        let valueMaker: (Double) -> Value
         if components[4] == "TAX" {
-            valueMultiplier = -1
+            valueMaker = { (.withholdingTax, $0) }
         } else if components[4] == "DIVIDEND" {
-            valueMultiplier = 1
+            valueMaker = { (.dividends, $0) }
         } else {
             return nil
         }
         let date = components[5].components(separatedBy: " ")[0]
         let name = components[2]
         let event = Event(currency: currency, date: date, name: name)
-        let value = abs(Double(components[6])!)
-        return (event, value * valueMultiplier)
+        let value = Double(components[6])!
+        return (event, valueMaker(value))
     }
-        
-    func getIbEvent(line: String, currency: String) -> (event: Event, value: Double)? {
+    
+    func getIbEvent(line: String, currency: String) -> (event: Event, value: Value)? {
         let prefix: String
         let dividendsPrefix = "Dividends,Data,\(currency),"
         let withholdingTaxPrefix = "Withholding Tax,Data,\(currency),"
+        let valueMaker: (Double) -> Value
         if line.hasPrefix(dividendsPrefix) {
             prefix = dividendsPrefix
+            valueMaker = { (.dividends, $0) }
         } else if line.hasPrefix(withholdingTaxPrefix) {
             prefix = withholdingTaxPrefix
+            valueMaker = { (.withholdingTax, $0) }
         } else {
             return nil
         }
@@ -368,7 +480,7 @@ class ViewController: UIViewController {
         let name = components[1].components(separatedBy: " ")[0]
         let event = Event(currency: currency, date: date, name: name)
         let value = Double(components[2])!
-        return (event, value)
+        return (event, valueMaker(value))
     }
 }
 
@@ -383,8 +495,28 @@ struct Event: Hashable {
     }
     
     var period: Period {
-        let year = date.components(separatedBy: "-")[0]
         let month = date.components(separatedBy: "-")[1]
         return .init(month: month, year: year)
+    }
+    
+    var year: String {
+        return date.components(separatedBy: "-")[0]
+    }
+}
+
+typealias Value = (kind: Kind, value: Double)
+
+enum Kind: String, CustomStringConvertible {
+    
+    case dividends
+    case withholdingTax
+    
+    var description: String {
+        switch self {
+        case .dividends:
+            return "DIV"
+        case .withholdingTax:
+            return "TAX"
+        }
     }
 }
