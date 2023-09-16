@@ -18,7 +18,7 @@ struct Period: Hashable, CustomStringConvertible {
     
     static var all: [Period] {
         let months2022 = (1 ... 12).map({ Period(month: $0.month, year: "2022") })
-        let months2023 = (1 ... 7).map({ Period(month: $0.month, year: "2023") })
+        let months2023 = (1 ... 8).map({ Period(month: $0.month, year: "2023") })
         return months2022 + months2023
     }
     
@@ -176,7 +176,8 @@ class ViewController: UIViewController {
                 getLines("U8508545_20221230_20230407.csv"),
                 getLines("U8508545_20220609_20230609.csv"),
                 getLines("U8508545_20220718_20230717.csv"),
-                getLines("U8508545_20220809_20230809.csv")
+                getLines("U8508545_20220809_20230809.csv"),
+                getLines("U8508545_20220915_20230915.csv")
             ]
         )
     }
@@ -306,6 +307,8 @@ class ViewController: UIViewController {
                 return 1.1059
             case "28/07/2023":
                 return 1.1010
+            case "30/08/2023":
+                return 1.0886
             default:
                 // https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html
                 fatalError()
