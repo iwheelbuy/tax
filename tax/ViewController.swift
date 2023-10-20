@@ -18,7 +18,7 @@ struct Period: Hashable, CustomStringConvertible {
     
     static var all: [Period] {
         let months2022 = (1 ... 12).map({ Period(month: $0.month, year: "2022") })
-        let months2023 = (1 ... 8).map({ Period(month: $0.month, year: "2023") })
+        let months2023 = (1 ... 9).map({ Period(month: $0.month, year: "2023") })
         return months2022 + months2023
     }
     
