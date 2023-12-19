@@ -18,7 +18,7 @@ struct Period: Hashable, CustomStringConvertible {
     
     static var all: [Period] {
         let months2022 = (1 ... 12).map({ Period(month: $0.month, year: "2022") })
-        let months2023 = (1 ... 9).map({ Period(month: $0.month, year: "2023") })
+        let months2023 = (1 ... 11).map({ Period(month: $0.month, year: "2023") })
         return months2022 + months2023
     }
     
@@ -46,7 +46,8 @@ class ViewController: UIViewController {
                 .init(month: "04", year: "2022"): 257,
                 .init(month: "01", year: "2023"): 60.54,
                 .init(month: "04", year: "2023"): 370.94,
-                .init(month: "07", year: "2023"): 500.95
+                .init(month: "07", year: "2023"): 500.95,
+                .init(month: "10", year: "2023"): 546.40
             ]
         } else {
             return [:]
@@ -272,7 +273,7 @@ class ViewController: UIViewController {
                 getLines("U8508545_20220718_20230717.csv"),
                 getLines("U8508545_20220809_20230809.csv"),
                 getLines("U8508545_20220915_20230915.csv"),
-                getLines("U8508545_20221019_20231019.csv"),
+                getLines("U8508545_20221219_20231218.csv"),
                 getLines("ib2022.csv")
             ],
             taxisnet: &taxisnet
@@ -418,6 +419,14 @@ class ViewController: UIViewController {
                 return 1.0539
             case "02/10/2023":
                 return 1.0530
+            case "30/10/2023":
+                return 1.0605
+            case "29/11/2023":
+                return 1.0985
+            case "11/12/2023":
+                return 1.0757
+            case "15/12/2023":
+                return 1.0946
             default:
                 // https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html
                 fatalError()
@@ -426,6 +435,8 @@ class ViewController: UIViewController {
             switch event.dateEcb {
             case "09/12/2022":
                 return 0.85950
+            case "15/12/2023":
+                return 0.85833
             default:
                 // https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-gbp.en.html
                 fatalError()
