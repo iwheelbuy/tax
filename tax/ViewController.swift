@@ -19,7 +19,7 @@ struct Period: Hashable, CustomStringConvertible {
     static var all: [Period] {
         let months2022 = (1 ... 12).map({ Period(month: $0.month, year: "2022") })
         let months2023 = (1 ... 12).map({ Period(month: $0.month, year: "2023") })
-        let months2024 = (1 ..< 2).map({ Period(month: $0.month, year: "2024") })
+        let months2024 = (1 ... 4).map({ Period(month: $0.month, year: "2024") })
         return months2022 + months2023 + months2024
     }
     
@@ -49,7 +49,8 @@ class ViewController: UIViewController {
                 .init(month: "04", year: "2023"): 370.94,
                 .init(month: "07", year: "2023"): 500.95,
                 .init(month: "10", year: "2023"): 546.40,
-                .init(month: "01", year: "2024"): 756.13
+                .init(month: "01", year: "2024"): 756.13,
+                .init(month: "04", year: "2024"): 1845.43
             ]
         } else {
             return [:]
@@ -277,6 +278,7 @@ class ViewController: UIViewController {
                 getLines("U8508545_20220915_20230915.csv"),
                 getLines("U8508545_20221219_20231218.csv"),
                 getLines("U8508545_20230202_20240202.csv"),
+                getLines("U8508545_20230601_20240531.csv"),
                 getLines("ib2022.csv")
             ],
             taxisnet: &taxisnet
@@ -448,6 +450,22 @@ class ViewController: UIViewController {
                 return 1.0905
             case "30/01/2024":
                 return 1.0846
+            case "28/02/2024":
+                return 1.0808
+            case "20/03/2024":
+                return 1.0844
+            case "21/03/2024":
+                return 1.0907
+            case "22/03/2024":
+                return 1.0823
+            case "26/03/2024":
+                return 1.0855
+            case "27/03/2024":
+                return 1.0816
+            case "29/04/2024":
+                return 1.0720
+            case "30/05/2024":
+                return 1.0815
             default:
                 // https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html
                 fatalError()
