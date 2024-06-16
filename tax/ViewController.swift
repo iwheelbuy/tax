@@ -19,7 +19,7 @@ struct Period: Hashable, CustomStringConvertible {
     static var all: [Period] {
         let months2022 = (1 ... 12).map({ Period(month: $0.month, year: "2022") })
         let months2023 = (1 ... 12).map({ Period(month: $0.month, year: "2023") })
-        let months2024 = (1 ... 4).map({ Period(month: $0.month, year: "2024") })
+        let months2024 = (1 ... 5).map({ Period(month: $0.month, year: "2024") })
         return months2022 + months2023 + months2024
     }
     
@@ -279,6 +279,7 @@ class ViewController: UIViewController {
                 getLines("U8508545_20221219_20231218.csv"),
                 getLines("U8508545_20230202_20240202.csv"),
                 getLines("U8508545_20230601_20240531.csv"),
+                getLines("U8508545_20230615_20240614.csv"),
                 getLines("ib2022.csv")
             ],
             taxisnet: &taxisnet
