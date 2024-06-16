@@ -205,14 +205,12 @@ Taxisnet for Iuliia
 
 
 YEAR: 2022
-DIV:  1211.94
-TAX:  142.61
-GHS:  28.53
+DIV:  1182.49
+TAX:  135.57
 
 YEAR: 2023
-DIV:  1249.89
-TAX:  64.84
-GHS:  0.00
+DIV:  1182.66
+TAX:  59.68
 
 
 
@@ -221,11 +219,9 @@ Taxisnet for Mikhail
 
 
 YEAR: 2022
-DIV:  2365.94
-TAX:  142.61
-GHS:  59.12
+DIV:  2336.49
+TAX:  135.57
 
 YEAR: 2023
-DIV:  2728.72
-TAX:  64.84
-GHS:  0.00
+DIV:  2661.49
+TAX:  59.68
