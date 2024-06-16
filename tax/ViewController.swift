@@ -111,16 +111,9 @@ class ViewController: UIViewController {
                     let totalTaxableAmount = Double(round(100 * personRevenue) / 100)
                     let tax = Double(round(100 * totalTaxableAmount * 0.0265) / 100)
                     print("\n", period, totalTaxableAmount, tax)
-                    var gesyName = gesy[name] ?? [:]
-                    gesyName[period.year] = (gesyName[period.year] ?? 0) + tax
-                    gesy[name] = gesyName
                 }
             }
         }
-        gesy[Self.iuliia]?["2022"] = 28.53
-        gesy[Self.mikhail]?["2022"] = 59.12
-        gesy[Self.iuliia]?["2023"] = 0
-        gesy[Self.mikhail]?["2023"] = 0
         for name in [Self.iuliia, Self.mikhail] {
             print("\n\n\nTaxisnet for \(name)\n\n")
             var taxisnet = [String: [Kind: Double]]()
@@ -147,7 +140,6 @@ class ViewController: UIViewController {
                             print("TAX: ", pretty(value * -1))
                         }
                     }
-                    print("GHS: ", pretty(gesy[name]?[year] ?? 0))
                 }
             }
         }
