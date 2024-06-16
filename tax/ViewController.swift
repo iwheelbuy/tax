@@ -65,9 +65,16 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         var revenues = [Period: Double]()
         var taxisnetTotal = [String: [Kind: Double]]()
+        var taxisnet2 = [Period: [Kind: Double]]()
         var gesy = [String: [String: Double]]()
-        let ibRevenues = getIbRevenues(taxisnet: &taxisnetTotal)
-        let exRevenues = getExRevenues(taxisnet: &taxisnetTotal)
+        let ibRevenuesFull = getIbRevenues(taxisnet: &taxisnetTotal)
+        let ibRevenues = ibRevenuesFull.reduce(into: [Period: Double](), { result, object in
+            result[object.key] = object.value[.dividends]
+        })
+        let exRevenuesFull = getExRevenues(taxisnet: &taxisnetTotal)
+        let exRevenues = exRevenuesFull.reduce(into: [Period: Double](), { result, object in
+            result[object.key] = object.value[.dividends]
+        })
         for (period, revenue) in exRevenues {
             revenues[period] = (revenues[period] ?? 0) + revenue
         }
@@ -160,7 +167,7 @@ class ViewController: UIViewController {
         return result
     }()
     
-    func getRevenues(getEvent: (String, String) -> (event: Event, value: Value)?, lines: [[String]], taxisnet: inout [String: [Kind: Double]]) -> [Period: Double] {
+    func getRevenues(getEvent: (String, String) -> (event: Event, value: Value)?, lines: [[String]], taxisnet: inout [String: [Kind: Double]]) -> [Period: [Kind: Double]] {
         let events = getEvents(getEvent: getEvent, lines: lines)
         let eventsSorted = events.sorted(by: {
             if $0.key.date < $1.key.date {
@@ -171,7 +178,7 @@ class ViewController: UIViewController {
                 return $0.key.name < $1.key.name
             }
         })
-        var revenues = [Period: Double]()
+        var revenues = [Period: [Kind: Double]]()
         for (event, values) in eventsSorted {
             let nice = values.sorted(by: { lhs, rhs in
                 if lhs.key == .dividends {
@@ -185,7 +192,7 @@ class ViewController: UIViewController {
                     assert(nice[1] < 0)
                 }
             }
-            let received = values.reduce(into: 0, { result, value in
+            let dividends = values.reduce(into: 0, { result, value in
                 switch value.key {
                 case .dividends:
                     result += value.value
@@ -193,13 +200,27 @@ class ViewController: UIViewController {
                     result += 0
                 }
             })
-            let revenue = received / toEur(event: event)
-            var taxisnetYear = taxisnet[event.year] ?? [:]
+            let withholdingTax = values.reduce(into: 0, { result, value in
+                switch value.key {
+                case .dividends:
+                    result += 0
+                case .withholdingTax:
+                    result += value.value
+                }
+            })
+            let dividendsToEur = dividends / toEur(event: event)
+            let withholdingTaxToEur = withholdingTax / toEur(event: event)
+            var revenuesForPeriod = revenues[event.period] ?? [.dividends: 0, .withholdingTax: 0]
+            revenuesForPeriod[.dividends] = revenuesForPeriod[.dividends]! + dividendsToEur
+            revenuesForPeriod[.withholdingTax] = revenuesForPeriod[.withholdingTax]! + withholdingTaxToEur
+            revenues[event.period] = revenuesForPeriod
+        }
+        for (period, values) in revenues {
+            var taxisnetYear = taxisnet[period.year] ?? [:]
             for (kind, value) in values {
                 taxisnetYear[kind] = (taxisnetYear[kind] ?? 0) + value
             }
-            taxisnet[event.year] = taxisnetYear
-            revenues[event.period] = (revenues[event.period] ?? 0) + revenue
+            taxisnet[period.year] = taxisnetYear
         }
         return revenues
     }
@@ -254,7 +275,7 @@ class ViewController: UIViewController {
         return string.components(separatedBy: "\n")
     }
     
-    func getExRevenues(taxisnet: inout [String: [Kind: Double]]) -> [Period: Double] {
+    func getExRevenues(taxisnet: inout [String: [Kind: Double]]) -> [Period: [Kind: Double]] {
         return getRevenues(
             getEvent: getExEvent,
             lines: [
@@ -264,7 +285,7 @@ class ViewController: UIViewController {
         )
     }
     
-    func getIbRevenues(taxisnet: inout [String: [Kind: Double]]) -> [Period: Double] {
+    func getIbRevenues(taxisnet: inout [String: [Kind: Double]]) -> [Period: [Kind: Double]] {
         return getRevenues(
             getEvent: getIbEvent,
             lines: [
