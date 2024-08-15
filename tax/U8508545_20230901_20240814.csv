@@ -1,0 +1,181 @@
+﻿Statement,Header,Field Name,Field Value
+Statement,Data,BrokerName,
+Statement,Data,BrokerAddress,
+Statement,Data,Title,Activity Statement
+Statement,Data,Period,"September 1, 2023 - August 14, 2024"
+Statement,Data,WhenGenerated,"2024-08-15, 14:39:40 EDT"
+Dividends,Header,Currency,Date,Description,Amount
+Dividends,Data,EUR,2023-09-27,VERX(IE00BKX55S42) Cash Dividend EUR 0.098947 per Share (Mixed Income),14.84
+Dividends,Data,EUR,2023-12-27,VERX(IE00BKX55S42) Cash Dividend EUR 0.09977 per Share (Mixed Income),14.97
+Dividends,Data,EUR,2024-02-07,UEFD(LU0671493277) Cash Dividend EUR 0.4416 per Share (Mixed Income),30.91
+Dividends,Data,EUR,2024-03-27,VERX(IE00BKX55S42) Cash Dividend EUR 0.11947 per Share (Mixed Income),17.92
+Dividends,Data,EUR,2024-06-26,VERX(IE00BKX55S42) Cash Dividend EUR 0.791856 per Share (Mixed Income),118.78
+Dividends,Data,Total,,,197.42
+Dividends,Data,GBP,2023-12-15,LCUK(LU1781541096) Cash Dividend GBP 0.33 per Share (Mixed Income),115.5
+Dividends,Data,Total,,,115.5
+Dividends,Data,Total in EUR,,,134.43045
+Dividends,Data,USD,2023-09-21,VLU(US78464A1280) Cash Dividend USD 0.805725 per Share (Ordinary Dividend),24.17
+Dividends,Data,USD,2023-09-21,VWO(US9220428588) Cash Dividend USD 0.3275 per Share (Ordinary Dividend),8.19
+Dividends,Data,USD,2023-09-22,DFAE(US25434V3024) Cash Dividend USD 0.285992 per Share (Ordinary Dividend),5.43
+Dividends,Data,USD,2023-09-22,DFAI(US25434V2034) Cash Dividend USD 0.140426 per Share (Ordinary Dividend),2.95
+Dividends,Data,USD,2023-09-22,DFAI(US25434V2034) Payment in Lieu of Dividend (Ordinary Dividend),0.14
+Dividends,Data,USD,2023-09-22,DFAS(US25434V5003) Cash Dividend USD 0.159199 per Share (Ordinary Dividend),1.75
+Dividends,Data,USD,2023-09-22,DFAT(US25434V6092) Cash Dividend USD 0.174749 per Share (Ordinary Dividend),11.88
+Dividends,Data,USD,2023-09-22,DFIV(US25434V8072) Cash Dividend USD 0.289175 per Share (Ordinary Dividend),8.39
+Dividends,Data,USD,2023-09-22,DFUS(US25434V4014) Cash Dividend USD 0.160386 per Share (Ordinary Dividend),3.53
+Dividends,Data,USD,2023-09-26,VBR(US9229086114) Cash Dividend USD 0.875 per Share (Ordinary Dividend),6.13
+Dividends,Data,USD,2023-09-27,IBC3(IE00BD45KH83) Cash Dividend USD 0.0774 per Share (Mixed Income),135.45
+Dividends,Data,USD,2023-09-27,VAPX(IE00B9F5YL18) Cash Dividend USD 0.212329 per Share (Mixed Income),106.16
+Dividends,Data,USD,2023-09-27,VHYD(IE00B8GKDB10) Cash Dividend USD 0.498382 per Share (Mixed Income),49.84
+Dividends,Data,USD,2023-09-27,VJPN(IE00B95PGT31) Cash Dividend USD 0.041762 per Share (Mixed Income),4.18
+Dividends,Data,USD,2023-09-28,DON(US97717W5058) Cash Dividend USD 0.115 per Share (Ordinary Dividend),6.9
+Dividends,Data,USD,2023-10-02,IJS(US4642878791) Cash Dividend USD 0.523033 per Share (Ordinary Dividend),10.46
+Dividends,Data,USD,2023-10-02,ISCV(US4642887032) Cash Dividend USD 0.374013 per Share (Ordinary Dividend),29.92
+Dividends,Data,USD,2023-10-30,DON(US97717W5058) Cash Dividend USD 0.035 per Share (Ordinary Dividend),2.1
+Dividends,Data,USD,2023-11-29,DON(US97717W5058) Cash Dividend USD 0.11 per Share (Ordinary Dividend),6.6
+Dividends,Data,USD,2023-12-11,SCHC(US8085248883) Cash Dividend USD 0.8612 per Share (Ordinary Dividend),25.84
+Dividends,Data,USD,2023-12-11,SCHE(US8085247067) Cash Dividend USD 0.8224 per Share (Ordinary Dividend),28.78
+Dividends,Data,USD,2023-12-21,AVDV(US0250728021) Cash Dividend USD 0.8884 per Share (Ordinary Dividend),88.84
+Dividends,Data,USD,2023-12-21,VLU(US78464A1280) Cash Dividend USD 0.856826 per Share (Ordinary Dividend),25.7
+Dividends,Data,USD,2023-12-21,VWO(US9220428588) Cash Dividend USD 0.8649 per Share (Ordinary Dividend),21.62
+Dividends,Data,USD,2023-12-22,DFAE(US25434V3024) Cash Dividend USD 0.09319 per Share (Ordinary Dividend),1.77
+Dividends,Data,USD,2023-12-22,DFAI(US25434V2034) Cash Dividend USD 0.171801 per Share (Ordinary Dividend),3.78
+Dividends,Data,USD,2023-12-22,DFAS(US25434V5003) Cash Dividend USD 0.169647 per Share (Ordinary Dividend),1.87
+Dividends,Data,USD,2023-12-22,DFAT(US25434V6092) Cash Dividend USD 0.200849 per Share (Ordinary Dividend),13.66
+Dividends,Data,USD,2023-12-22,DFIV(US25434V8072) Cash Dividend USD 0.334449 per Share (Ordinary Dividend),9.7
+Dividends,Data,USD,2023-12-22,DFUS(US25434V4014) Cash Dividend USD 0.233778 per Share (Ordinary Dividend),5.14
+Dividends,Data,USD,2023-12-27,IEMG(US46434G1031) Cash Dividend USD 0.977023 per Share (Ordinary Dividend),19.54
+Dividends,Data,USD,2023-12-27,IJS(US4642878791) Cash Dividend USD 0.218269 per Share (Ordinary Dividend),4.37
+Dividends,Data,USD,2023-12-27,ISCV(US4642887032) Cash Dividend USD 0.369641 per Share (Ordinary Dividend),29.57
+Dividends,Data,USD,2023-12-27,SPEM(US78463X5095) Cash Dividend USD 0.546867 per Share (Ordinary Dividend),16.41
+Dividends,Data,USD,2023-12-27,VAPX(IE00B9F5YL18) Cash Dividend USD 0.183997 per Share (Mixed Income),92
+Dividends,Data,USD,2023-12-27,VBR(US9229086114) Cash Dividend USD 1.1538 per Share (Ordinary Dividend),8.08
+Dividends,Data,USD,2023-12-27,VHYD(IE00B8GKDB10) Cash Dividend USD 0.402991 per Share (Mixed Income),40.3
+Dividends,Data,USD,2023-12-27,VJPN(IE00B95PGT31) Cash Dividend USD 0.245957 per Share (Mixed Income),24.6
+Dividends,Data,USD,2023-12-28,DON(US97717W5058) Cash Dividend USD 0.16 per Share (Ordinary Dividend),9.6
+Dividends,Data,USD,2023-12-29,IWVU(IE00BFYTYS33) Cash Dividend USD 0.0668 per Share (Mixed Income),40.08
+Dividends,Data,USD,2024-01-03,DON(39579977) Cash Dividend USD 0.01976 per Share (Ordinary Dividend),1.19
+Dividends,Data,USD,2024-01-05,IQIN(US45409B3621) Cash Dividend USD 0.4878 per Share (Ordinary Dividend),16.59
+Dividends,Data,USD,2024-01-24,EUNI(IE00B3F81G20) Cash Dividend USD 0.7581 per Share (Mixed Income),37.91
+Dividends,Data,USD,2024-01-30,DON(US97717W5058) Cash Dividend USD 0.02 per Share (Ordinary Dividend),1.2
+Dividends,Data,USD,2024-02-28,DON(US97717W5058) Cash Dividend USD 0.06 per Share (Ordinary Dividend),3.6
+Dividends,Data,USD,2024-03-20,VWO(US9220428588) Cash Dividend USD 0.0385 per Share (Ordinary Dividend),0.96
+Dividends,Data,USD,2024-03-21,VLU(US78464A1280) Cash Dividend USD 0.789529 per Share (Ordinary Dividend),23.69
+Dividends,Data,USD,2024-03-22,DFAE(US25434V3024) Cash Dividend USD 0.030238 per Share (Ordinary Dividend),0.57
+Dividends,Data,USD,2024-03-22,DFAI(US25434V2034) Cash Dividend USD 0.04818 per Share (Ordinary Dividend),1.06
+Dividends,Data,USD,2024-03-22,DFAS(US25434V5003) Cash Dividend USD 0.096105 per Share (Ordinary Dividend),1.06
+Dividends,Data,USD,2024-03-22,DFAT(US25434V6092) Cash Dividend USD 0.105732 per Share (Ordinary Dividend),7.19
+Dividends,Data,USD,2024-03-22,DFIV(US25434V8072) Cash Dividend USD 0.085876 per Share (Ordinary Dividend),2.49
+Dividends,Data,USD,2024-03-22,DFUS(US25434V4014) Cash Dividend USD 0.117882 per Share (Ordinary Dividend),2.59
+Dividends,Data,USD,2024-03-26,VBR(US9229086114) Cash Dividend USD 0.9425 per Share (Ordinary Dividend),6.6
+Dividends,Data,USD,2024-03-27,DON(US97717W5058) Cash Dividend USD 0.17 per Share (Ordinary Dividend),10.2
+Dividends,Data,USD,2024-03-27,IBC3(IE00BD45KH83) Cash Dividend USD 0.0302 per Share (Mixed Income),52.85
+Dividends,Data,USD,2024-03-27,IJS(US4642878791) Cash Dividend USD 0.364509 per Share (Ordinary Dividend),7.29
+Dividends,Data,USD,2024-03-27,ISCV(US4642887032) Cash Dividend USD 0.255582 per Share (Ordinary Dividend),20.45
+Dividends,Data,USD,2024-03-27,VAPX(IE00B9F5YL18) Cash Dividend USD 0.179595 per Share (Mixed Income),89.8
+Dividends,Data,USD,2024-03-27,VHYD(IE00B8GKDB10) Cash Dividend USD 0.365419 per Share (Mixed Income),36.54
+Dividends,Data,USD,2024-03-27,VJPN(IE00B95PGT31) Cash Dividend USD 0.052655 per Share (Mixed Income),5.27
+Dividends,Data,USD,2024-04-29,DON(US97717W5058) Cash Dividend USD 0.055 per Share (Ordinary Dividend),3.3
+Dividends,Data,USD,2024-05-30,DON(US97717W5058) Cash Dividend USD 0.055 per Share (Ordinary Dividend),3.3
+Dividends,Data,USD,2024-06-17,IEMG(US46434G1031) Cash Dividend USD 0.509491 per Share (Ordinary Dividend),10.19
+Dividends,Data,USD,2024-06-17,IJS(US4642878791) Cash Dividend USD 0.469531 per Share (Ordinary Dividend),9.39
+Dividends,Data,USD,2024-06-17,ISCV(US4642887032) Cash Dividend USD 0.262431 per Share (Ordinary Dividend),20.99
+Dividends,Data,USD,2024-06-20,DFAE(US25434V3024) Cash Dividend USD 0.178902 per Share (Ordinary Dividend),3.4
+Dividends,Data,USD,2024-06-20,DFAI(US25434V2034) Cash Dividend USD 0.381862 per Share (Ordinary Dividend),8.4
+Dividends,Data,USD,2024-06-20,DFAS(US25434V5003) Cash Dividend USD 0.167387 per Share (Ordinary Dividend),1.67
+Dividends,Data,USD,2024-06-20,DFAS(US25434V5003) Payment in Lieu of Dividend (Ordinary Dividend),0.17
+Dividends,Data,USD,2024-06-20,DFAT(US25434V6092) Cash Dividend USD 0.210318 per Share (Ordinary Dividend),14.3
+Dividends,Data,USD,2024-06-20,DFIV(US25434V8072) Cash Dividend USD 0.706817 per Share (Ordinary Dividend),20.5
+Dividends,Data,USD,2024-06-20,DFUS(US25434V4014) Cash Dividend USD 0.161316 per Share (Ordinary Dividend),3.55
+Dividends,Data,USD,2024-06-25,VWO(US9220428588) Cash Dividend USD 0.1704 per Share (Ordinary Dividend),4.26
+Dividends,Data,USD,2024-06-26,AVDV(US0250728021) Cash Dividend USD 1.1838 per Share (Ordinary Dividend),118.38
+Dividends,Data,USD,2024-06-26,IWVU(IE00BFYTYS33) Cash Dividend USD 0.1011 per Share (Mixed Income),60.66
+Dividends,Data,USD,2024-06-26,VAPX(IE00B9F5YL18) Cash Dividend USD 0.273811 per Share (Mixed Income),136.91
+Dividends,Data,USD,2024-06-26,VHYD(IE00B8GKDB10) Cash Dividend USD 0.803965 per Share (Mixed Income),80.4
+Dividends,Data,USD,2024-06-26,VJPN(IE00B95PGT31) Cash Dividend USD 0.300407 per Share (Mixed Income),30.04
+Dividends,Data,USD,2024-06-26,VLU(US78464A1280) Payment in Lieu of Dividend (Ordinary Dividend),9.57
+Dividends,Data,USD,2024-06-26,VLU(US78464A1280) Cash Dividend USD 0.956592 per Share (Ordinary Dividend),19.13
+Dividends,Data,USD,2024-06-27,DON(US97717W5058) Cash Dividend USD 0.18 per Share (Ordinary Dividend),10.8
+Dividends,Data,USD,2024-06-28,SPEM(US78463X5095) Cash Dividend USD 0.4514 per Share (Ordinary Dividend),13.54
+Dividends,Data,USD,2024-07-01,SCHC(US8085248883) Cash Dividend USD 0.1077 per Share (Ordinary Dividend),3.23
+Dividends,Data,USD,2024-07-01,SCHE(US8085247067) Cash Dividend USD 0.0343 per Share (Ordinary Dividend),1.2
+Dividends,Data,USD,2024-07-01,VBR(US9229086114) Cash Dividend USD 1.0165 per Share (Ordinary Dividend),7.12
+Dividends,Data,USD,2024-07-19,DGSD(IE00BQZJBM26) Cash Dividend USD 0.3138 per Share (Mixed Income),31.38
+Dividends,Data,USD,2024-07-30,DON(US97717W5058) Cash Dividend USD 0.055 per Share (Ordinary Dividend),3.3
+Dividends,Data,USD,2024-07-31,EUNI(IE00B3F81G20) Cash Dividend USD 0.8225 per Share (Mixed Income),41.13
+Dividends,Data,Total,,,1934.73
+Dividends,Data,Total in EUR,,,1795.2053824
+Dividends,Data,Total Dividends in EUR,,,2127.0558324
+Withholding Tax,Header,Currency,Date,Description,Amount,Code
+Withholding Tax,Data,USD,2023-09-21,VLU(US78464A1280) Cash Dividend USD 0.805725 per Share - US Tax,-3.63,
+Withholding Tax,Data,USD,2023-09-21,VWO(US9220428588) Cash Dividend USD 0.3275 per Share - US Tax,-1.23,
+Withholding Tax,Data,USD,2023-09-22,DFAE(US25434V3024) Cash Dividend USD 0.285992 per Share - US Tax,-0.81,
+Withholding Tax,Data,USD,2023-09-22,DFAI(US25434V2034) Cash Dividend USD 0.140426 per Share - US Tax,-0.44,
+Withholding Tax,Data,USD,2023-09-22,DFAI(US25434V2034) Payment in Lieu of Dividend - US Tax,-0.02,
+Withholding Tax,Data,USD,2023-09-22,DFAS(US25434V5003) Cash Dividend USD 0.159199 per Share - US Tax,-0.26,
+Withholding Tax,Data,USD,2023-09-22,DFAT(US25434V6092) Cash Dividend USD 0.174749 per Share - US Tax,-1.78,
+Withholding Tax,Data,USD,2023-09-22,DFIV(US25434V8072) Cash Dividend USD 0.289175 per Share - US Tax,-1.26,
+Withholding Tax,Data,USD,2023-09-22,DFUS(US25434V4014) Cash Dividend USD 0.160386 per Share - US Tax,-0.53,
+Withholding Tax,Data,USD,2023-09-26,VBR(US9229086114) Cash Dividend USD 0.875 per Share - US Tax,-0.92,
+Withholding Tax,Data,USD,2023-09-28,DON(US97717W5058) Cash Dividend USD 0.115 per Share - US Tax,-1.04,
+Withholding Tax,Data,USD,2023-10-02,IJS(US4642878791) Cash Dividend USD 0.523033 per Share - US Tax,-1.57,
+Withholding Tax,Data,USD,2023-10-02,ISCV(US4642887032) Cash Dividend USD 0.374013 per Share - US Tax,-4.49,
+Withholding Tax,Data,USD,2023-10-30,DON(US97717W5058) Cash Dividend USD 0.035 per Share - US Tax,-0.32,
+Withholding Tax,Data,USD,2023-11-29,DON(US97717W5058) Cash Dividend USD 0.11 per Share - US Tax,-0.99,
+Withholding Tax,Data,USD,2023-12-11,SCHC(US8085248883) Cash Dividend USD 0.8612 per Share - US Tax,-3.88,
+Withholding Tax,Data,USD,2023-12-11,SCHE(US8085247067) Cash Dividend USD 0.8224 per Share - US Tax,-4.32,
+Withholding Tax,Data,USD,2023-12-21,AVDV(US0250728021) Cash Dividend USD 0.8884 per Share - US Tax,-13.33,
+Withholding Tax,Data,USD,2023-12-21,VLU(US78464A1280) Cash Dividend USD 0.856826 per Share - US Tax,-3.86,
+Withholding Tax,Data,USD,2023-12-21,VWO(US9220428588) Cash Dividend USD 0.8649 per Share - US Tax,-3.24,
+Withholding Tax,Data,USD,2023-12-22,DFAE(US25434V3024) Cash Dividend USD 0.09319 per Share - US Tax,-0.27,
+Withholding Tax,Data,USD,2023-12-22,DFAI(US25434V2034) Cash Dividend USD 0.171801 per Share - US Tax,-0.57,
+Withholding Tax,Data,USD,2023-12-22,DFAS(US25434V5003) Cash Dividend USD 0.169647 per Share - US Tax,-0.28,
+Withholding Tax,Data,USD,2023-12-22,DFAT(US25434V6092) Cash Dividend USD 0.200849 per Share - US Tax,-2.05,
+Withholding Tax,Data,USD,2023-12-22,DFIV(US25434V8072) Cash Dividend USD 0.334449 per Share - US Tax,-1.46,
+Withholding Tax,Data,USD,2023-12-22,DFUS(US25434V4014) Cash Dividend USD 0.233778 per Share - US Tax,-0.77,
+Withholding Tax,Data,USD,2023-12-27,IEMG(US46434G1031) Cash Dividend USD 0.977023 per Share - US Tax,-2.93,
+Withholding Tax,Data,USD,2023-12-27,IJS(US4642878791) Cash Dividend USD 0.218269 per Share - US Tax,-0.66,
+Withholding Tax,Data,USD,2023-12-27,ISCV(US4642887032) Cash Dividend USD 0.369641 per Share - US Tax,-4.44,
+Withholding Tax,Data,USD,2023-12-27,SPEM(US78463X5095) Cash Dividend USD 0.546867 per Share - US Tax,-2.46,
+Withholding Tax,Data,USD,2023-12-27,VBR(US9229086114) Cash Dividend USD 1.1538 per Share - US Tax,-1.21,
+Withholding Tax,Data,USD,2023-12-28,DON(US97717W5058) Cash Dividend USD 0.16 per Share - US Tax,-1.44,
+Withholding Tax,Data,USD,2024-01-03,DON(39579977) Cash Dividend USD 0.01976 per Share - US Tax,-0.18,
+Withholding Tax,Data,USD,2024-01-05,IQIN(US45409B3621) Cash Dividend USD 0.4878 per Share - US Tax,-2.49,
+Withholding Tax,Data,USD,2024-01-30,DON(US97717W5058) Cash Dividend USD 0.02 per Share - US Tax,-0.18,
+Withholding Tax,Data,USD,2024-02-28,DON(US97717W5058) Cash Dividend USD 0.06 per Share - US Tax,-0.54,
+Withholding Tax,Data,USD,2024-03-20,VWO(US9220428588) Cash Dividend USD 0.0385 per Share - US Tax,-0.14,
+Withholding Tax,Data,USD,2024-03-21,VLU(US78464A1280) Cash Dividend USD 0.789529 per Share - US Tax,-3.55,
+Withholding Tax,Data,USD,2024-03-22,DFAE(US25434V3024) Cash Dividend USD 0.030238 per Share - US Tax,-0.09,
+Withholding Tax,Data,USD,2024-03-22,DFAI(US25434V2034) Cash Dividend USD 0.04818 per Share - US Tax,-0.16,
+Withholding Tax,Data,USD,2024-03-22,DFAS(US25434V5003) Cash Dividend USD 0.096105 per Share - US Tax,-0.16,
+Withholding Tax,Data,USD,2024-03-22,DFAT(US25434V6092) Cash Dividend USD 0.105732 per Share - US Tax,-1.08,
+Withholding Tax,Data,USD,2024-03-22,DFIV(US25434V8072) Cash Dividend USD 0.085876 per Share - US Tax,-0.37,
+Withholding Tax,Data,USD,2024-03-22,DFUS(US25434V4014) Cash Dividend USD 0.117882 per Share - US Tax,-0.39,
+Withholding Tax,Data,USD,2024-03-26,VBR(US9229086114) Cash Dividend USD 0.9425 per Share - US Tax,-0.99,
+Withholding Tax,Data,USD,2024-03-27,DON(US97717W5058) Cash Dividend USD 0.17 per Share - US Tax,-1.53,
+Withholding Tax,Data,USD,2024-03-27,IJS(US4642878791) Cash Dividend USD 0.364509 per Share - US Tax,-1.09,
+Withholding Tax,Data,USD,2024-03-27,ISCV(US4642887032) Cash Dividend USD 0.255582 per Share - US Tax,-3.07,
+Withholding Tax,Data,USD,2024-04-29,DON(US97717W5058) Cash Dividend USD 0.055 per Share - US Tax,-0.5,
+Withholding Tax,Data,USD,2024-05-30,DON(US97717W5058) Cash Dividend USD 0.055 per Share - US Tax,-0.5,
+Withholding Tax,Data,USD,2024-06-17,IEMG(US46434G1031) Cash Dividend USD 0.509491 per Share - US Tax,-1.53,
+Withholding Tax,Data,USD,2024-06-17,IJS(US4642878791) Cash Dividend USD 0.469531 per Share - US Tax,-1.41,
+Withholding Tax,Data,USD,2024-06-17,ISCV(US4642887032) Cash Dividend USD 0.262431 per Share - US Tax,-3.15,
+Withholding Tax,Data,USD,2024-06-20,DFAE(US25434V3024) Cash Dividend USD 0.178902 per Share - US Tax,-0.51,
+Withholding Tax,Data,USD,2024-06-20,DFAI(US25434V2034) Cash Dividend USD 0.381862 per Share - US Tax,-1.26,
+Withholding Tax,Data,USD,2024-06-20,DFAS(US25434V5003) Cash Dividend USD 0.167387 per Share - US Tax,-0.25,
+Withholding Tax,Data,USD,2024-06-20,DFAS(US25434V5003) Payment in Lieu of Dividend - US Tax,-0.03,
+Withholding Tax,Data,USD,2024-06-20,DFAT(US25434V6092) Cash Dividend USD 0.210318 per Share - US Tax,-2.15,
+Withholding Tax,Data,USD,2024-06-20,DFIV(US25434V8072) Cash Dividend USD 0.706817 per Share - US Tax,-3.08,
+Withholding Tax,Data,USD,2024-06-20,DFUS(US25434V4014) Cash Dividend USD 0.161316 per Share - US Tax,-0.53,
+Withholding Tax,Data,USD,2024-06-25,VWO(US9220428588) Cash Dividend USD 0.1704 per Share - US Tax,-0.64,
+Withholding Tax,Data,USD,2024-06-26,AVDV(US0250728021) Cash Dividend USD 1.1838 per Share - US Tax,-17.76,
+Withholding Tax,Data,USD,2024-06-26,VLU(US78464A1280) Payment in Lieu of Dividend - US Tax,-1.44,
+Withholding Tax,Data,USD,2024-06-26,VLU(US78464A1280) Cash Dividend USD 0.956592 per Share - US Tax,-2.87,
+Withholding Tax,Data,USD,2024-06-27,DON(US97717W5058) Cash Dividend USD 0.18 per Share - US Tax,-1.62,
+Withholding Tax,Data,USD,2024-06-28,SPEM(US78463X5095) Cash Dividend USD 0.4514 per Share - US Tax,-2.03,
+Withholding Tax,Data,USD,2024-07-01,SCHC(US8085248883) Cash Dividend USD 0.1077 per Share - US Tax,-0.48,
+Withholding Tax,Data,USD,2024-07-01,SCHE(US8085247067) Cash Dividend USD 0.0343 per Share - US Tax,-0.18,
+Withholding Tax,Data,USD,2024-07-01,VBR(US9229086114) Cash Dividend USD 1.0165 per Share - US Tax,-1.07,
+Withholding Tax,Data,USD,2024-07-30,DON(US97717W5058) Cash Dividend USD 0.055 per Share - US Tax,-0.5,
+Withholding Tax,Data,Total,,,-125.96,
+Withholding Tax,Data,Total in EUR,,,-116.4946893,

@@ -19,7 +19,7 @@ struct Period: Hashable, CustomStringConvertible {
     static var all: [Period] {
         let months2022 = (1 ... 12).map({ Period(month: $0.month, year: "2022") })
         let months2023 = (1 ... 12).map({ Period(month: $0.month, year: "2023") })
-        let months2024 = (1 ... 5).map({ Period(month: $0.month, year: "2024") })
+        let months2024 = (1 ... 7).map({ Period(month: $0.month, year: "2024") })
         return months2022 + months2023 + months2024
     }
     
@@ -50,7 +50,8 @@ class ViewController: UIViewController {
                 .init(month: "07", year: "2023"): 500.95,
                 .init(month: "10", year: "2023"): 546.40,
                 .init(month: "01", year: "2024"): 756.13,
-                .init(month: "04", year: "2024"): 1845.43
+                .init(month: "04", year: "2024"): 1845.43,
+                .init(month: "07", year: "2024"): 2468.82
             ]
         } else {
             return [:]
@@ -293,6 +294,7 @@ class ViewController: UIViewController {
                 getLines("U8508545_20230202_20240202.csv"),
                 getLines("U8508545_20230601_20240531.csv"),
                 getLines("U8508545_20230615_20240614.csv"),
+                getLines("U8508545_20230901_20240814.csv"),
                 getLines("ib2022.csv")
             ],
             taxisnet: &taxisnet
@@ -480,6 +482,26 @@ class ViewController: UIViewController {
                 return 1.0720
             case "30/05/2024":
                 return 1.0815
+            case "17/06/2024":
+                return 1.0712
+            case "20/06/2024":
+                return 1.0719
+            case "25/06/2024":
+                return 1.0714
+            case "26/06/2024":
+                return 1.0689
+            case "27/06/2024":
+                return 1.0696
+            case "28/06/2024":
+                return 1.0705
+            case "01/07/2024":
+                return 1.0745
+            case "19/07/2024":
+                return 1.0890
+            case "30/07/2024":
+                return 1.0824
+            case "31/07/2024":
+                return 1.0828
             default:
                 // https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html
                 fatalError()
